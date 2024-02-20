@@ -1,0 +1,32 @@
+---
+manufacturer: Ross
+model: Ultrix FR12
+slug: ross-ultrix-fr12
+u_height: 12.0
+is_full_depth: true
+airflow: front-to-rear
+comments: Must be accompanied by a Ultricore BCS
+weight: 34.5
+weight_unit: kg
+interfaces:
+  - name: ENET 1
+    type: 1000base-t
+  - name: ENET 2
+    type: 1000base-t
+module-bays:
+  - name: Slot 1
+  - name: Slot 2
+  - name: Slot 3
+  - name: Slot 4
+  - name: Slot 5
+  - name: Slot 6
+  - name: Slot 7
+  - name: Slot 8
+  - name: Slot 9
+  - name: Slot 10
+  - name: Slot 11
+  - name: Slot 12
+  - name: Slot 13
+  - name: Slot 14
+  - name: Slot 15
+  - name: Slot 16

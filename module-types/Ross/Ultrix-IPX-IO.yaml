@@ -1,0 +1,26 @@
+---
+manufacturer: Ross
+model: ULTRIX-IPX-IO
+part_number: ULTRIX-IPX-IO
+interfaces:
+  - name: '1'
+    type: 100gbase-x-qsfp28
+  - name: '2'
+    type: 100gbase-x-qsfp28
+  - name: '3'
+    type: 100gbase-x-qsfp28
+  - name: '4'
+    type: 100gbase-x-qsfp28
+rear-ports:
+  - name: A
+    type: other
+    positions: 1
+  - name: B
+    type: other
+    positions: 1
+  - name: C
+    type: other
+    positions: 1
+  - name: D
+    type: other
+    positions: 1

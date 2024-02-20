@@ -63,6 +63,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [lint, format]
     permissions:
+      contents: read
       pull-requests: write
     steps:
       - uses: actions/checkout@v4

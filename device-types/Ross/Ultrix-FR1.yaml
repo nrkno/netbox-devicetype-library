@@ -1,0 +1,18 @@
+---
+manufacturer: Ross
+model: Ultrix FR1
+slug: ross-ultrix-fr1
+part_number: 2101AR-201-02D
+u_height: 1.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 4.0
+weight_unit: kg
+interfaces:
+  - name: ENET 1
+    type: 1000base-t
+  - name: ENET 2
+    type: 1000base-t
+module-bays:
+  - name: Slot 1
+  - name: Slot 2

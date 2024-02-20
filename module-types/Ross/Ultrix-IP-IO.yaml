@@ -1,0 +1,22 @@
+---
+manufacturer: Ross
+model: ULTRIX-IP-IO
+part_number: ULTRIX-IP-IO
+interfaces:
+  - name: '1'
+    type: 25gbase-x-sfp28
+  - name: '2'
+    type: 25gbase-x-sfp28
+  - name: '3'
+    type: 25gbase-x-sfp28
+  - name: '4'
+    type: 25gbase-x-sfp28
+rear-ports:
+  - name: AUX 1
+    type: other
+    positions: 1
+    description: SFP
+  - name: AUX 2
+    type: other
+    positions: 1
+    description: SFP

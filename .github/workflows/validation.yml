@@ -6,7 +6,7 @@ on: # yamllint disable-line rule:truthy
       - master
 jobs:
   lint:
-    runs-on: "['self-hosted', 'linux']"
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Setup Python
@@ -33,7 +33,7 @@ jobs:
           yamllint --format github --strict \
             device-types/ module-types/
   format:
-    runs-on: "['self-hosted', 'linux']"
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Setup Python
@@ -60,7 +60,7 @@ jobs:
       - name: Format YAML files (yamlfmt)
         run: pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
   test:
-    runs-on: "['self-hosted', 'linux']"
+    runs-on: ubuntu-latest
     needs: [lint, format]
     permissions:
       pull-requests: write

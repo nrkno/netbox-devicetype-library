@@ -1,0 +1,20 @@
+---
+manufacturer: AppearTV
+model: X10
+slug: appeartv-x10
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+comments: The Appear X10/X20 Platform is a dedicated solution for high speed video networking, enhanced IP security, video distribution and contribution.
+module-bays:
+  - name: Control Slot 1
+  - name: Control Slot 2
+  - name: Power Supply Slot 1
+  - name: Power Supply Slot 2
+  - name: Slot 1A
+  - name: Slot 1B
+  - name: Slot 1C
+  - name: Slot 2A
+  - name: Slot 2B
+  - name: Slot 2C

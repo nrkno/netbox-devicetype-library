@@ -11,4 +11,15 @@ updates:
       prefix: chore(deps)
     open-pull-requests-limit: 5
     assignees:
-        - nrkno/netbox-admins
+      - nrkno/netbox-admins
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "12:00"
+      timezone: "Europe/Oslo"
+    commit-message:
+      prefix: chore(deps)
+    open-pull-requests-limit: 5
+    assignees:
+      - nrkno/netbox-admins

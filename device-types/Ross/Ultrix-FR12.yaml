@@ -30,3 +30,36 @@ module-bays:
   - name: Slot 14
   - name: Slot 15
   - name: Slot 16
+power-ports:
+  - name: PWR1
+    type: dc-terminal
+  - name: PWR2
+    type: dc-terminal
+  - name: PWR3
+    type: dc-terminal
+  - name: PWR4
+    type: dc-terminal
+  - name: PWR5
+    type: dc-terminal
+  - name: PWR6
+    type: dc-terminal
+  - name: PWR7
+    type: dc-terminal
+  - name: PWR8
+    type: dc-terminal
+  - name: PWR9
+    type: dc-terminal
+  - name: PWR10
+    type: dc-terminal
+  - name: PWR11
+    type: dc-terminal
+  - name: PWR12
+    type: dc-terminal
+  - name: PWR13
+    type: dc-terminal
+  - name: PWR14
+    type: dc-terminal
+  - name: PWR15
+    type: dc-terminal
+  - name: PWR16
+    type: dc-terminal

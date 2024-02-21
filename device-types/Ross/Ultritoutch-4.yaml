@@ -5,6 +5,7 @@ slug: ross-ultritoutch-4
 u_height: 4.0
 is_full_depth: false
 airflow: front-to-rear
+front_image: true
 interfaces:
   - name: ENET 1
     type: 1000base-t

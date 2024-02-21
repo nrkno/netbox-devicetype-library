@@ -6,6 +6,7 @@ part_number: 70-01264
 u_height: 2.0
 is_full_depth: false
 airflow: front-to-rear
+front_image: true
 interfaces:
   - name: ENET 1
     type: 1000base-t

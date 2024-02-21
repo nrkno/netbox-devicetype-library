@@ -7,6 +7,7 @@ is_full_depth: true
 subdevice_role: parent
 airflow: front-to-rear
 comments: The Appear X10/X20 Platform is a dedicated solution for high speed video networking, enhanced IP security, video distribution and contribution.
+front_image: true
 module-bays:
   - name: Control Slot 1
   - name: Control Slot 2

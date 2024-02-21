@@ -1,0 +1,18 @@
+---
+manufacturer: Ross
+model: Ultricore BCS
+slug: ross-ultricore-bcs
+part_number: 70-01264
+u_height: 2.0
+is_full_depth: false
+airflow: front-to-rear
+interfaces:
+  - name: ENET 1
+    type: 1000base-t
+  - name: ENET 2
+    type: 1000base-t
+power-ports:
+  - name: PWR1
+    type: dc-terminal
+  - name: PWR2
+    type: dc-terminal

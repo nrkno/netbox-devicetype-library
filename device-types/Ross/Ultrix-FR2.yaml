@@ -18,3 +18,12 @@ module-bays:
   - name: Slot 2
   - name: Slot 3
   - name: Slot 4
+power-ports:
+  - name: PWR1
+    type: dc-terminal
+  - name: PWR2
+    type: dc-terminal
+  - name: PWR3
+    type: dc-terminal
+  - name: PWR4
+    type: dc-terminal

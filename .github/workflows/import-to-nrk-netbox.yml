@@ -1,0 +1,17 @@
+---
+name: Import library to NRK Netbox PR Merge
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  repository-dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3.0.0
+        with:
+          token: ${{ secrets.DISPATCH_PAT }}
+          repository: nrkno/plattform-terraform-netbox-config
+          event-type: update-library

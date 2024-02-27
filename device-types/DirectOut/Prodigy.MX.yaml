@@ -1,0 +1,45 @@
+---
+manufacturer: DirectOut
+model: PRODIGY.MX
+slug: directout-prodigy-mx
+u_height: 2.0
+is_full_depth: true
+airflow: left-to-right
+weight: 10
+weight_unit: kg
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+interfaces:
+  - name: MANAGEMENT 1
+    type: 1000base-t
+    mgmt_only: true
+  - name: MANAGEMENT 2
+    type: 1000base-t
+    mgmt_only: true
+  - name: MANAGEMENT 3
+    type: 1000base-x-sfp
+    mgmt_only: true
+rear-ports:
+  - name: GPIO
+    type: other
+    positions: 1
+    description: 9 pin D-sub
+  - name: WordClock / Video In
+    type: bnc
+  - name: WordClock / Video out
+    type: bnc
+  - name: WordClock out 1-6
+    type: other
+    description: 9 pin D-sub
+module-bays:
+  - name: MADI 1
+  - name: MADI 2
+  - name: Audio network 1
+  - name: Audio network 2
+  - name: Audio network 3
+  - name: Audio network 4
+  - name: Audio network 5
+  - name: Audio network 6

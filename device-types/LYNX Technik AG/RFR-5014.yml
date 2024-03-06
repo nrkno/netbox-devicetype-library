@@ -1,0 +1,53 @@
+---
+manufacturer: LYNX Technik AG
+model: RFR 5014
+slug: lynx-technik-ag-rfr-5014
+u_height: 2.0
+is_full_depth: true
+airflow: passive
+weight: 4.9
+front_image: true
+weight_unit: kg
+interfaces:
+  - name: LAN
+    type: 100base-tx
+    mgmt_only: true
+rear-ports:
+  - name: GPIO 1
+    type: 8p8c
+  - name: GPIO 2
+    type: 8p8c
+  - name: GPIO 3
+    type: 8p8c
+  - name: GPIO 4
+    type: 8p8c
+  - name: Sync In
+    type: bnc
+  - name: Sync Out
+    type: bnc
+power-ports:
+  - name: AC 1
+    type: iec-60320-c14
+  - name: AC 2
+    type: iec-60320-c14
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: Slot 7
+    position: '7'
+  - name: Slot 8
+    position: '8'
+  - name: Slot 9
+    position: '9'
+  - name: Slot 10
+    position: '10'

@@ -9,7 +9,7 @@ weight: 4.9
 weight_unit: kg
 interfaces:
   - name: LAN
-    type: 1000base-t
+    type: 100base-tx
     mgmt_only: true
 rear-ports:
   - name: GPIO 1

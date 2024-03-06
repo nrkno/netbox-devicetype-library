@@ -8,6 +8,7 @@ airflow: front-to-rear
 weight: 4.9
 front_image: true
 weight_unit: kg
+comments: Power port 'AC2' needs the module 'RPS-5018' to function. Chassis only includes physical AC port.
 interfaces:
   - name: LAN
     type: 100base-tx
@@ -26,9 +27,9 @@ rear-ports:
   - name: Sync Out
     type: bnc
 power-ports:
-  - name: AC 1
+  - name: AC1
     type: iec-60320-c14
-  - name: AC 2
+  - name: AC2
     type: iec-60320-c14
 module-bays:
   - name: Slot 1

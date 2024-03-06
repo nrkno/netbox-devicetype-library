@@ -14,16 +14,12 @@ interfaces:
 rear-ports:
   - name: GPIO 1
     type: 8p8c
-    positions: 1
   - name: GPIO 2
     type: 8p8c
-    positions: 1
   - name: GPIO 3
     type: 8p8c
-    positions: 1
   - name: GPIO 4
     type: 8p8c
-    positions: 1
   - name: Sync In
     type: bnc
   - name: Sync Out

@@ -1,6 +1,6 @@
 ---
 manufacturer: Appear
-model: IPx110
+model: IPx210
 description: Module for receiving and transmitting streams over IP in SMPTE2110-formats.
 interfaces:
   - name: 'D1'

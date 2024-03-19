@@ -8,34 +8,34 @@ rear-ports:
     positions: 8
 front-ports:
   - name: 1A
-    type: BNC
+    type: bnc
     rear_port: 'Backplane interconnect'
     rear_port_position: 1
   - name: 1B
-    type: BNC
+    type: bnc
     rear_port: 'Backplane interconnect'
     rear_port_position: 2
   - name: 1C
-    type: BNC
+    type: bnc
     rear_port: 'Backplane interconnect'
     rear_port_position: 3
   - name: 1D
-    type: BNC
+    type: bnc
     rear_port: 'Backplane interconnect'
     rear_port_position: 4
   - name: 2A
-    type: BNC
+    type: bnc
     rear_port: 'Backplane interconnect'
     rear_port_position: 5
   - name: 2B
-    type: BNC
+    type: bnc
     rear_port: 'Backplane interconnect'
     rear_port_position: 6
   - name: 2C
-    type: BNC
+    type: bnc
     rear_port: 'Backplane interconnect'
     rear_port_position: 7
   - name: 2D
-    type: BNC
+    type: bnc
     rear_port: 'Backplane interconnect'
     rear_port_position: 8

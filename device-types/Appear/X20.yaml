@@ -1,7 +1,7 @@
 ---
-manufacturer: AppearTV
+manufacturer: Appear
 model: X20
-slug: appeartv-x20
+slug: appear-x20
 u_height: 2.0
 is_full_depth: true
 subdevice_role: parent

@@ -1,0 +1,9 @@
+---
+manufacturer: Appear
+model: ECx210
+description: Multipurpose IO-modul with dual ethernet for ST2110 media streams. Could be inputs or outputs, depending on loaded software.
+interfaces:
+  - name: D1
+    type: 40gbase-x-qsfpp
+  - name: D2
+    type: 40gbase-x-qsfpp

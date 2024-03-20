@@ -2,6 +2,8 @@
 manufacturer: Ross
 model: ULTRIX-IP-IO
 part_number: ULTRIX-IP-IO
+description: The primary function of each ULTRIX-IP-IO PORT (1-4) is to provide a 25GbE network interface (SFP28) that can be configured as a Receiver and/or
+  a Sender in DashBoard.
 interfaces:
   - name: '1'
     type: 25gbase-x-sfp28
@@ -12,11 +14,19 @@ interfaces:
   - name: '4'
     type: 25gbase-x-sfp28
 rear-ports:
+  - name: Backplane interconnect
+    type: other
+    positions: 2
+front-ports:
   - name: AUX 1
     type: other
     positions: 1
     description: SFP
+    rear_port: Backplane interconnect
+    rear_port_position: 1
   - name: AUX 2
     type: other
     positions: 1
     description: SFP
+    rear_port: Backplane interconnect
+    rear_port_position: 2

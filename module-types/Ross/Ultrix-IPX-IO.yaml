@@ -2,6 +2,8 @@
 manufacturer: Ross
 model: ULTRIX-IPX-IO
 part_number: ULTRIX-IPX-IO
+description: The Ultrix IPX-IO cards are designed to seamlessly integrate SMPTE ST-2110 IP streams into the Ultrix platform, without compromising on its
+  powerful features and licensing capabilities. The cards offer scalability and high total bandwidth, making them suitable for a range of IP applications.
 interfaces:
   - name: '1'
     type: 100gbase-x-qsfp28
@@ -12,15 +14,27 @@ interfaces:
   - name: '4'
     type: 100gbase-x-qsfp28
 rear-ports:
+  - name: Backplane interconnect
+    type: other
+    positions: 4
+front-ports:
   - name: A
     type: other
-    positions: 1
+    description: SFP
+    rear_port: Backplane interconnect
+    rear_port_position: 1
   - name: B
     type: other
-    positions: 1
+    description: SFP
+    rear_port: Backplane interconnect
+    rear_port_position: 2
   - name: C
     type: other
-    positions: 1
+    description: SFP
+    rear_port: Backplane interconnect
+    rear_port_position: 3
   - name: D
     type: other
-    positions: 1
+    description: SFP
+    rear_port: Backplane interconnect
+    rear_port_position: 4

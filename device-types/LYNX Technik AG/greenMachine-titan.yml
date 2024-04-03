@@ -1,0 +1,21 @@
+---
+manufacturer: LYNX Technik AG
+model: greenMachine titan
+slug: lynx-technik-ag-greenmachine-titan
+u_height: 0.0
+subdevice_role: child
+is_full_depth: false
+airflow: passive
+weight: 1.4
+weight_unit: kg
+front_image: true
+rear_image: true
+interfaces:
+  - name: LAN
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: DC1
+    type: other
+  - name: DC2
+    type: other

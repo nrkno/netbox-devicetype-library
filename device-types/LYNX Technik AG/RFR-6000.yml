@@ -1,0 +1,17 @@
+---
+manufacturer: LYNX Technik AG
+model: RFR 6000
+slug: lynx-technik-ag-rfr-6000
+u_height: 1.0
+is_full_depth: false
+description: Rack mounting hardware which can accommodate one or two greenMachines in 1RU of rack space which also securely mounts the power supplies.
+airflow: passive
+subdevice_role: parent
+weight: 1.5
+weight_unit: kg
+is_powered: false
+device-bays:
+  - name: Left
+    position: '1'
+  - name: Right
+    position: '2'

@@ -1,0 +1,17 @@
+---
+manufacturer: LYNX Technik AG
+model: O RX 5800
+description: 3Gbit Quad SDI Fiber Optic Receiver
+comments: Pairs of In and Out share one SFP slot. (1.1 and 2) and (4.1 and In 3). Must be split in separate interfaces in order to get cable tracing to
+  function.
+weight: 240
+weight_unit: g
+interfaces:
+  - name: LC-In {module}.1.1
+    type: other
+  - name: LC-In {module}.2
+    type: other
+  - name: LC-In {module}.3
+    type: other
+  - name: LC-In {module}.4.1
+    type: other

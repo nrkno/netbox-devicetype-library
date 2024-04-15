@@ -44,7 +44,9 @@ rear-ports:
     description: DIN
 module-bays:
   - name: MADI 1
+    position: MADI 1
   - name: MADI 2
+    position: MADI 2
   - name: Audio network 1
   - name: Audio network 2
   - name: Slot 1

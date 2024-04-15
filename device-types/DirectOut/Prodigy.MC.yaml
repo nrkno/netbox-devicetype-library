@@ -32,7 +32,9 @@ rear-ports:
 module-bays:
   - name: Audio network slot
   - name: MADI 1
+    position: MADI 1
   - name: MADI 2
+    position: MADI 2
   - name: Slot 1
     position: '1'
   - name: Slot 2

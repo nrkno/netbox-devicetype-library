@@ -36,7 +36,9 @@ rear-ports:
     description: 9 pin D-sub
 module-bays:
   - name: MADI 1
+    position: MADI 1
   - name: MADI 2
+    position: MADI 2
   - name: Audio network 1
   - name: Audio network 2
   - name: Audio network 3

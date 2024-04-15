@@ -1,0 +1,8 @@
+---
+manufacturer: DirectOut
+model: SFP.IO
+interfaces:
+  - name: LC-TX {module}
+    type: other
+  - name: LC-RX {module}
+    type: other

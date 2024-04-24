@@ -13,13 +13,19 @@ rear_image: true
 interfaces:
   - name: ENET 1
     type: 1000base-t
+    mgmt_only: true
   - name: ENET 2
     type: 1000base-t
+    mgmt_only: true
 module-bays:
   - name: Slot 1
+    position: '1'
   - name: Slot 2
+    position: '2'
   - name: Slot 3
+    position: '3'
   - name: Slot 4
+    position: '4'
 power-ports:
   - name: PWR1
     type: dc-terminal

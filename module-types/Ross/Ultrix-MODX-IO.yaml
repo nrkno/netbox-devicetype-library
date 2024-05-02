@@ -1,7 +1,6 @@
 ---
 manufacturer: Ross
 model: ULTRIX-MODX-IO
-part_number: ULTRIX-MODX-IO
 interfaces:
   - name: slot{module}.AUXA-in[1]
     type: other

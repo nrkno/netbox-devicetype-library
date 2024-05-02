@@ -1,0 +1,84 @@
+---
+manufacturer: Ross
+model: ULTRIX-HDX-IO
+interfaces:
+  - name: slot{module}.AUXA-in[1]
+    type: other
+  - name: slot{module}.AUXA-out[1]
+    type: other
+  - name: slot{module}.AUXB-in[1]
+    type: other
+  - name: slot{module}.AUXB-out[1]
+    type: other
+  - name: slot{module}.AUXC-in[1]
+    type: other
+  - name: slot{module}.AUXC-out[1]
+    type: other
+  - name: slot{module}.AUXD-in[1]
+    type: other
+  - name: slot{module}.AUXD-out[1]
+    type: other
+  - name: slot{module}.in[1]
+    type: other
+  - name: slot{module}.out[1]
+    type: other
+  - name: slot{module}.in[2]
+    type: other
+  - name: slot{module}.out[2]
+    type: other
+  - name: slot{module}.in[3]
+    type: other
+  - name: slot{module}.out[3]
+    type: other
+  - name: slot{module}.in[4]
+    type: other
+  - name: slot{module}.out[4]
+    type: other
+  - name: slot{module}.in[5]
+    type: other
+  - name: slot{module}.out[5]
+    type: other
+  - name: slot{module}.in[6]
+    type: other
+  - name: slot{module}.out[6]
+    type: other
+  - name: slot{module}.in[7]
+    type: other
+  - name: slot{module}.out[7]
+    type: other
+  - name: slot{module}.in[8]
+    type: other
+  - name: slot{module}.out[8]
+    type: other
+  - name: slot{module}.in[9]
+    type: other
+  - name: slot{module}.out[9]
+    type: other
+  - name: slot{module}.in[10]
+    type: other
+  - name: slot{module}.out[10]
+    type: other
+  - name: slot{module}.in[11]
+    type: other
+  - name: slot{module}.out[11]
+    type: other
+  - name: slot{module}.in[12]
+    type: other
+  - name: slot{module}.out[12]
+    type: other
+  - name: slot{module}.in[13]
+    type: other
+  - name: slot{module}.out[13]
+    type: other
+  - name: slot{module}.in[14]
+    type: other
+  - name: slot{module}.out[14]
+    type: other
+  - name: slot{module}.in[15]
+    type: other
+  - name: slot{module}.out[15]
+    type: other
+  - name: slot{module}.in[16]
+    type: other
+  - name: slot{module}.out[16]
+    type: other

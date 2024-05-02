@@ -4,6 +4,22 @@ model: ULTRIX-IPX-IO
 part_number: ULTRIX-IPX-IO
 description: The Ultrix IPX-IO cards are designed to seamlessly integrate SMPTE ST-2110 IP streams into the Ultrix platform.
 interfaces:
+  - name: slot{module}.AUXA-in[1]
+    type: other
+  - name: slot{module}.AUXA-out[1]
+    type: other
+  - name: slot{module}.AUXB-in[1]
+    type: other
+  - name: slot{module}.AUXB-out[1]
+    type: other
+  - name: slot{module}.AUXC-in[1]
+    type: other
+  - name: slot{module}.AUXC-out[1]
+    type: other
+  - name: slot{module}.AUXD-in[1]
+    type: other
+  - name: slot{module}.AUXD-out[1]
+    type: other
   - name: eth{module}1
     label: '1'
     type: 100gbase-x-qsfp28

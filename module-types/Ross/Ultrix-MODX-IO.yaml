@@ -1,0 +1,85 @@
+---
+manufacturer: Ross
+model: ULTRIX-MODX-IO
+part_number: ULTRIX-MODX-IO
+interfaces:
+  - name: slot{module}.AUXA-in[1]
+    type: other
+  - name: slot{module}.AUXA-out[1]
+    type: other
+  - name: slot{module}.AUXB-in[1]
+    type: other
+  - name: slot{module}.AUXB-out[1]
+    type: other
+  - name: slot{module}.AUXC-in[1]
+    type: other
+  - name: slot{module}.AUXC-out[1]
+    type: other
+  - name: slot{module}.AUXD-in[1]
+    type: other
+  - name: slot{module}.AUXD-out[1]
+    type: other
+  - name: slot{module}.MOD1-in[1]
+    type: other
+  - name: slot{module}.MOD1-out[1]
+    type: other
+  - name: slot{module}.MOD1-in[2]
+    type: other
+  - name: slot{module}.MOD1-out[2]
+    type: other
+  - name: slot{module}.MOD1-in[3]
+    type: other
+  - name: slot{module}.MOD1-out[3]
+    type: other
+  - name: slot{module}.MOD1-in[4]
+    type: other
+  - name: slot{module}.MOD1-out[4]
+    type: other
+  - name: slot{module}.MOD2-in[1]
+    type: other
+  - name: slot{module}.MOD2-out[1]
+    type: other
+  - name: slot{module}.MOD2-in[2]
+    type: other
+  - name: slot{module}.MOD2-out[2]
+    type: other
+  - name: slot{module}.MOD2-in[3]
+    type: other
+  - name: slot{module}.MOD2-out[3]
+    type: other
+  - name: slot{module}.MOD2-in[4]
+    type: other
+  - name: slot{module}.MOD2-out[4]
+    type: other
+  - name: slot{module}.MOD3-in[1]
+    type: other
+  - name: slot{module}.MOD3-out[1]
+    type: other
+  - name: slot{module}.MOD3-in[2]
+    type: other
+  - name: slot{module}.MOD3-out[2]
+    type: other
+  - name: slot{module}.MOD3-in[3]
+    type: other
+  - name: slot{module}.MOD3-out[3]
+    type: other
+  - name: slot{module}.MOD3-in[4]
+    type: other
+  - name: slot{module}.MOD3-out[4]
+    type: other
+  - name: slot{module}.MOD4-in[1]
+    type: other
+  - name: slot{module}.MOD4-out[1]
+    type: other
+  - name: slot{module}.MOD4-in[2]
+    type: other
+  - name: slot{module}.MOD4-out[2]
+    type: other
+  - name: slot{module}.MOD4-in[3]
+    type: other
+  - name: slot{module}.MOD4-out[3]
+    type: other
+  - name: slot{module}.MOD4-in[4]
+    type: other
+  - name: slot{module}.MOD4-out[4]
+    type: other

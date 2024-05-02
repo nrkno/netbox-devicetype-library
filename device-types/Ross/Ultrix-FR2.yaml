@@ -17,6 +17,78 @@ interfaces:
   - name: ENET 2
     type: 1000base-t
     mgmt_only: true
+  - name: slot4.AUXA-in
+    type: other
+  - name: slot4.AUXA-Out
+    type: other
+  - name: slot4.AUXB-in
+    type: other
+  - name: slot4.AUXB-Out
+    type: other
+  - name: slot4.in[1]
+    type: other
+  - name: slot4.out[1]
+    type: other
+  - name: slot4.in[2]
+    type: other
+  - name: slot4.out[2]
+    type: other
+  - name: slot4.in[3]
+    type: other
+  - name: slot4.out[3]
+    type: other
+  - name: slot4.in[4]
+    type: other
+  - name: slot4.out[4]
+    type: other
+  - name: slot4.in[5]
+    type: other
+  - name: slot4.out[5]
+    type: other
+  - name: slot4.in[6]
+    type: other
+  - name: slot4.out[6]
+    type: other
+  - name: slot4.in[7]
+    type: other
+  - name: slot4.out[7]
+    type: other
+  - name: slot4.in[8]
+    type: other
+  - name: slot4.out[8]
+    type: other
+  - name: slot4.in[9]
+    type: other
+  - name: slot4.out[9]
+    type: other
+  - name: slot4.in[10]
+    type: other
+  - name: slot4.out[10]
+    type: other
+  - name: slot4.in[11]
+    type: other
+  - name: slot4.out[11]
+    type: other
+  - name: slot4.in[12]
+    type: other
+  - name: slot4.out[12]
+    type: other
+  - name: slot4.in[13]
+    type: other
+  - name: slot4.out[13]
+    type: other
+  - name: slot4.in[14]
+    type: other
+  - name: slot4.out[14]
+    type: other
+  - name: slot4.in[15]
+    type: other
+  - name: slot4.out[15]
+    type: other
+  - name: slot4.in[16]
+    type: other
+  - name: slot4.out[16]
+    type: other
 module-bays:
   - name: Slot 1
     position: '1'
@@ -24,8 +96,6 @@ module-bays:
     position: '2'
   - name: Slot 3
     position: '3'
-  - name: Slot 4
-    position: '4'
 power-ports:
   - name: PWR1
     type: dc-terminal

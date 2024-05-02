@@ -1,0 +1,8 @@
+---
+manufacturer: Norwia
+model: RCONmini
+description: The RCONmini frame controller card provides an extensive set of monitoring facilities for the miniHUB system.
+interfaces:
+  - name: LAN
+    type: 100base-tx
+    mgmt_only: true

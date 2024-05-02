@@ -1,0 +1,17 @@
+---
+manufacturer: LYNX Technik AG
+model: Yellobrik ORX 1802
+slug: lynx-technik-ag-yellobrik-orx-1802
+description: 3G Fiber Optic to SDI Receiver
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+front_image: false
+rear_image: false
+interfaces:
+  - name: RX
+    label: RX
+    type: other
+power-ports:
+  - name: +12V-DC
+    type: dc-terminal

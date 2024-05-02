@@ -1,0 +1,10 @@
+---
+manufacturer: Norwia
+model: compact miniHUB-1RU-4-0
+slug: norwia-compact-minihub-1ru-4-0
+u_height: 1.0
+is_full_depth: false
+is_powered: false
+module-bays:
+  - name: Passive Port 1
+  - name: Passive Port 2

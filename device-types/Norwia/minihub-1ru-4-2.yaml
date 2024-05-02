@@ -1,0 +1,19 @@
+---
+manufacturer: Norwia
+model: miniHUB-1RU-4-2
+slug: norwia-minihub-1ru-4-2
+u_height: 1.0
+is_full_depth: false
+module-bays:
+  - name: RCONmini
+  - name: Card 1
+  - name: Card 2
+  - name: Card 3
+  - name: Card 4
+  - name: Passive Port 1
+  - name: Passive Port 2
+power-ports:
+  - name: DC1
+    type: other
+  - name: DC2
+    type: other

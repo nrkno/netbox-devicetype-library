@@ -1,0 +1,12 @@
+---
+manufacturer: LYNX Technik AG
+model: OTX 5840
+interfaces:
+  - name: Out {module}.1
+    type: other
+  - name: Out {module}.2
+    type: other
+  - name: Out {module}.3
+    type: other
+  - name: Out {module}.4
+    type: other

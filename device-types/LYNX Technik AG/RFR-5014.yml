@@ -12,19 +12,18 @@ interfaces:
   - name: LAN
     type: 100base-tx
     mgmt_only: true
-rear-ports:
   - name: GPIO 1
-    type: 8p8c
+    type: other
   - name: GPIO 2
-    type: 8p8c
+    type: other
   - name: GPIO 3
-    type: 8p8c
+    type: other
   - name: GPIO 4
-    type: 8p8c
+    type: other
   - name: Sync In
-    type: bnc
+    type: other
   - name: Sync Out
-    type: bnc
+    type: other
 power-ports:
   - name: AC 1
     type: iec-60320-c14

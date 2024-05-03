@@ -2,16 +2,9 @@
 manufacturer: Appear
 model: SWx210
 description: Switch-module for control, genlock and MPEG-TS traffic in/out
-rear-ports:
-  - name: Backplane interconnect
-    type: other
-    positions: 1
-front-ports:
-  - name: Genlock
-    type: bnc
-    rear_port: Backplane interconnect
-    rear_port_position: 1
 interfaces:
+  - name: Genlock
+    type: other
   - name: CTRL
     type: 1000base-t
   - name: D1-RJ45

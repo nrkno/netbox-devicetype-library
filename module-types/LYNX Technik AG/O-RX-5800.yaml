@@ -7,11 +7,11 @@ comments: Pairs of In and Out share one SFP slot. (1.1 and 2) and (4.1 and In 3)
 weight: 240
 weight_unit: g
 interfaces:
-  - name: LC-In {module}.1.1
+  - name: In {module}.1.1
     type: other
-  - name: LC-In {module}.2
+  - name: In {module}.2
     type: other
-  - name: LC-In {module}.3
+  - name: In {module}.3
     type: other
-  - name: LC-In {module}.4.1
+  - name: In {module}.4.1
     type: other

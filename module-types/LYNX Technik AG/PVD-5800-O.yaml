@@ -6,7 +6,7 @@ weight: 170
 weight_unit: g
 comments: In 1.1 and OUT 5 share one SFP slot. Must be split in separate interfaces in order to get cable tracing to function.
 interfaces:
-  - name: LC-In {module}.1.1
+  - name: In {module}.1.1
     type: other
-  - name: LC-Out {module}.5
+  - name: Out {module}.5
     type: other

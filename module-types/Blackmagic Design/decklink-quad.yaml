@@ -1,0 +1,14 @@
+---
+manufacturer: Blackmagic Design
+model: Decklink Quad
+interfaces:
+  - name: SDI1 {module}
+    type: other
+  - name: SDI2 {module}
+    type: other
+  - name: SDI3 {module}
+    type: other
+  - name: SDI4 {module}
+    type: other
+  - name: SYNC {module}
+    type: other

@@ -1,0 +1,20 @@
+---
+manufacturer: DirectOut
+model: MADI4.IO
+interfaces:
+  - name: MADI 1 IN {module}
+    type: other
+  - name: MADI 1 OUT {module}
+    type: other
+  - name: MADI 2 IN {module}
+    type: other
+  - name: MADI 2 OUT {module}
+    type: other
+  - name: MADI 3 IN {module}
+    type: other
+  - name: MADI 3 OUT {module}
+    type: other
+  - name: MADI 4 IN {module}
+    type: other
+  - name: MADI 4 OUT {module}
+    type: other

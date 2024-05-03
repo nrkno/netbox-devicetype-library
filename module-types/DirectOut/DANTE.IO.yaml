@@ -1,0 +1,10 @@
+---
+manufacturer: DirectOut
+model: DANTE.IO
+interfaces:
+  - name: PRI (1) {module}
+    type: 1000base-t
+  - name: SEC (2) {module}
+    type: 1000base-t
+  - name: PRI/SEC (3) {module}
+    type: 1000base-x-sfp

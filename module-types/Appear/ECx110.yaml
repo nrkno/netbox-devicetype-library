@@ -2,40 +2,20 @@
 manufacturer: Appear
 model: ECx110
 description: Multipurpose IO-modul with 8 micro-BNC connectors. Could be inputs or outputs, depending on loaded software.
-rear-ports:
-  - name: Backplane interconnect
-    type: other
-    positions: 8
-front-ports:
+interfaces:
   - name: 1A
-    type: bnc
-    rear_port: Backplane interconnect
-    rear_port_position: 1
+    type: other
   - name: 1B
-    type: bnc
-    rear_port: Backplane interconnect
-    rear_port_position: 2
+    type: other
   - name: 1C
-    type: bnc
-    rear_port: Backplane interconnect
-    rear_port_position: 3
+    type: other
   - name: 1D
-    type: bnc
-    rear_port: Backplane interconnect
-    rear_port_position: 4
+    type: other
   - name: 2A
-    type: bnc
-    rear_port: Backplane interconnect
-    rear_port_position: 5
+    type: other
   - name: 2B
-    type: bnc
-    rear_port: Backplane interconnect
-    rear_port_position: 6
+    type: other
   - name: 2C
-    type: bnc
-    rear_port: Backplane interconnect
-    rear_port_position: 7
+    type: other
   - name: 2D
-    type: bnc
-    rear_port: Backplane interconnect
-    rear_port_position: 8
+    type: other

@@ -23,19 +23,17 @@ interfaces:
   - name: MANAGEMENT 3
     type: 1000base-x-sfp
     mgmt_only: true
-rear-ports:
   - name: GPIO
     type: other
-    positions: 1
     description: 9 pin D-sub
   - name: WordClock 1 In
-    type: bnc
+    type: other
   - name: WordClock 1 out
-    type: bnc
+    type: other
   - name: WordClock 2 / Video In
-    type: bnc
+    type: other
   - name: WordClock 2 / Video out
-    type: bnc
+    type: other
   - name: MIDI in
     type: other
     description: DIN

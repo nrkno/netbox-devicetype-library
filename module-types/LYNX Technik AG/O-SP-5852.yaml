@@ -9,33 +9,33 @@ comments: "To be able to model cabling in Netbox on a passive splitter we must m
   \ that interface type must be Other, and the connector type must be set in the description field.\r\n\r\nSplitting logic is:\r\n\r\n```\r\nIn {module}1.1\
   \ -> 50% split -> Out {module}.1.2\r\n                            -> Out {module}.1.2\r\n```"
 interfaces:
-  - name: LC-In {module}.1.1
+  - name: In {module}.1.1
     type: other
-  - name: LC-In {module}.1.2
+  - name: In {module}.1.2
     type: other
-  - name: LC-In {module}.1.3
+  - name: In {module}.1.3
     type: other
-  - name: LC-In {module}.1.4
+  - name: In {module}.1.4
     type: other
-  - name: LC-In {module}.1.5
+  - name: In {module}.1.5
     type: other
-  - name: LC-Out {module}.1.1
+  - name: Out {module}.1.1
     type: other
-  - name: LC-Out {module}.1.2
+  - name: Out {module}.1.2
     type: other
-  - name: LC-Out {module}.2.1
+  - name: Out {module}.2.1
     type: other
-  - name: LC-Out {module}.2.2
+  - name: Out {module}.2.2
     type: other
-  - name: LC-Out {module}.3.1
+  - name: Out {module}.3.1
     type: other
-  - name: LC-Out {module}.3.2
+  - name: Out {module}.3.2
     type: other
-  - name: LC-Out {module}.4.1
+  - name: Out {module}.4.1
     type: other
-  - name: LC-Out {module}.4.2
+  - name: Out {module}.4.2
     type: other
-  - name: LC-Out {module}.5.1
+  - name: Out {module}.5.1
     type: other
-  - name: LC-Out {module}.5.2
+  - name: Out {module}.5.2
     type: other

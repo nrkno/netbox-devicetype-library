@@ -16,19 +16,17 @@ interfaces:
   - name: MGMT
     type: 1000base-t
     mgmt_only: true
-rear-ports:
   - name: GPIO
     type: other
-    positions: 1
     description: 9 pin D-sub
   - name: WordClock 1 In
-    type: bnc
+    type: other
   - name: WordClock 1 out
-    type: bnc
+    type: other
   - name: WordClock 2 / Video In
-    type: bnc
+    type: other
   - name: WordClock 2 / Video out
-    type: bnc
+    type: other
 module-bays:
   - name: Audio network slot
   - name: MADI 1

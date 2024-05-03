@@ -2,7 +2,7 @@
 manufacturer: DirectOut
 model: SFP.IO
 interfaces:
-  - name: LC-TX {module}
+  - name: MADI TX {module}
     type: other
-  - name: LC-RX {module}
+  - name: MADI RX {module}
     type: other

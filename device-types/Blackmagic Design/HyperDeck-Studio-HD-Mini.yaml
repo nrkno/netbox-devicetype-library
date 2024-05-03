@@ -20,18 +20,17 @@ power-ports:
 interfaces:
   - name: ETHERNET
     type: 1000base-t
-rear-ports:
   - name: HDMI-OUT
     type: other
   - name: REF-OUT
-    type: bnc
+    type: other
   - name: REF-IN
-    type: bnc
+    type: other
   - name: TIMECODE-OUT
-    type: bnc
+    type: other
   - name: TIMECODE-IN
-    type: bnc
+    type: other
   - name: SDI-OUT
-    type: bnc
+    type: other
   - name: SDI-IN
-    type: bnc
+    type: other

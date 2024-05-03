@@ -1,0 +1,10 @@
+---
+manufacturer: DirectOut
+model: MILAN.IO
+interfaces:
+  - name: PORT 1 {module}
+    type: 1000base-t
+  - name: PORT 2 {module}
+    type: 1000base-t
+  - name: PORT 3 {module}
+    type: 1000base-x-sfp

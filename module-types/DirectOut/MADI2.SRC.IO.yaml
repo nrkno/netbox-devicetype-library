@@ -1,0 +1,12 @@
+---
+manufacturer: DirectOut
+model: MADI2.SRC.IO
+interfaces:
+  - name: MADI 1 IN {module}
+    type: other
+  - name: MADI 1 OUT {module}
+    type: other
+  - name: MADI 2 IN {module}
+    type: other
+  - name: MADI 2 OUT {module}
+    type: other

@@ -6,18 +6,18 @@ description: Five Channel 1>2 Optical Splitter (50% split)
 weight: 150
 weight_unit: g
 comments: "To be able to model cabling in Netbox on a passive splitter we must model it using interfaces instead of front and rear ports.\r\n\r\nThis means\
-  \ that interface type must be Other, and the connector type must be set in the description field.\r\n\r\nSplitting logic is:\r\n\r\n```\r\nIn {module}1.1\
-  \ -> 50% split -> Out {module}.1.2\r\n                            -> Out {module}.1.2\r\n```"
+  \ that interface type must be Other, and the connector type must be set in the description field.\r\n\r\nSplitting logic is:\r\n\r\n```\r\nIn {module}1\
+  \ -> 50% split -> Out {module}.1.1\r\n                            -> Out {module}.1.2\r\n```"
 interfaces:
-  - name: In {module}.1.1
+  - name: In {module}.1
     type: other
-  - name: In {module}.1.2
+  - name: In {module}.2
     type: other
-  - name: In {module}.1.3
+  - name: In {module}.3
     type: other
-  - name: In {module}.1.4
+  - name: In {module}.4
     type: other
-  - name: In {module}.1.5
+  - name: In {module}.5
     type: other
   - name: Out {module}.1.1
     type: other

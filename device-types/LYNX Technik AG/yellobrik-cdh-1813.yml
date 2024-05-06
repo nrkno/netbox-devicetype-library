@@ -1,0 +1,16 @@
+---
+manufacturer: LYNX Technik AG
+model: Yellobrik CDH 1813
+slug: lynx-technik-ag-yellobrik-cdh-1813
+description: 3Gbit SDI to HDMI Converter + 3D Support
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+front_image: false
+rear_image: false
+interfaces:
+  - name: Optical SDI IN
+    type: other
+power-ports:
+  - name: +12V-DC
+    type: dc-terminal

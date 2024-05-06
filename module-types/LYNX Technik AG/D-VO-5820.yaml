@@ -3,15 +3,15 @@ manufacturer: LYNX Technik AG
 model: D VO 5820
 part_number: '5156205820'
 description: 3Gbit SDI/ASI Dual Distribution Amp. with Fiber I/O
-comments: TX and RX share one SFP slot and is combined in a single tranciever. Must be split in separate interfaces in order to get cable tracing to function.
+comments: Out and In share one SFP slot and is combined in a single tranciever. Must be split in separate interfaces in order to get cable tracing to function.
 weight: 170
 weight_unit: g
 interfaces:
-  - name: RX {module}.1
+  - name: In {module}.1
     type: other
-  - name: RX {module}.2
+  - name: In {module}.2
     type: other
-  - name: TX {module}.1
+  - name: Out {module}.1
     type: other
-  - name: TX {module}.2
+  - name: Out {module}.2
     type: other

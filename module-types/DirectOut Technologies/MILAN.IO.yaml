@@ -1,6 +1,6 @@
 ---
-manufacturer: DirectOut
-model: RAV.IO
+manufacturer: DirectOut Technologies
+model: MILAN.IO
 interfaces:
   - name: PORT 1 {module}
     type: 1000base-t

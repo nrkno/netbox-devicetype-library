@@ -1,5 +1,5 @@
 ---
-manufacturer: DirectOut
+manufacturer: DirectOut Technologies
 model: SG.IO
 interfaces:
   - name: PORT 1 {module}

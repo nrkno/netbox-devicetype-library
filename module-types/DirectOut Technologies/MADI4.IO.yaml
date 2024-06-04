@@ -1,5 +1,5 @@
 ---
-manufacturer: DirectOut
+manufacturer: DirectOut Technologies
 model: MADI4.IO
 interfaces:
   - name: MADI 1 IN {module}

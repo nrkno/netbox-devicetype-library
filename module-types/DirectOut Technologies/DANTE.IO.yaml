@@ -1,5 +1,5 @@
 ---
-manufacturer: DirectOut
+manufacturer: DirectOut Technologies
 model: DANTE.IO
 interfaces:
   - name: PRI (1) {module}

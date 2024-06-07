@@ -2,7 +2,7 @@
 manufacturer: Nevion
 model: Virtuoso MI-MKII
 part_number: VIRTUOSO-HW-MI-MKII-AC2
-slug: virtuoso-hw-mi-mkii-ac2
+slug: nevion-virtuoso-hw-mi-mkii-ac2
 comments: Media processing frame with I/O capabilities
 u_height: 1.0
 airflow: front-to-rear

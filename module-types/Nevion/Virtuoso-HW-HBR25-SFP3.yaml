@@ -1,7 +1,6 @@
 ---
 manufacturer: Nevion
 model: Virtuoso HW-HBR25-SFP3
-slug: hw-hbr25-sfp3
 part_number: VIRTUOSO-HW-HBR25-SFP3
 description: The HBR25 accelerator card (HW-HBR25-SFP3) has a single SFP+/Video SFP port, plus two SFP28 network ports supporting 25GbE.
 interfaces:

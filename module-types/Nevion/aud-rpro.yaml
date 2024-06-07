@@ -1,0 +1,9 @@
+---
+manufacturer: Nevion
+model: AUD-RPRO
+slug: aud-rpro
+part_number: VIRTUOSO-HW-AUD-RPRO
+description: The Virtuoso AUD-RPRO audio card supports a mix of analog and digital audio, along with GPIO and analog video sync outputs. The connector on the rear panel of the card is a DC-37 female connector.
+interfaces:
+  - name: Port 1
+    type: other

@@ -3,7 +3,7 @@ manufacturer: Black Box
 model: ACXMODH2R-P-R2
 slug: black-box-acxmodh2r-p-r2
 description: DKM Modular Chassis, 2 ext. power supply
-u_height: 0.0
+u_height: 1.0
 is_full_depth: true
 module-bays:
   - name: Slot 1

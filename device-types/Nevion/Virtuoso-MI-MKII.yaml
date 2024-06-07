@@ -1,0 +1,32 @@
+---
+manufacturer: Nevion
+model: Virtuoso MI-MKII
+part_number: VIRTUOSO-HW-MI-MKII-AC2
+slug: nevion-virtuoso-hw-mi-mkii-ac2
+comments: Media processing frame with I/O capabilities
+u_height: 1.0
+airflow: front-to-rear
+is_full_depth: true
+interfaces:
+  - name: Management A
+    type: 1000base-t
+  - name: Management B
+    type: 1000base-t
+  - name: Sync In
+    type: other
+  - name: Sync loop out
+    type: other
+module-bays:
+  - name: Accelerator slot 1
+  - name: Accelerator slot 2
+  - name: Accelerator slot 3
+  - name: Accelerator slot 4
+  - name: Accelerator slot 5
+  - name: Accelerator slot 6
+  - name: Accelerator slot 7
+  - name: Accelerator slot 8
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14

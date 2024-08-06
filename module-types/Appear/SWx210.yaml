@@ -3,19 +3,19 @@ manufacturer: Appear
 model: SWx210
 description: Switch-module for control, genlock and MPEG-TS traffic in/out
 interfaces:
-  - name: Genlock
+  - name: Slot {module} - Genlock
     type: other
-  - name: CTRL
+  - name: Slot {module} - CTRL
     type: 1000base-t
-  - name: D1-RJ45
+  - name: Slot {module} - D1-RJ45
     type: 1000base-t
-  - name: D1-SFP
+  - name: Slot {module} - D1-SFP
     type: 10gbase-x-sfpp
-  - name: D2-RJ45
+  - name: Slot {module} - D2-RJ45
     type: 1000base-t
-  - name: D2-SFP
+  - name: Slot {module} - D2-SFP
     type: 10gbase-x-sfpp
-  - name: D3
+  - name: Slot {module} - D3
     type: 1000base-t
-  - name: D4
+  - name: Slot {module} - D4
     type: 1000base-t

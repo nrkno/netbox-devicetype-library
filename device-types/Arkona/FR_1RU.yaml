@@ -19,4 +19,6 @@ module-bays:
   - name: PSU Slot 1
   - name: PSU Slot 2
   - name: Slot 1
+    position: '1'
   - name: Slot 2
+    position: '2'

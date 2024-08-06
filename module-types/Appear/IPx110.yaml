@@ -3,7 +3,7 @@ manufacturer: Appear
 model: IPx110
 description: Module for receiving and transmitting compressed streams over IP in SRT, Zixi or MPEG-TS (depending on licence).
 interfaces:
-  - name: Slot {module} - D1
+  - name: {module} - D1
     type: 10gbase-x-sfpp
-  - name: Slot {module} - D2
+  - name: {module} - D2
     type: 10gbase-x-sfpp

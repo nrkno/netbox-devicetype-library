@@ -3,7 +3,7 @@ manufacturer: Appear
 model: IPx210
 description: Module for receiving and transmitting streams over IP in SMPTE2110-formats.
 interfaces:
-  - name: Slot {module} - D1
+  - name: {module} - D1
     type: 25gbase-x-sfp28
-  - name: Slot {module} - D2
+  - name: {module} - D2
     type: 25gbase-x-sfp28

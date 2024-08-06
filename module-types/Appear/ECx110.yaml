@@ -3,19 +3,19 @@ manufacturer: Appear
 model: ECx110
 description: Multipurpose IO-modul with 8 micro-BNC connectors. Could be inputs or outputs, depending on loaded software.
 interfaces:
-  - name: 1A
+  - name: '{module}-1A'
     type: other
-  - name: 1B
+  - name: '{module}-1B'
     type: other
-  - name: 1C
+  - name: '{module}-1C'
     type: other
-  - name: 1D
+  - name: '{module}-1D'
     type: other
-  - name: 2A
+  - name: '{module}-2A'
     type: other
-  - name: 2B
+  - name: '{module}-2B'
     type: other
-  - name: 2C
+  - name: '{module}-2C'
     type: other
-  - name: 2D
+  - name: '{module}-2D'
     type: other

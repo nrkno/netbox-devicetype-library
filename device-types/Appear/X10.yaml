@@ -11,8 +11,8 @@ front_image: true
 module-bays:
   - name: Control Slot 1
   - name: Control Slot 2
-  - name: Power Supply Slot 1
-  - name: Power Supply Slot 2
+  - name: PSU Slot 1
+  - name: PSU Slot 2
   - name: Slot 1A
   - name: Slot 1B
   - name: Slot 1C

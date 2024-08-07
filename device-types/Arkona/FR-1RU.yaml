@@ -1,0 +1,28 @@
+---
+manufacturer: Arkona
+model: Bladerunner 1RU Frame
+part_number: FR-1RU
+slug: arkona-bladerunner-fr-1ru
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+comments: BLADE//runner is Arkonas product line of software applications and programmable acceleration cards which provide core infrastructure solutions
+  for Tier-1 live broadcast productions.
+weight: 5.2
+weight_unit: kg
+interfaces:
+  - name: LAN 1
+    type: 1000base-t
+    mgmt_only: true
+  - name: LAN 2
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU Slot 1
+    position: PSU 1
+  - name: PSU Slot 2
+    position: PSU 2
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'

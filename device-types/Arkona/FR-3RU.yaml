@@ -10,6 +10,7 @@ comments: BLADE//runner is Arkonas product line of software applications and pro
   for Tier-1 live broadcast productions.
 weight: 11
 weight_unit: kg
+interfaces:
   - name: MGMT1
     type: 1000base-t
     mgmt_only: true

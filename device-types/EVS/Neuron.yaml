@@ -1,0 +1,22 @@
+---
+manufacturer: EVS
+model: Neuron
+slug: evs-neuron
+comments: Multiviewer
+u_height: 1.0
+airflow: front-to-rear
+is_full_depth: true
+weight: 2.05
+weight_unit: kg
+front_image: true
+rear_image: true
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+module-bays:
+  - name: Slot A
+    position: 'A'
+  - name: Slot B
+    position: '2'

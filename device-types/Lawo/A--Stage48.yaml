@@ -1,0 +1,43 @@
+---
+manufacturer: Lawo
+model: A__Stage48
+slug: lawo-a--stage48
+u_height: 3.0
+is_full_depth: true
+airflow: 
+weight: 5.2
+weight_unit: kg
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: 'Ravenna / AES67 Primary RJ45'
+    type: 1000base-t
+  - name: 'Ravenna / AES67 Primary SFP'
+    type: 1000base-x-sfp
+  - name: 'Ravenna / AES67 Secondary RJ45'
+    type: 1000base-t
+  - name: 'Ravenna / AES67 Secondary SFP'
+    type: 1000base-x-sfp
+  - name: GPIO
+    type: other
+    description: 37 pin D-sub female
+  - name: WCLK In
+    type: other
+  - name: WCLK out
+    type: other
+  - name: MADI PRI
+    type: other
+    description: SFP
+  - name: MADI SEC
+    type: other
+    description: SFP
+  - name: MIC / LINE IN
+    type: other
+    description: 37 pin D-sub female
+    

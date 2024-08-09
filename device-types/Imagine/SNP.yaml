@@ -15,12 +15,12 @@ interfaces:
   - name: MGMT B
     type: 1000base-t
     mgmt_only: true
-  - name: SFP DATA A
+  - name: DATA A
     type: 100gbase-x-qsfp28
-  - name: SFP DATA B
+  - name: DATA B
     type: 100gbase-x-qsfp28
 power-ports:
-  - name: PSU 1
+  - name: PSU A
     type: iec-60320-c14
-  - name: PSU 2
+  - name: PSU B
     type: iec-60320-c14

@@ -1,0 +1,26 @@
+---
+manufacturer: Imagine
+model: SNP
+slug: imagine-snp
+comments: Multiviewer
+u_height: 1.0
+airflow: front-to-rear
+is_full_depth: true
+front_image: true
+rear_image: true
+interfaces:
+  - name: MGMT A
+    type: 1000base-t
+    mgmt_only: true
+  - name: MGMT B
+    type: 1000base-t
+    mgmt_only: true
+  - name: DATA A
+    type: 100gbase-x-qsfp28
+  - name: DATA B
+    type: 100gbase-x-qsfp28
+power-ports:
+  - name: PSU A
+    type: iec-60320-c14
+  - name: PSU B
+    type: iec-60320-c14

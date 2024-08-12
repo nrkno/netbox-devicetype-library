@@ -37,7 +37,21 @@ interfaces:
   - name: MADI SEC
     type: other
     description: SFP
-  - name: MIC / LINE IN
+  - name: MIC / LINE IN 1-8
     type: other
     description: 37 pin D-sub female
-    
+  - name: MIC / LINE IN 9-16
+    type: other
+    description: 37 pin D-sub female
+  - name: LINE OUT 1-8
+    type: other
+    description: 37 pin D-sub male
+  - name: LINE OUT 9-16
+    type: other
+    description: 37 pin D-sub male
+  - name: AES IN/OUT 1-4
+    type: other
+    description: 25 pin D-sub female
+  - name: AES IN/OUT 5-8
+    type: other
+    description: 25 pin D-sub female

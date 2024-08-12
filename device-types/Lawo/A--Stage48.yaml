@@ -11,22 +11,22 @@ power-ports:
   - name: PSU 1 rear right with ground pin
     type: iec-60320-c14
     maximum_draw: 240
-    allocated-draw: 60
+    allocated_draw: 60
   - name: PSU 2
     type: iec-60320-c14
     maximum_draw: 240
-    allocated-draw: 60
+    allocated_draw: 60
 interfaces:
   - name: MGMT
     type: 1000base-t
     mgmt_only: true
-  - name: 'Ravenna / AES67 Primary RJ45'
+  - name: Ravenna / AES67 Primary RJ45
     type: 1000base-t
-  - name: 'Ravenna / AES67 Primary SFP'
+  - name: Ravenna / AES67 Primary SFP
     type: 1000base-x-sfp
-  - name: 'Ravenna / AES67 Secondary RJ45'
+  - name: Ravenna / AES67 Secondary RJ45
     type: 1000base-t
-  - name: 'Ravenna / AES67 Secondary SFP'
+  - name: Ravenna / AES67 Secondary SFP
     type: 1000base-x-sfp
   - name: GPIO
     type: other

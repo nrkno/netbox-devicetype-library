@@ -1,7 +1,7 @@
 ---
 manufacturer: Juniper
 model: JNP304-RE
-part_number: JNP304-RE	
+part_number: JNP304-RE
 console-ports:
   - name: '{module}'
     type: rj-45

@@ -5,5 +5,5 @@ part_number: JNP-PWR2200-HV
 comments: 2200W High Voltage AC/DC PSU for MX304
 power-ports:
   - name: PSU {module}
-    type: hvac
+    type: other
     maximum_draw: 2200

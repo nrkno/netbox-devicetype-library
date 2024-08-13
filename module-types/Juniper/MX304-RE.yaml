@@ -1,6 +1,6 @@
 ---
 manufacturer: Juniper
-model: JNP304-RE
+model: MX304-RE
 part_number: JNP304-RE
 console-ports:
   - name: '{module}'

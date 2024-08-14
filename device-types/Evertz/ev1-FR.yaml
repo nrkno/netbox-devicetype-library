@@ -1,0 +1,15 @@
+---
+manufacturer: Evertz
+model: ev1-FR
+slug: evertz-ev1-fr
+u_height: 1.0
+is_full_depth: true
+comments: ev1-FR er et 1U rack for multiframes processing, deriblant signal processing og multiviewing
+front_image: true
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+
+

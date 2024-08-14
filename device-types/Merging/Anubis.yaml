@@ -1,0 +1,40 @@
+---
+manufacturer: Merging
+model: Anubis
+slug: merging-anubis
+airflow: right-to-left
+weight: 0.95
+weight_unit: kg
+front_image: true
+rear_image: true
+power-ports:
+  - name: PSU main DC 9V-15V
+    comment: PoE+ parallell/redundant
+    type: dc-terminal
+    maximum_draw: 18
+    allocated_draw: 15
+interfaces:
+  - name: Ravenna / AES67 (MGMT)
+    type: 1000base-t
+    description: Neutrik EtherCON
+    mgmt_only: false
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: GPIO/MIDI IN/OUT
+    type: other
+    description: 6.35mm TRS Female
+  - name: MIC / LINE IN 1-2
+    type: other
+    description: Combo Locking Neutrik XLR3 female / 6.35mm TRS female
+  - name: INST / LINE IN 3-4 front
+    type: other
+    description: 6.35mm TRS female
+  - name: MAIN OUT 1/L + 2/R
+    type: other
+    description: XLR3 male
+  - name: LINE OUT 3-4
+    type: other
+    description: 6.35mm TRS female
+  - name: HP out 1-2 front
+    type: other
+    description: 6.35mm TRS female

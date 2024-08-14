@@ -1,7 +1,6 @@
 ---
 manufacturer: EVS
 model: NEU-BASE-BOARD
-part_number: NEU-BASE-BOARD
 description: Neuron base processing board
 interfaces:
   - name: Gigabit Ethernet

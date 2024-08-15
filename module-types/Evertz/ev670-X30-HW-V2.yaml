@@ -2,8 +2,6 @@
 manufacturer: Evertz
 model: ev670-X30-HW-V2
 description: Virtualized Media Processing Platform
-is_full_depth: true
-front_image: true
 interfaces:
   - name: '{module}.CTRL 2A'
     type: 1000base-t

@@ -3,30 +3,30 @@ manufacturer: EVS
 model: NEU-BASE-BOARD
 description: Neuron base processing board
 interfaces:
-  - name: Gigabit Ethernet
+  - name: GPI/O
     label: 'GPI/O'
     type: other
-  - name: Gigabit Ethernet
-    label: 'Control'
+  - name: Control 1GbE
+    label: 'Control 1GbE'
     type: other
   - name: Gigabit Ethernet
-    label: 'GigE'
+    label: 'RESERVED 1'
     type: other
   - name: Gigabit Ethernet
-    label: 'GigE'
+    label: 'RESERVED 2'
     type: other
   - name: SFP 1
     label: 'SFP 1'
-    type: other
+    type: 1000base-x-sfp
   - name: SFP 2
     label: 'SFP 2'
-    type: other
+    type: 1000base-x-sfp
   - name: SFP 3
     label: 'SFP 3'
-    type: other
+    type: 1000base-x-sfp
   - name: SFP 4
     label: 'SFP 4'
-    type: other
+    type: 1000base-x-sfp
   - name: QSFP 1
     label: 'QSFP 1'
     type: 100gbase-x-qsfp28

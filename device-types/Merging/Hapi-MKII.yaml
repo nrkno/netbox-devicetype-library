@@ -1,0 +1,52 @@
+---
+manufacturer: Merging
+model: Hapi MKII
+slug: merging-hapi-mkii
+u_height: 1.0
+is_full_depth: true
+airflow: passive
+weight: 4.5
+weight_unit: kg
+front_image: true
+rear_image: true
+power-ports:
+  - name: PSU main AC
+    type: iec-60320-c14
+    maximum_draw: 30
+    allocated_draw: 30
+  - name: PSU optional redundant DC
+    type: dc-terminal
+    maximum_draw: 30
+    allocated_draw: 30
+interfaces:
+  - name: Ravenna / MGMT Primary
+    type: 1000base-t
+    mgmt_only: false
+  - name: Ravenna / MGMT Secondary
+    type: 1000base-t
+    mgmt_only: false
+  - name: SYNC LTC/Video Ref/MIDI
+    type: other
+    description: 15 pin D-sub female
+  - name: WCLK In
+    type: other
+  - name: WCLK out
+    type: other
+  - name: SPDIF / ADAT IN
+    type: other
+    description: TOSLINK JIS F05
+  - name: SPDIF / ADAT OUT
+    type: other
+    description: TOSLINK JIS F05
+  - name: AES IN/OUT 1-8
+    type: other
+    description: 25 pin D-sub female
+  - name: HP out 1 front
+    type: other
+    description: 6,35mm TRS female
+  - name: HP out 2 front
+    type: other
+    description: 3,5mm TRS female
+module-bays:
+  - name: SLOT 1
+  - name: SLOT 2

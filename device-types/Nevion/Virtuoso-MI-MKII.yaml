@@ -18,13 +18,21 @@ interfaces:
     type: other
 module-bays:
   - name: Accelerator slot 1
+    position: '1'
   - name: Accelerator slot 2
+    position: '2'
   - name: Accelerator slot 3
+    position: '3'
   - name: Accelerator slot 4
+    position: '4'
   - name: Accelerator slot 5
+    position: '5'
   - name: Accelerator slot 6
+    position: '6'
   - name: Accelerator slot 7
+    position: '7'
   - name: Accelerator slot 8
+    position: '8'
 power-ports:
   - name: PSU1
     type: iec-60320-c14

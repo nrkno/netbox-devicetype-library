@@ -4,7 +4,7 @@ model: ev6-FR
 slug: evertz-ev6-fr
 u_height: 6.0
 is_full_depth: true
-comments: ev6-FR er et 6U rack for multiframes processing, deriblant signal processing og multiviewing
+comments: ev6-FR is a 6U unit for multiframes processing, signal processing, multiviewing and other applications
 front_image: true
 module-bays:
   - name: Slot 1

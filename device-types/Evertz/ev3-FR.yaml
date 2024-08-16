@@ -4,7 +4,7 @@ model: ev3-FR
 slug: evertz-ev3-fr
 u_height: 3.0
 is_full_depth: true
-comments: ev3-FR er et 3U rack for multiframes processing, deriblant signal processing og multiviewing
+comments: ev3-FR is a 3U unit for multiframes processing, signal processing, multiviewing and other applications
 front_image: true
 module-bays:
   - name: Slot 1

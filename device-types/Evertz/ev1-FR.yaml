@@ -4,7 +4,7 @@ model: ev1-FR
 slug: evertz-ev1-fr
 u_height: 1.0
 is_full_depth: true
-comments: ev1-FR er et 1U rack for multiframes processing, deriblant signal processing og multiviewing
+comments: ev1-FR is a 1U unit for multiframes processing, signal processing, multiviewing and other applications
 front_image: true
 module-bays:
   - name: Slot 1

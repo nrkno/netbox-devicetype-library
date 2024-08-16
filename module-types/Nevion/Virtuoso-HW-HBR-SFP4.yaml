@@ -4,11 +4,11 @@ model: Virtuoso HW-HBR-SFP4
 part_number: VIRTUOSO-HW-HBR-SFP4
 description: The HBR accelerator card (HW-HBR-SFP4) can run different software images which provide different media functions based on the image loaded.
 interfaces:
-  - name: Port 1
+  - name: SFP {module}.1
     type: 10gbase-x-sfpp
-  - name: Port 2
+  - name: SFP {module}.2
     type: 10gbase-x-sfpp
-  - name: Port 3
+  - name: SFP {module}.3
     type: 10gbase-x-sfpp
-  - name: Port 4
+  - name: SFP {module}.4
     type: 10gbase-x-sfpp

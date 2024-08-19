@@ -1,4 +1,3 @@
-
 ---
 manufacturer: Lawo
 model: A__UHD CORE
@@ -38,7 +37,7 @@ console-ports:
   - name: SERVICE USB B
     type: usb-b
     description: Debugging under metal cover
-  - name: 'I0I0I' 
+  - name: I0I0I
     type: rj-45
     description: RS232 serial port debugging rear
 interfaces:

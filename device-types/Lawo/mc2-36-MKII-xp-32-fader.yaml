@@ -1,8 +1,8 @@
 ---
 manufacturer: Lawo
-model: mc2-36-MKII-xp 32 fader
+model: mc2 36 MKII xp 32 fader
 part_number: 976/32S/V_xp
-slug: lawo-mc2-36-mkii-xp-32
+slug: lawo-mc2-36-mkii-xp-32-fader
 u_height: 0
 is_full_depth: false
 airflow: front-to-rear
@@ -28,7 +28,7 @@ console-ports:
   - name: DONGLE
     type: usb-a
     description: USB for future connection to the A__UHD Core
-  - name: 'USB 2.0 symbol'
+  - name: USB 2.0 symbol
     type: usb-a
     description: 3 x USB front for memory and keyboard
 interfaces:

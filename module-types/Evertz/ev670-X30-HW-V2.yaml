@@ -9,15 +9,15 @@ interfaces:
   - name: '{module}.CTRL 2B'
     type: 1000base-t
     mgmt_only: true
-  - name: '{module}.LINK 1A'
+  - name: '{module} 1A'
     type: 100gbase-x-qsfp28
-  - name: '{module}.LINK 1B'
+  - name: '{module} 1B'
     type: 100gbase-x-qsfp28
-  - name: '{module}.LINK 2A'
+  - name: '{module} 2A'
     type: 100gbase-x-qsfp28
-  - name: '{module}.LINK 2B'
+  - name: '{module} 2B'
     type: 100gbase-x-qsfp28
-  - name: '{module}.LINK 3A'
+  - name: '{module} 3A'
     type: 100gbase-x-qsfp28
-  - name: '{module}.LINK 3B'
+  - name: '{module} 3B'
     type: 100gbase-x-qsfp28

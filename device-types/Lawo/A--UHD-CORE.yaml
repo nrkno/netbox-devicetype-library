@@ -1,0 +1,79 @@
+---
+manufacturer: Lawo
+model: A__UHD CORE
+part_number: 720/10
+slug: lawo-a--uhd-core
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 7.40
+weight_unit: kg
+front_image: true
+rear_image: true
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 220
+    allocated_draw: 220
+    note: inrush 33Ap
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 220
+    allocated_draw: 220
+    note: inrush 33Ap
+console-ports:
+  - name: DONGLE
+    type: usb-a
+    description: USB for WIBU license stick under metal cover
+  - name: USB
+    type: usb-a
+    description: USB for service procedures
+  - name: SERVICE USB A
+    type: usb-a
+    description: USB local KVM under metal cover
+  - name: SERVICE Display Port
+    type: other
+    description: Display Port 1.2 local KVM under metal cover
+  - name: SERVICE USB B
+    type: usb-b
+    description: Debugging under metal cover
+  - name: I0I0I
+    type: rj-45
+    description: RS232 serial port debugging rear
+interfaces:
+  - name: MGMT A
+    type: 1000base-t
+    mgmt_only: true
+  - name: MGMT B
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1'
+    type: 10gbase-x-sfpp
+    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
+  - name: '2'
+    type: 10gbase-x-sfpp
+    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
+  - name: '3'
+    type: 10gbase-x-sfpp
+    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
+  - name: '4'
+    type: 10gbase-x-sfpp
+    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
+  - name: '5'
+    type: 10gbase-x-sfpp
+    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
+  - name: '6'
+    type: 10gbase-x-sfpp
+    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
+  - name: '7'
+    type: 10gbase-x-sfpp
+    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
+  - name: '8'
+    type: 10gbase-x-sfpp
+    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
+  - name: WCLK IN
+    type: other
+  - name: WCLK THRU
+    type: other
+  - name: WCLK OUT
+    type: other

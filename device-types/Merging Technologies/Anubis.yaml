@@ -1,7 +1,7 @@
 ---
-manufacturer: Merging
-model: Anubis SPS
-slug: merging-anubis-sps
+manufacturer: Merging Technologies
+model: Anubis
+slug: merging-technologies-anubis
 airflow: right-to-left
 weight: 0.95
 weight_unit: kg
@@ -15,18 +15,12 @@ power-ports:
     maximum_draw: 18
     allocated_draw: 15
 interfaces:
-  - name: 1 PoE
-    comment: Ravenna / AES67 (MGMT) DEF switched, ALT ST 2022-7
+  - name: Ravenna / AES67 (MGMT)
     type: 1000base-t
-    description: RJ45
+    description: Neutrik EtherCON
     mgmt_only: false
     poe_mode: pd
     poe_type: type2-ieee802.3at
-  - name: '2'
-    comment: Ravenna / AES67 (MGMT) DEF switched, ALT ST 2022-7
-    type: 1000base-t
-    description: RJ45
-    mgmt_only: false
   - name: GPIO/MIDI IN/OUT
     type: other
     description: 6.35mm TRS Female

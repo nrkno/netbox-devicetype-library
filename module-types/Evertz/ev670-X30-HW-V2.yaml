@@ -1,0 +1,23 @@
+---
+manufacturer: Evertz
+model: ev670-X30-HW-V2
+description: Virtualized Media Processing Platform
+interfaces:
+  - name: '{module}.CTRL 2A'
+    type: 1000base-t
+    mgmt_only: true
+  - name: '{module}.CTRL 2B'
+    type: 1000base-t
+    mgmt_only: true
+  - name: '{module} 1A'
+    type: 100gbase-x-qsfp28
+  - name: '{module} 1B'
+    type: 100gbase-x-qsfp28
+  - name: '{module} 2A'
+    type: 100gbase-x-qsfp28
+  - name: '{module} 2B'
+    type: 100gbase-x-qsfp28
+  - name: '{module} 3A'
+    type: 100gbase-x-qsfp28
+  - name: '{module} 3B'
+    type: 100gbase-x-qsfp28

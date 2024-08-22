@@ -1,0 +1,12 @@
+---
+manufacturer: Evertz
+model: plus-6PS
+comments: PSU for ev6-FR
+power-ports:
+  - name: MAIN POWER SUPPLY
+    type: iec-60320-c14
+interfaces:
+  - name: '{module}.PS 1A'
+    type: 1000base-t
+  - name: '{module}.PS 1B'
+    type: 1000base-t

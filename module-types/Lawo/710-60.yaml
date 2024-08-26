@@ -1,0 +1,9 @@
+---
+manufacturer: Lawo
+model: MADI SRC I/O
+part_number: 710/60
+description: Power Core/AIOX expansion card. Max 8 cards per frame.
+interfaces:
+  - name: MADI slot {module}
+    type: other
+    description: SFP MADI 64 I/O

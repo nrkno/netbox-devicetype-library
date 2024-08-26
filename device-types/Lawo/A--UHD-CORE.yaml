@@ -15,12 +15,12 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 220
     allocated_draw: 220
-    note: inrush 33Ap
+    description: inrush 33Ap
   - name: PSU 2
     type: iec-60320-c14
     maximum_draw: 220
     allocated_draw: 220
-    note: inrush 33Ap
+    description: inrush 33Ap
 console-ports:
   - name: DONGLE
     type: usb-a
@@ -49,28 +49,28 @@ interfaces:
     mgmt_only: true
   - name: '1'
     type: 10gbase-x-sfpp
-    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
   - name: '2'
     type: 10gbase-x-sfpp
-    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
   - name: '3'
     type: 10gbase-x-sfpp
-    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
   - name: '4'
     type: 10gbase-x-sfpp
-    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
   - name: '5'
     type: 10gbase-x-sfpp
-    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
   - name: '6'
     type: 10gbase-x-sfpp
-    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
   - name: '7'
     type: 10gbase-x-sfpp
-    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
   - name: '8'
     type: 10gbase-x-sfpp
-    note: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
   - name: WCLK IN
     type: other
   - name: WCLK THRU

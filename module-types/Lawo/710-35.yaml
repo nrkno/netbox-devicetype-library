@@ -1,0 +1,9 @@
+---
+manufacturer: Lawo
+model: STUDIO I/O
+part_number: 710/35
+description: Power Core/AIOX expansion card. Max 8 cards per frame.
+interfaces:
+  - name: MIC / LINE IO and HP out slot {module}
+    type: other
+    description: 25 pin D-sub female analog I/O (not AES59). 2 x mic/line in, 1 x stereo line out, 2 x stereo headphone out.

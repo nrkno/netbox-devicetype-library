@@ -1,0 +1,9 @@
+---
+manufacturer: Lawo
+model: GPIO
+part_number: 710/80
+description: Power Core/AIOX expansion card. Max 2 cards per frame only slots 7 and 8.
+interfaces:
+  - name: GPIO slot {module}
+    type: other
+    description: 37 pin D-sub female

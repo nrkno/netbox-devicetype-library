@@ -23,4 +23,4 @@ interfaces:
     type: 1000base-t
 power-ports:
   - name: Power 1
-    type: ec-60320-c14
+    type: iec-60320-c14

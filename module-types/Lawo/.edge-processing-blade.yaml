@@ -1,6 +1,6 @@
 ---
 manufacturer: Lawo
-model: egde Processing Blade
+model: .edge-processing-blade
 description: FPGA-based processing board quipped with four 25Gbps SFP28 and two 100Gbps QSFP28 ports,  25GbE connectivity  100GbE as option
 interfaces:
   - name: Slot {module}.SFP1

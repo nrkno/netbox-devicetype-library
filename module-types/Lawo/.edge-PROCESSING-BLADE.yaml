@@ -27,4 +27,3 @@ interfaces:
   - name: Slot {module}.MGMT2
     label: MGMT 2
     type: other
-

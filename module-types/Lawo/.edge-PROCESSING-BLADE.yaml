@@ -1,0 +1,30 @@
+---
+manufacturer: Lawo
+model: .egde PROCESSINGBLADE
+description: FPGA-based processing board quipped with four 25Gbps SFP28 and two 100Gbps QSFP28 ports,  25GbE connectivity  100GbE as option
+interfaces:
+  - name: Slot {module}.SFP1
+    label: SFP 1
+    type: 25gbase-x-sfp28
+  - name: Slot {module}.SFP2
+    label: SFP 2
+    type: 25gbase-x-sfp28
+  - name: Slot {module}.QSFP1
+    label: QSFP 1
+    type: 100gbase-x-qsfp28
+  - name: Slot {module}.QSFP2
+    label: QSFP 2
+    type: 100gbase-x-qsfp28
+  - name: Slot {module}.SFP3
+    label: SFP 3
+    type: 25gbase-x-sfp28
+  - name: Slot {module}.SFP4
+    label: SFP 4
+    type: 25gbase-x-sfp28
+  - name: Slot {module}.MGMT1
+    label: MGMT 1
+    type: other
+  - name: Slot {module}.MGMT2
+    label: MGMT 2
+    type: other
+

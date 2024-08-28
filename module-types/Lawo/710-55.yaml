@@ -1,0 +1,12 @@
+---
+manufacturer: Lawo
+model: DANTE I/O
+part_number: 710/55
+description: Power Core/AIOX expansion card. Max 8 cards per frame.
+interfaces:
+  - name: PRMARY slot {module}
+    type: 1000base-t
+    description: DANTE Brooklyn II 64 I/O with SRC IN/OUT
+  - name: SECONDARY slot {module}
+    type: 1000base-t
+    description: DANTE Brooklyn II 64 I/O with SRC IN/OUT

@@ -1,0 +1,102 @@
+---
+manufacturer: Lawo
+model: Power Core Rev3
+part_number: 721/13
+slug: lawo-power-core-rev3
+description: Software-defined audio DSP mixing engine and modular I/O device
+u_height: 1
+is_full_depth: true
+airflow: right-to-left
+weight: 4.5
+weight_unit: kg
+front_image: true
+rear_image: true
+power-ports:
+  - name: AC PSU
+    type: iec-60320-c14
+    maximum_draw: 90
+    allocated_draw: 90
+    description: inrush 70Ap
+  - name: DC PSU
+    type: dc-terminal
+    maximum_draw: 90
+    allocated_draw: 90
+    description: inrush 70Ap
+console-ports:
+  - name: DONGLE
+    type: usb-a
+    description: USB for WIBU license stick under metal cover
+  - name: SD CARD
+    type: other
+    description: Data backup/exchange, only SD HC-cards specified by Lawo may be used. Under metal cover.
+  - name: CONTROL CAN
+    type: rj-45
+    description: Local CAN bus devices such as a ruby control surface or KSC/GPIO panel.
+  - name: CONTROL RS 422
+    type: rj-45
+    description: Remote control and Mackie HUI interface to DAW (no debugging on rev 3)
+  - name: CONTROL USB
+    type: usb-b
+    description: Debugging and/or downloading log files (rev 3)
+interfaces:
+  - name: CONTROL dwc0
+    type: 1000base-t
+    mgmt_only: true
+  - name: CONTROL dwc1
+    type: 1000base-t
+    mgmt_only: true
+  - name: RAVENNA / AES67 ra0
+    type: 1000base-x-sfp
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber, PTPv2 input
+  - name: RAVENNA / AES67 ra1
+    type: 1000base-x-sfp
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
+  - name: RAVENNA / AES67 ra2
+    type: 1000base-x-sfp
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
+    note: RAV+ add-on license
+  - name: RAVENNA / AES67 ra3
+    type: 1000base-x-sfp
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
+    note: RAV+ add-on license
+  - name: MADI / AIOX 1
+    type: 1000base-x-sfp
+    description: MADI AES10 / Audio I/O Extenders (AIOX)
+  - name: MADI / AIOX 2
+    type: 1000base-x-sfp
+    description: MADI AES10 (redundant) / Audio I/O Extenders (AIOX)
+  - name: MADI / AIOX 3
+    type: 1000base-x-sfp
+    description: MADI AES10 / Audio I/O Extenders (AIOX)
+  - name: MADI / AIOX 4
+    type: 1000base-x-sfp
+    description: MADI AES10 (redundant) / Audio I/O Extenders (AIOX)
+  - name: WCLK IN
+    type: other
+  - name: WCLK OUT
+    type: other
+module-bays:
+  - name: '1'
+    position: '1'
+    description: Bottom row far left
+  - name: '2'
+    position: '2'
+    description: Top row far left
+  - name: '3'
+    position: '3'
+    description: Bottom row second from left
+  - name: '4'
+    position: '4'
+    description: Top row second from left
+  - name: '5'
+    position: '5'
+    description: Bottom row third from left
+  - name: '6'
+    position: '6'
+    description: Top row third from left
+  - name: '7'
+    position: '7'
+    description: Bottom row far right
+  - name: '8'
+    position: '8'
+    description: Top row far right

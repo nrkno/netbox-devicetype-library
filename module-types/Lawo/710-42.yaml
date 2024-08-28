@@ -1,0 +1,30 @@
+---
+manufacturer: Lawo
+model: AES3id I/O
+part_number: 710/42
+description: Power Core/AIOX expansion card. Max 8 cards per frame.
+interfaces:
+  - name: AES3id input slot {module}.1
+    type: other
+    description: HD-BNC. Stereo AES3id input with SRC
+  - name: AES3id input slot {module}.2
+    type: other
+    description: HD-BNC. Stereo AES3id input with SRC
+  - name: AES3id input slot {module}.3
+    type: other
+    description: HD-BNC. Stereo AES3id input with SRC
+  - name: AES3id input slot {module}.4
+    type: other
+    description: HD-BNC. Stereo AES3id input with SRC
+  - name: AES3id output slot {module}.1
+    type: other
+    description: HD-BNC. Stereo AES3id output, bit-transparent.
+  - name: AES3id output slot {module}.2
+    type: other
+    description: HD-BNC. Stereo AES3id output, bit-transparent.
+  - name: AES3id output slot {module}.3
+    type: other
+    description: HD-BNC. Stereo AES3id output, bit-transparent.
+  - name: AES3id output slot {module}.4
+    type: other
+    description: HD-BNC. Stereo AES3id output, bit-transparent.

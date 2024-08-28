@@ -1,0 +1,9 @@
+---
+manufacturer: Lawo
+model: AES3 I/O
+part_number: 710/41
+description: Power Core/AIOX expansion card. Max 8 cards per frame.
+interfaces:
+  - name: AES3 I/O slot {module}
+    type: other
+    description: 25 pin D-sub female AES59. 4 x stereo AES3 inputs with SRC, 4 x stereo AES3 outputs. Bit-transparent.

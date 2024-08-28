@@ -1,6 +1,6 @@
 ---
 manufacturer: Lawo
-model: Power Core Rev 3
+model: Power Core Rev3
 part_number: 721/13
 slug: lawo-power-core-rev3
 description: Software-defined audio DSP mixing engine and modular I/O device
@@ -58,16 +58,16 @@ interfaces:
   - name: RAVENNA / AES67 ra3
     type: 1000base-x-sfp
     description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
-    note: RAV+ add-on license  
+    note: RAV+ add-on license
   - name: MADI / AIOX 1
     type: 1000base-x-sfp
-    description: MADI AES10 / Audio I/O Extenders (AIOX) 
+    description: MADI AES10 / Audio I/O Extenders (AIOX)
   - name: MADI / AIOX 2
     type: 1000base-x-sfp
-    description: MADI AES10 (redundant) / Audio I/O Extenders (AIOX) 
+    description: MADI AES10 (redundant) / Audio I/O Extenders (AIOX)
   - name: MADI / AIOX 3
     type: 1000base-x-sfp
-    description: MADI AES10 / Audio I/O Extenders (AIOX) 
+    description: MADI AES10 / Audio I/O Extenders (AIOX)
   - name: MADI / AIOX 4
     type: 1000base-x-sfp
     description: MADI AES10 (redundant) / Audio I/O Extenders (AIOX)

@@ -17,16 +17,16 @@ interfaces:
     type: 1000base-t
   - name: Slot {module}.SFP1
     label: SFP 1
-    type: 1000base-x-sfp
+    type: 10gbase-x-sfpp
   - name: Slot {module}.SFP2
     label: SFP 2
-    type: 1000base-x-sfp
+    type: 10gbase-x-sfpp
   - name: Slot {module}.SFP3
     label: SFP3
-    type: 1000base-x-sfp
+    type: 10gbase-x-sfpp
   - name: Slot {module}.SFP4
     label: SFP4
-    type: 1000base-x-sfp
+    type: 10gbase-x-sfpp
   - name: Slot {module}.QSFP1
     label: QSFP 1
     type: 100gbase-x-qsfp28

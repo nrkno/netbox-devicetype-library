@@ -1,8 +1,7 @@
 ---
 manufacturer: Imagine
-model: SNP-XL
-slug: imagine-snp-xl
-comments: Multiviewer
+model: Selenio Network Processor XL
+slug: imagine-selenio-network-processor-xl
 u_height: 2.0
 airflow: front-to-rear
 is_full_depth: true

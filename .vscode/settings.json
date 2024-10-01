@@ -1,0 +1,6 @@
+{
+	"yaml.schemas": {
+		"./schema/devicetype.json": "device-types/**/*.yaml",
+		"./schema/moduletype.json": "moduletypes-types/**/*.yaml",
+	},
+}

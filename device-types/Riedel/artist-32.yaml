@@ -1,27 +1,51 @@
----
 manufacturer: Riedel
 model: Artist 32
 slug: riedel-artist-32
+description: ''
+default_platform: null
+part_number: ''
 u_height: 2.0
 is_full_depth: false
+subdevice_role: ''
 airflow: left-to-right
-front_image: true
-rear_image: true
-module-bays:
-  - name: '1'
-    position: '1'
-  - name: '2'
-    position: '2'
-  - name: '3'
-    position: '3'
-  - name: '4'
-    position: '4'
-  - name: A
-    position: A
-  - name: B
-    position: B
+weight: null
+weight_unit: ''
+comments: ''
 power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  - name: PSU 2
-    type: iec-60320-c14
+- name: PSU 1
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+- name: PSU 2
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+module-bays:
+- name: Bay 1
+  label: ''
+  position: '1'
+  description: ''
+- name: Bay 2
+  label: ''
+  position: '2'
+  description: ''
+- name: Bay 3
+  label: ''
+  position: '3'
+  description: ''
+- name: Bay 4
+  label: ''
+  position: '4'
+  description: ''
+- name: Bay A
+  label: ''
+  position: A
+  description: ''
+- name: Bay B
+  label: ''
+  position: B
+  description: ''

@@ -1,51 +1,99 @@
----
 manufacturer: Riedel
 model: Artist 128
 slug: riedel-artist-128
+description: ''
+default_platform: null
+part_number: ''
 u_height: 6.0
 is_full_depth: false
+subdevice_role: ''
 airflow: front-to-rear
-front_image: true
-rear_image: true
-module-bays:
-  - name: '1'
-    position: '1'
-  - name: '2'
-    position: '2'
-  - name: '3'
-    position: '3'
-  - name: '4'
-    position: '4'
-  - name: '5'
-    position: '5'
-  - name: '6'
-    position: '6'
-  - name: '7'
-    position: '7'
-  - name: '8'
-    position: '8'
-  - name: '9'
-    position: '9'
-  - name: '10'
-    position: '10'
-  - name: '11'
-    position: '11'
-  - name: '12'
-    position: '12'
-  - name: '13'
-    position: '13'
-  - name: '14'
-    position: '14'
-  - name: '15'
-    position: '15'
-  - name: '16'
-    position: '16'
-  - name: A
-    position: A
-  - name: B
-    position: B
+weight: null
+weight_unit: ''
+comments: ''
 power-ports:
-  - name: PSU 1
-    type: iec-60320-c14
-  - name: PSU 2
-    type: iec-60320-c14
+- name: PSU 1
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+- name: PSU 2
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+module-bays:
+- name: Bay 1
+  label: ''
+  position: '1'
+  description: ''
+- name: Bay 2
+  label: ''
+  position: '2'
+  description: ''
+- name: Bay 3
+  label: ''
+  position: '3'
+  description: ''
+- name: Bay 4
+  label: ''
+  position: '4'
+  description: ''
+- name: Bay 5
+  label: ''
+  position: '5'
+  description: ''
+- name: Bay 6
+  label: ''
+  position: '6'
+  description: ''
+- name: Bay 7
+  label: ''
+  position: '7'
+  description: ''
+- name: Bay 8
+  label: ''
+  position: '8'
+  description: ''
+- name: Bay 9
+  label: ''
+  position: '9'
+  description: ''
+- name: Bay 10
+  label: ''
+  position: '10'
+  description: ''
+- name: Bay 11
+  label: ''
+  position: '11'
+  description: ''
+- name: Bay 12
+  label: ''
+  position: '12'
+  description: ''
+- name: Bay 13
+  label: ''
+  position: '13'
+  description: ''
+- name: Bay 14
+  label: ''
+  position: '14'
+  description: ''
+- name: Bay 15
+  label: ''
+  position: '15'
+  description: ''
+- name: Bay 16
+  label: ''
+  position: '16'
+  description: ''
+- name: Bay A
+  label: ''
+  position: A
+  description: ''
+- name: Bay B
+  label: ''
+  position: B
+  description: ''

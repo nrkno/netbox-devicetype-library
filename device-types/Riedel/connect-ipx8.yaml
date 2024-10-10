@@ -12,14 +12,14 @@ airflow: ''
 weight: null
 weight_unit: ''
 comments: ''
-power-ports:
+  power-ports:
   - name: PSU
     type: ''
     maximum_draw: null
     allocated_draw: null
     label: ''
     description: ''
-module-bays:
+  module-bays:
   - name: Optional 8x CAT5, 8x Coax or 8x AIO
     label: ''
     position: ''

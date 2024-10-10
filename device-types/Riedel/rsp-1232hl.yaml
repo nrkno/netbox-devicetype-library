@@ -1,3 +1,4 @@
+---
 manufacturer: Riedel
 model: RSP-1232HL
 slug: rsp-1232hl
@@ -12,181 +13,181 @@ weight: 3.4
 weight_unit: kg
 comments: ''
 power-ports:
-- name: Power input
-  type: iec-60320-c14
-  maximum_draw: 20
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: Power input
+    type: iec-60320-c14
+    maximum_draw: 20
+    allocated_draw: null
+    label: ''
+    description: ''
 interfaces:
-- name: AUDIO A
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45 Analog 4-Wire Input/Output Connectors
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: AUDIO B
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45 Analog 4-Wire Input/Output Connectors
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: DP
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: DisplayPort
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: ETH 1
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: AES67
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: ETH 2
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: AES67
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: ETH 3
-  type: 1000base-x-sfp
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: AES67
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: ETH 4
-  type: 1000base-x-sfp
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: AES67
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: EXP
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: Expansion
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: GPI-IN
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: "Sub-D9 (female) 3\xD7 GPI input, Uin = +5 V ... +48 V"
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: GPI-OUT
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: "Sub-D9 (male) 3\xD7 GPI output, Umax 48 V / 300 mA, protected by self-healing\
-    \ fuse"
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: Headset A
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45 Headset Connectors
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: Headset B
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45 Headset Connectors
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: MATRIX 1
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: Artist Matrix Connectors (AES3)
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: MATRIX  2
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: Artist Matrix Connectors (AES3) (BNC)
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: MGNT
-  type: other
-  enabled: true
-  mgmt_only: true
-  label: ''
-  description: Management
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: USB-A
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: Front USB Connector
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: USB-C
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: Rear USB Connector
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
+  - name: AUDIO A
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45 Analog 4-Wire Input/Output Connectors
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: AUDIO B
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45 Analog 4-Wire Input/Output Connectors
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: DP
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: DisplayPort
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: ETH 1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: AES67
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: ETH 2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: AES67
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: ETH 3
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: AES67
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: ETH 4
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: AES67
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: EXP
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: Expansion
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: GPI-IN
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: "Sub-D9 (female) 3\xD7 GPI input, Uin = +5 V ... +48 V"
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: GPI-OUT
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: "Sub-D9 (male) 3\xD7 GPI output, Umax 48 V / 300 mA, protected by self-healing\
+      \ fuse"
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: Headset A
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45 Headset Connectors
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: Headset B
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45 Headset Connectors
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: MATRIX 1
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: Artist Matrix Connectors (AES3)
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: MATRIX  2
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: Artist Matrix Connectors (AES3) (BNC)
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: MGNT
+    type: other
+    enabled: true
+    mgmt_only: true
+    label: ''
+    description: Management
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: USB-A
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: Front USB Connector
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: USB-C
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: Rear USB Connector
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''

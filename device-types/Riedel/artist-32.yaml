@@ -1,3 +1,4 @@
+---
 manufacturer: Riedel
 model: Artist 32
 slug: riedel-artist-32
@@ -12,40 +13,40 @@ weight: null
 weight_unit: ''
 comments: ''
 power-ports:
-- name: PSU 1
-  type: iec-60320-c14
-  maximum_draw: null
-  allocated_draw: null
-  label: ''
-  description: ''
-- name: PSU 2
-  type: iec-60320-c14
-  maximum_draw: null
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: null
+    allocated_draw: null
+    label: ''
+    description: ''
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: null
+    allocated_draw: null
+    label: ''
+    description: ''
 module-bays:
-- name: Bay 1
-  label: ''
-  position: '1'
-  description: ''
-- name: Bay 2
-  label: ''
-  position: '2'
-  description: ''
-- name: Bay 3
-  label: ''
-  position: '3'
-  description: ''
-- name: Bay 4
-  label: ''
-  position: '4'
-  description: ''
-- name: Bay A
-  label: ''
-  position: A
-  description: ''
-- name: Bay B
-  label: ''
-  position: B
-  description: ''
+  - name: Bay 1
+    label: ''
+    position: '1'
+    description: ''
+  - name: Bay 2
+    label: ''
+    position: '2'
+    description: ''
+  - name: Bay 3
+    label: ''
+    position: '3'
+    description: ''
+  - name: Bay 4
+    label: ''
+    position: '4'
+    description: ''
+  - name: Bay A
+    label: ''
+    position: A
+    description: ''
+  - name: Bay B
+    label: ''
+    position: B
+    description: ''

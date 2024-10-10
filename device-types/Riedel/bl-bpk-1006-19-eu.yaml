@@ -1,3 +1,4 @@
+---
 manufacturer: Riedel
 model: BL-BPK-1006-19-EU
 slug: bl-bpk-1006-19-eu
@@ -12,13 +13,13 @@ weight: null
 weight_unit: ''
 comments: ''
 interfaces:
-- name: dect0
-  type: other-wireless
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ap
+  - name: dect0
+    type: other-wireless
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ap

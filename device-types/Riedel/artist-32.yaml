@@ -12,7 +12,7 @@ airflow: left-to-right
 weight: null
 weight_unit: ''
 comments: ''
-  power-ports:
+power-ports:
   - name: PSU 1
     type: iec-60320-c14
     maximum_draw: null
@@ -25,7 +25,7 @@ comments: ''
     allocated_draw: null
     label: ''
     description: ''
-  module-bays:
+module-bays:
   - name: Bay 1
     label: ''
     position: '1'

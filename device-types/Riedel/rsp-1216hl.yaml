@@ -1,3 +1,4 @@
+---
 manufacturer: Riedel
 model: RSP-1216HL
 slug: rsp-1216hl
@@ -12,181 +13,181 @@ weight: 2.3
 weight_unit: kg
 comments: ''
 power-ports:
-- name: Power input
-  type: iec-60320-c14
-  maximum_draw: 15
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: Power input
+    type: iec-60320-c14
+    maximum_draw: 15
+    allocated_draw: null
+    label: ''
+    description: ''
 interfaces:
-- name: Audio A
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45 Analog audio 4-wire inputs and outputs
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: Audio B
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45 Analog audio 4-wire inputs and outputs
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: DP
-  type: other
-  enabled: false
-  mgmt_only: false
-  label: ''
-  description: DisplayPort (future use)
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: ETH1
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: AES67
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: ETH2
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: AES67
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: ETH3
-  type: 1000base-x-sfp
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: AES67
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: ETH4
-  type: 1000base-x-sfp
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: AES67
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: EXP
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45 Expansion port for expansion panels
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: GPI-IN
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: "Sub-D9 (female) 3\xD7 GPI input, Uin = +5 V ... +48 V"
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: GPI-OUT
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: "Sub-D9 (male) 3\xD7 GPI output, Umax 48 V / 300 mA, protected by self-healing\
-    \ fuse"
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: HEADSET A
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: "RJ45  Headset (\u201CHeadset A\u201D is identical to front)"
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: HEADSET B
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: "RJ45  Headset (\u201CHeadset A\u201D is identical to front)"
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: MATRIX1
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45 Artist Matrix connector (AES3)
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: MATRIX2
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: Artist Matrix connector (AES3) (BNC)
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: MGMT
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45 Management port for panel configuration (future use)
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: USB - A
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: USB 2.0 (standard Type-A, max. 500 mA)
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: USB - C
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: USB 2.0 (standard Type-C, max. 500 mA)
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
+  - name: Audio A
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45 Analog audio 4-wire inputs and outputs
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: Audio B
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45 Analog audio 4-wire inputs and outputs
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: DP
+    type: other
+    enabled: false
+    mgmt_only: false
+    label: ''
+    description: DisplayPort (future use)
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: ETH1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: AES67
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: ETH2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: AES67
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: ETH3
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: AES67
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: ETH4
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: AES67
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: EXP
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45 Expansion port for expansion panels
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: GPI-IN
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: "Sub-D9 (female) 3\xD7 GPI input, Uin = +5 V ... +48 V"
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: GPI-OUT
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: "Sub-D9 (male) 3\xD7 GPI output, Umax 48 V / 300 mA, protected by self-healing\
+      \ fuse"
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: HEADSET A
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: "RJ45  Headset (\u201CHeadset A\u201D is identical to front)"
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: HEADSET B
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: "RJ45  Headset (\u201CHeadset A\u201D is identical to front)"
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: MATRIX1
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45 Artist Matrix connector (AES3)
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: MATRIX2
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: Artist Matrix connector (AES3) (BNC)
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: MGMT
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45 Management port for panel configuration (future use)
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: USB - A
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: USB 2.0 (standard Type-A, max. 500 mA)
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: USB - C
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: USB 2.0 (standard Type-C, max. 500 mA)
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''

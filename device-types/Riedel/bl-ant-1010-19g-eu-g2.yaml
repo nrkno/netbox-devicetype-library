@@ -1,3 +1,4 @@
+---
 manufacturer: Riedel
 model: BL-ANT-1010-19G-EU G2
 slug: bl-ant-1010-19g-eu-g2
@@ -12,60 +13,60 @@ weight: 1320.0
 weight_unit: g
 comments: ''
 power-ports:
-- name: 10 to 57 VDC, 3 A
-  type: other
-  maximum_draw: 15
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: 10 to 57 VDC, 3 A
+    type: other
+    maximum_draw: 15
+    allocated_draw: null
+    label: ''
+    description: ''
 interfaces:
-- name: AES67 / CONFIG
-  type: 1000base-t
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: AES67 og Config port
-  bridge: null
-  poe_mode: pd
-  poe_type: type2-ieee802.3at
-  rf_role: ''
-- name: dect0
-  type: other-wireless
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: station
-- name: LINK 1
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: LINK 2
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: USB-C
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
+  - name: AES67 / CONFIG
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: AES67 og Config port
+    bridge: null
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    rf_role: ''
+  - name: dect0
+    type: other-wireless
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: station
+  - name: LINK 1
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: LINK 2
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: USB-C
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''

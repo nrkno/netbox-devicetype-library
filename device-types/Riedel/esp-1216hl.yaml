@@ -1,3 +1,4 @@
+---
 manufacturer: Riedel
 model: ESP-1216HL
 slug: esp-1216hl
@@ -12,32 +13,30 @@ weight: 2.1
 weight_unit: kg
 comments: ''
 power-ports:
-- name: Mains Power Connector
-  type: iec-60320-c14
-  maximum_draw: 15
-  allocated_draw: null
-  label: ''
-  description: ''
+  - name: Mains Power Connector
+    type: iec-60320-c14
+    maximum_draw: 15
+    allocated_draw: null
+    label: ''
+    description: ''
 interfaces:
-- name: EXP IO 1
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45  Expansion I/O ports for expansion panels (up to 6 ESP-1216HL
-    can be cascaded with one RSP-1216HL / RSP-1232HL)
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: EXP IO 2
-  type: other
-  enabled: true
-  mgmt_only: false
-  label: ''
-  description: RJ45  Expansion I/O ports for expansion panels (up to 6 ESP-1216HL
-    can be cascaded with one RSP-1216HL / RSP-1232HL)
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
+  - name: EXP IO 1
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45  Expansion I/O ports for expansion panels (up to 6 ESP-1216HL can be cascaded with one RSP-1216HL / RSP-1232HL)
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: EXP IO 2
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: ''
+    description: RJ45  Expansion I/O ports for expansion panels (up to 6 ESP-1216HL can be cascaded with one RSP-1216HL / RSP-1232HL)
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''

@@ -1,3 +1,4 @@
+---
 manufacturer: Riedel
 model: Connect IPx2
 slug: riedel-connect-ipx2
@@ -12,30 +13,30 @@ weight: null
 weight_unit: ''
 comments: ''
 power-ports:
-- name: PSU
-  type: ''
-  maximum_draw: null
-  allocated_draw: null
-  label: '3'
-  description: ''
+  - name: PSU
+    type: ''
+    maximum_draw: null
+    allocated_draw: null
+    label: '3'
+    description: ''
 interfaces:
-- name: 1 CAT5 or AIO
-  type: 100base-tx
-  enabled: true
-  mgmt_only: false
-  label: '1'
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
-- name: 2 CAT5 or AIO
-  type: 100base-tx
-  enabled: true
-  mgmt_only: false
-  label: '2'
-  description: ''
-  bridge: null
-  poe_mode: ''
-  poe_type: ''
-  rf_role: ''
+  - name: 1 CAT5 or AIO
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: '1'
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''
+  - name: 2 CAT5 or AIO
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: '2'
+    description: ''
+    bridge: null
+    poe_mode: ''
+    poe_type: ''
+    rf_role: ''

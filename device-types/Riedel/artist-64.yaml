@@ -2,67 +2,38 @@
 manufacturer: Riedel
 model: Artist 64
 slug: riedel-artist-64
-description: ''
-default_platform: null
-part_number: ''
 u_height: 3.0
 is_full_depth: false
-subdevice_role: ''
 airflow: front-to-rear
-weight: null
-weight_unit: ''
-comments: ''
+weight: 5.6
+weight_unit: kg
 power-ports:
   - name: PSU 1
     type: iec-60320-c14
-    maximum_draw: null
-    allocated_draw: null
-    label: ''
-    description: ''
+    maximum_draw: 250
+    allocated_draw: 250
   - name: PSU 2
     type: iec-60320-c14
-    maximum_draw: null
-    allocated_draw: null
-    label: ''
-    description: ''
+    maximum_draw: 250
+    allocated_draw: 250
 module-bays:
   - name: Bay 1
-    label: ''
     position: '1'
-    description: ''
   - name: Bay 2
-    label: ''
     position: '2'
-    description: ''
   - name: Bay 3
-    label: ''
     position: '3'
-    description: ''
   - name: Bay 4
-    label: ''
     position: '4'
-    description: ''
   - name: Bay 5
-    label: ''
     position: '5'
-    description: ''
   - name: Bay 6
-    label: ''
     position: '6'
-    description: ''
   - name: Bay 7
-    label: ''
     position: '7'
-    description: ''
   - name: Bay 8
-    label: ''
     position: '8'
-    description: ''
   - name: Bay A
-    label: ''
     position: A
-    description: ''
   - name: Bay B
-    label: ''
     position: B
-    description: ''

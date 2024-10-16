@@ -1,0 +1,99 @@
+---
+manufacturer: Riedel
+model: RSP-1216HL
+slug: riedel-rsp-1216hl
+description: Kommunikasjonspanel 16 knapper
+u_height: 1.0
+is_full_depth: false
+weight: 2.3
+weight_unit: kg
+power-ports:
+  - name: Power input
+    type: iec-60320-c14
+    maximum_draw: 15
+interfaces:
+  - name: Audio A
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: RJ45 Analog audio 4-wire inputs and outputs
+  - name: Audio B
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: RJ45 Analog audio 4-wire inputs and outputs
+  - name: DP
+    type: other
+    enabled: false
+    mgmt_only: false
+    description: DisplayPort (future use)
+  - name: ETH1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    description: AES67
+  - name: ETH2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    description: AES67
+  - name: ETH3
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+    description: AES67
+  - name: ETH4
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+    description: AES67
+  - name: EXP
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: RJ45 Expansion port for expansion panels
+  - name: GPI-IN
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Sub-D9 (female) 3× GPI input, Uin = +5 V ... +48 V
+  - name: GPI-OUT
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Sub-D9 (male) 3× GPI output, Umax 48 V / 300 mA, protected by self-healing fuse
+  - name: HEADSET A
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: RJ45  Headset (“Headset A” is identical to front)
+  - name: HEADSET B
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: RJ45  Headset (“Headset A” is identical to front)
+  - name: MATRIX1
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: RJ45 Artist Matrix connector (AES3)
+  - name: MATRIX2
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Artist Matrix connector (AES3) (BNC)
+  - name: MGMT
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: RJ45 Management port for panel configuration (future use)
+  - name: USB - A
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: USB 2.0 (standard Type-A, max. 500 mA)
+  - name: USB - C
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: USB 2.0 (standard Type-C, max. 500 mA)

@@ -1,0 +1,53 @@
+---
+manufacturer: Riedel
+model: CONNECT VoIP IPx16
+slug: riedel-connect-voip-ipx16
+description: 19\"/ 1RU telephone interface for the Artist-1024.
+u_height: 1.0
+is_full_depth: false
+airflow: passive
+weight: 3.4
+weight_unit: kg
+comments: "19\"/ 1RU telephone interface for the Artist-1024; 16x SIP/VoIP telephone connections (G.711, G.722) or maximum 10x SIP/VoIP\r\nconnections (Opus);\
+  \ automatic adaptation to multiple audio coding algorithms; Artist-1024 connection via ST2110 (AES67)."
+power-ports:
+  - name: Power
+    type: iec-60320-c14
+    maximum_draw: 30
+interfaces:
+  - name: CLOCK 1
+    type: other
+    enabled: false
+    mgmt_only: false
+    label: CLOCK 1
+    description: BNC - These interfaces are currently unused and no electrical\ \ connection should be made to them.
+  - name: CLOCK 2
+    type: other
+    enabled: false
+    mgmt_only: false
+    label: CLOCK 2
+    description: BNC - These interfaces are currently unused and no electrical\ \ connection should be made to them.
+  - name: LAN 1
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN 1
+  - name: LAN 2
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+    label: LAN 2
+  - name: TTL/RELAY Interface
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: TTL/RELAY
+    description: D-SUB 25 pin - Through this interface, external control\ \ signals can be used. It provides eight TTL inputs/outputs as well as\ \ eight
+      relay contacts.
+module-bays:
+  - name: Module slot 1
+    label: MODULE SLOT 1
+    description: Undocumented
+  - name: Module slot 2
+    label: MODULE SLOT 2
+    description: Undocumented

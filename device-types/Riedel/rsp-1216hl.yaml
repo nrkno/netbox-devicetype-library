@@ -12,88 +12,104 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 15
 interfaces:
-  - name: Audio A
+  - name: AUDIO A
+    label: AUDIO A
     type: other
     enabled: true
     mgmt_only: false
-    description: RJ45 Analog audio 4-wire inputs and outputs
-  - name: Audio B
+    description: RJ45 Analog 4-Wire Input/Output Connectors
+  - name: AUDIO B
+    label: AUDIO B
     type: other
     enabled: true
     mgmt_only: false
-    description: RJ45 Analog audio 4-wire inputs and outputs
+    description: RJ45 Analog 4-Wire Input/Output Connectors
   - name: DP
+    label: DP
     type: other
-    enabled: false
+    enabled: true
     mgmt_only: false
-    description: DisplayPort (future use)
-  - name: ETH1
+    description: DisplayPort
+  - name: ETH 1
+    label: ETH 1
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    description: AES67
-  - name: ETH2
+    description: AES67/Ethernet
+  - name: ETH 2
+    label: ETH 2
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    description: AES67
-  - name: ETH3
+    description: AES67/Ethernet
+  - name: ETH 3
+    label: ETH 3
     type: 1000base-x-sfp
     enabled: true
     mgmt_only: false
-    description: AES67
-  - name: ETH4
+    description: AES67/Ethernet
+  - name: ETH 4
+    label: ETH 4
     type: 1000base-x-sfp
     enabled: true
     mgmt_only: false
-    description: AES67
+    description: AES67/Ethernet
   - name: EXP
+    label: EXP
     type: other
     enabled: true
     mgmt_only: false
-    description: RJ45 Expansion port for expansion panels
+    description: RJ45 port for connecting expansion panel.
   - name: GPI-IN
+    label: GPI-IN
     type: other
     enabled: true
     mgmt_only: false
     description: Sub-D9 (female) 3× GPI input, Uin = +5 V ... +48 V
   - name: GPI-OUT
+    label: GPI-OUT
     type: other
     enabled: true
     mgmt_only: false
-    description: Sub-D9 (male) 3× GPI output, Umax 48 V / 300 mA, protected by self-healing fuse
-  - name: HEADSET A
+    description: Sub-D9 (male) 3× GPI output, Umax 48 V/300 mA, protected by self-healing fuse
+  - name: Headset A
+    label: HEADSET A
     type: other
     enabled: true
     mgmt_only: false
-    description: RJ45  Headset (“Headset A” is identical to front)
-  - name: HEADSET B
+    description: RJ45 Headset Connectors
+  - name: Headset B
+    label: HEADSET B
     type: other
     enabled: true
     mgmt_only: false
-    description: RJ45  Headset (“Headset A” is identical to front)
-  - name: MATRIX1
+    description: RJ45 Headset Connectors
+  - name: MATRIX 1
+    label: MATRIX 1
     type: other
     enabled: true
     mgmt_only: false
-    description: RJ45 Artist Matrix connector (AES3)
-  - name: MATRIX2
+    description: RJ45 Artist Matrix Connectors (AES3)
+  - name: MATRIX  2
+    label: MATRIX 2
     type: other
     enabled: true
     mgmt_only: false
-    description: Artist Matrix connector (AES3) (BNC)
-  - name: MGMT
+    description: BNC Artist Matrix Connectors (AES3)
+  - name: MGNT
+    label: MGNT
+    type: other
+    enabled: true
+    mgmt_only: true
+    description: Management port (future use)
+  - name: USB-A
     type: other
     enabled: true
     mgmt_only: false
-    description: RJ45 Management port for panel configuration (future use)
-  - name: USB - A
+    description: Front USB Connector
+  - name: USB-C
+    label: USB
     type: other
     enabled: true
     mgmt_only: false
-    description: USB 2.0 (standard Type-A, max. 500 mA)
-  - name: USB - C
-    type: other
-    enabled: true
-    mgmt_only: false
-    description: USB 2.0 (standard Type-C, max. 500 mA)
+    description: Rear USB Connector

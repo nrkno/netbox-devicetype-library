@@ -1,0 +1,25 @@
+---
+manufacturer: Riedel
+model: CPU 128 SFP
+interfaces:
+  - name: Bay {module} - Alarm
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: D-sub 9 pin
+  - name: Bay {module} - Downstream
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - Ethernet
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - HDLC
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - Upstream
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false

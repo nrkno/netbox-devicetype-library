@@ -1,0 +1,17 @@
+---
+manufacturer: Riedel
+model: Dante-108 G2
+interfaces:
+  - name: Bay {module} - 1 Ethernet
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 2 Ethernet
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - Wordclock Out
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC

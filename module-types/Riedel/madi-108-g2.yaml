@@ -1,0 +1,33 @@
+---
+manufacturer: Riedel
+model: MADI-108 G2
+description: MADI-kort til Artist 32/64/128
+interfaces:
+  - name: Bay {module} - 1 RX
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC
+  - name: Bay {module} - 1 SFP
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 1 TX
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC
+  - name: Bay {module} - 2 RX
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC
+  - name: Bay {module} - 2 SFP
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 2 TX
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC

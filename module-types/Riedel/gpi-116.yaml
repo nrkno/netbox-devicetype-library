@@ -1,0 +1,101 @@
+---
+manufacturer: Riedel
+model: GPI-116
+description: GPI-kort til Artist 32/64/128
+interfaces:
+  - name: Bay {module} - 1 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 1 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 2 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 2 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay  {module} - 3 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 3 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 4 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 4 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 5 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 5 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 6 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 6 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 7 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 7 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 8 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 8 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 9 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 9 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 10 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 10 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 11 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 11 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 12 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 12 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 13 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 13 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 14 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 14 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 15 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 15 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37
+  - name: Bay {module} - 16 Outputs and inputs
+    type: other
+    enabled: true
+    mgmt_only: false
+    label: 16 outputs (300 mA, 60V) and opto-isolated level inputs (5-48V)
+    description: SubD37

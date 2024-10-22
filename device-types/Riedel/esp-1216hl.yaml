@@ -13,13 +13,15 @@ power-ports:
     maximum_draw: 15
     allocated_draw: 15
 interfaces:
-  - name: EXP IO 1
+  - name: Expansion I/O 1
+    label: EXP I/O
     type: other
     enabled: true
     mgmt_only: false
-    description: RJ45  Expansion I/O ports for expansion panels (up to 6 ESP-1216HL can be cascaded with one RSP-1216HL / RSP-1232HL)
-  - name: EXP IO 2
+    description: RJ45, up to 6 ESP-1216HL can be cascaded with one RSP-12XXHL.
+  - name: Expansion I/O 2
+    label: EXP I/O
     type: other
     enabled: true
     mgmt_only: false
-    description: RJ45  Expansion I/O ports for expansion panels (up to 6 ESP-1216HL can be cascaded with one RSP-1216HL / RSP-1232HL)
+    description: RJ45, up to 6 ESP-1216HL can be cascaded with one RSP-12XXHL.

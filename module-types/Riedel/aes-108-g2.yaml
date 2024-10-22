@@ -1,0 +1,37 @@
+---
+manufacturer: Riedel
+model: AES-108 G2
+description: Riedelkort, AES-kort til Artist 32/64/128
+interfaces:
+  - name: Bay {module} - 1 AES3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 2 AES3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 3 AES3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 4 AES3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 5 AES3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 6 AES3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 7 AES3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 8 AES3
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false

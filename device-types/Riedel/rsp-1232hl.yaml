@@ -2,7 +2,7 @@
 manufacturer: Riedel
 model: RSP-1232HL
 slug: riedel-rsp-1232hl
-description: Kommunikasjon panel med 32 knapper og sterio
+description: Kommunikasjonspanel med 32 knapper og stereo lytting
 u_height: 2.0
 is_full_depth: false
 weight: 3.4
@@ -13,86 +13,102 @@ power-ports:
     maximum_draw: 20
 interfaces:
   - name: AUDIO A
+    label: AUDIO A
     type: other
     enabled: true
     mgmt_only: false
     description: RJ45 Analog 4-Wire Input/Output Connectors
   - name: AUDIO B
+    label: AUDIO B
     type: other
     enabled: true
     mgmt_only: false
     description: RJ45 Analog 4-Wire Input/Output Connectors
   - name: DP
+    label: DP
     type: other
     enabled: true
     mgmt_only: false
     description: DisplayPort
   - name: ETH 1
+    label: ETH 1
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    description: AES67
+    description: AES67/Ethernet
   - name: ETH 2
+    label: ETH 2
     type: 1000base-t
     enabled: true
     mgmt_only: false
-    description: AES67
+    description: AES67/Ethernet
   - name: ETH 3
+    label: ETH 3
     type: 1000base-x-sfp
     enabled: true
     mgmt_only: false
-    description: AES67
+    description: AES67/Ethernet
   - name: ETH 4
+    label: ETH 4
     type: 1000base-x-sfp
     enabled: true
     mgmt_only: false
-    description: AES67
+    description: AES67/Ethernet
   - name: EXP
+    label: EXP
     type: other
     enabled: true
     mgmt_only: false
-    description: Expansion
+    description: RJ45 port for connecting expansion panel.
   - name: GPI-IN
+    label: GPI-IN
     type: other
     enabled: true
     mgmt_only: false
     description: Sub-D9 (female) 3× GPI input, Uin = +5 V ... +48 V
   - name: GPI-OUT
+    label: GPI-OUT
     type: other
     enabled: true
     mgmt_only: false
-    description: Sub-D9 (male) 3× GPI output, Umax 48 V / 300 mA, protected by self-healing fuse
+    description: Sub-D9 (male) 3× GPI output, Umax 48 V/300 mA, protected by\ \ self-healing fuse
   - name: Headset A
+    label: HEADSET A
     type: other
     enabled: true
     mgmt_only: false
     description: RJ45 Headset Connectors
   - name: Headset B
+    label: HEADSET B
     type: other
     enabled: true
     mgmt_only: false
     description: RJ45 Headset Connectors
   - name: MATRIX 1
+    label: MATRIX 1
     type: other
     enabled: true
     mgmt_only: false
-    description: Artist Matrix Connectors (AES3)
+    description: RJ45 Artist Matrix Connectors (AES3)
   - name: MATRIX  2
+    label: MATRIX 2
     type: other
     enabled: true
     mgmt_only: false
-    description: Artist Matrix Connectors (AES3) (BNC)
-  - name: MGNT
+    description: BNC Artist Matrix Connectors (AES3)
+  - name: Management
+    label: MGNT
     type: other
     enabled: true
     mgmt_only: true
-    description: Management
+    description: Management port (future use)
   - name: USB-A
     type: other
     enabled: true
     mgmt_only: false
     description: Front USB Connector
   - name: USB-C
+    label: USB
     type: other
     enabled: true
     mgmt_only: false

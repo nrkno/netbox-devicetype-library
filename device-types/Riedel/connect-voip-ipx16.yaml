@@ -8,8 +8,10 @@ is_full_depth: false
 airflow: passive
 weight: 3.4
 weight_unit: kg
-comments: "19\"/ 1RU telephone interface for the Artist-1024; 16x SIP/VoIP telephone connections (G.711, G.722) or maximum 10x SIP/VoIP\r\nconnections (Opus);\
-  \ automatic adaptation to multiple audio coding algorithms; Artist-1024 connection via ST2110 (AES67)."
+comments: 19"/ 1RU telephone interface for the Artist-1024; 16x SIP/VoIP telephone connections (G.711, G.722) or maximum 10x SIP/VoIP connections (Opus);
+  automatic adaptation to multiple audio coding algorithms; Artist-1024 connection via ST2110 (AES67).
+front_image: true
+rear_image: true
 power-ports:
   - name: Power
     type: iec-60320-c14
@@ -20,13 +22,13 @@ interfaces:
     enabled: false
     mgmt_only: false
     label: CLOCK 1
-    description: BNC - These interfaces are currently unused and no electrical\ \ connection should be made to them.
+    description: BNC - These interfaces are currently unused and no\ \ electrical connection should be made to them.
   - name: CLOCK 2
     type: other
     enabled: false
     mgmt_only: false
     label: CLOCK 2
-    description: BNC - These interfaces are currently unused and no electrical\ \ connection should be made to them.
+    description: BNC - These interfaces are currently unused and\ \ no electrical connection should be made to them.
   - name: LAN 1
     type: 100base-tx
     enabled: true

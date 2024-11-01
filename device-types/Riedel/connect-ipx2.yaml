@@ -4,6 +4,8 @@ model: Connect IPx2
 slug: riedel-connect-ipx2
 u_height: 0.0
 is_full_depth: false
+front_image: true
+rear_image: true
 power-ports:
   - name: PSU
     type: iec-60320-c14

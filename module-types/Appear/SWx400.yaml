@@ -1,0 +1,15 @@
+---
+manufacturer: Appear
+model: SWx400
+description: Switch-module for control, genlock, ST2110 and MPEG-TS traffic in/out
+interfaces:
+  - name: '{module}-Ref'
+    type: other
+  - name: '{module}-CTRL'
+    type: 1000base-t
+  - name: '{module}-D1'
+    type: 100gbase-x-qsfp28
+  - name: '{module}-D2'
+    type: 100gbase-x-qsfp28
+  - name: '{module}-D3'
+    type: 1000base-t

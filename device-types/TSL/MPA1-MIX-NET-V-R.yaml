@@ -1,0 +1,26 @@
+---
+manufacturer: TSL
+model: MPA1-MIX-NET-V-R
+slug: tsl-mpa1-mix-net-v-r
+u_height: 1.0
+is_full_depth: false
+weight: 1.4
+weight_unit: kg
+front_image: true
+rear_image: true
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+  - name: MADI Optical / Electrical
+    label: MADI Optical
+    type: other
+  - name: AoIP 1
+    label: AoIP 1
+    type: 1000base-t
+  - name: AoIP 2
+    label: AoIP 2
+    type: 1000base-t
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14

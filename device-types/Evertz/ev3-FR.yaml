@@ -1,0 +1,19 @@
+---
+manufacturer: Evertz
+model: ev3-FR
+slug: evertz-ev3-fr
+u_height: 3.0
+is_full_depth: true
+comments: ev3-FR is a 3U unit for multiframes processing, signal processing, multiviewing and other applications
+front_image: true
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'

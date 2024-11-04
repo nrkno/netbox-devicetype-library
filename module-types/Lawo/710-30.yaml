@@ -1,0 +1,9 @@
+---
+manufacturer: Lawo
+model: LINE OUT
+part_number: 710/30
+description: Power Core/AIOX expansion card. Max 8 cards per frame.
+interfaces:
+  - name: LINE OUT 1-8 slot {module}
+    type: other
+    description: 25 pin D-sub female AES59/Tascam analog.

@@ -1,0 +1,10 @@
+---
+manufacturer: Merging Technologies
+model: ADA8S
+interfaces:
+  - name: MIC / LINE IN 1-8
+    type: other
+    description: 25 pin D-sub female AES59 / Tascam analog
+  - name: LINE OUT 1-8
+    type: other
+    description: 25 pin D-sub female AES59 / Tascam analog

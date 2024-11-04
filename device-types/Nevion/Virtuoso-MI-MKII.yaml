@@ -16,7 +16,7 @@ interfaces:
     type: other
   - name: Sync loop out
     type: other
-module-bays:
+device-bays:
   - name: Accelerator slot 1
     position: '1'
   - name: Accelerator slot 2

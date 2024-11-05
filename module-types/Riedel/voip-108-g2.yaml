@@ -1,0 +1,9 @@
+---
+manufacturer: Riedel
+model: VOIP-108 G2
+description: Riedelkort, VoIP-kort til Artist 32/64/128
+interfaces:
+  - name: Bay {module} - Ethernet
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false

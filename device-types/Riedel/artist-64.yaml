@@ -5,31 +5,37 @@ slug: riedel-artist-64
 u_height: 3.0
 is_full_depth: false
 airflow: front-to-rear
+weight: 5.6
+weight_unit: kg
 front_image: true
 rear_image: true
-module-bays:
-  - name: '1'
-    position: '1'
-  - name: '2'
-    position: '2'
-  - name: '3'
-    position: '3'
-  - name: '4'
-    position: '4'
-  - name: '5'
-    position: '5'
-  - name: '6'
-    position: '6'
-  - name: '7'
-    position: '7'
-  - name: '8'
-    position: '8'
-  - name: A
-    position: A
-  - name: B
-    position: B
 power-ports:
   - name: PSU 1
     type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 250
   - name: PSU 2
     type: iec-60320-c14
+    maximum_draw: 250
+    allocated_draw: 250
+module-bays:
+  - name: Bay 1
+    position: '1'
+  - name: Bay 2
+    position: '2'
+  - name: Bay 3
+    position: '3'
+  - name: Bay 4
+    position: '4'
+  - name: Bay 5
+    position: '5'
+  - name: Bay 6
+    position: '6'
+  - name: Bay 7
+    position: '7'
+  - name: Bay 8
+    position: '8'
+  - name: Bay A
+    position: A
+  - name: Bay B
+    position: B

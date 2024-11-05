@@ -1,0 +1,24 @@
+---
+manufacturer: Riedel
+model: UIC-128
+description: Interface card for Artist 1024
+weight: 410
+weight_unit: g
+interfaces:
+  - name: Bay  {module} - Management
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    description: Interface to configure the Artist-1024 node or network.
+  - name: Bay {module} - Media 1
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: Bay  {module} - Media 2
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - USB Type-C
+    type: other
+    enabled: true
+    mgmt_only: false

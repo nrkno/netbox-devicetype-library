@@ -1,0 +1,37 @@
+---
+manufacturer: Riedel
+model: AIO-108 G2
+description: Riedelkort, Analogkort til Artist 32/64/128
+interfaces:
+  - name: Bay {module} - 1 Analog 4-wire on RJ45
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 2 Analog 4-wire on RJ45
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 3 Analog 4-wire on RJ45
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 4 Analog 4-wire on RJ45
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 5 Analog 4-wire on RJ45
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 6 Analog 4-wire on RJ45
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 7 Analog 4-wire on RJ45
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 8 Analog 4-wire on RJ45
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false

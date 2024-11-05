@@ -1,0 +1,15 @@
+---
+manufacturer: Riedel
+model: BL-BPK-1006-19-EU
+slug: riedel-bl-bpk-1006-19-eu
+description: Riedel Bolero handset
+u_height: 0.0
+is_full_depth: false
+power-ports:
+  - name: USB Charging
+    type: usb-c
+interfaces:
+  - name: dect0
+    type: other-wireless
+    enabled: true
+    mgmt_only: false

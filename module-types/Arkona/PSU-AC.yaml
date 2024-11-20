@@ -1,0 +1,9 @@
+---
+manufacturer: Arkona
+model: PSU_AC/DC_B1100W
+part_number: PSU_AC
+description: Single AC Power Supply for BLADE//runner frames, 100-240V, max 1100W.
+power-ports:
+  - name: '{module}-Power'
+    type: iec-60320-c14
+    maximum_draw: 1100

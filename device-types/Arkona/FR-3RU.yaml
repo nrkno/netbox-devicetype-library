@@ -5,17 +5,17 @@ part_number: FR-3RU
 slug: arkona-bladerunner-fr-3ru
 u_height: 3.0
 is_full_depth: true
+airflow: front-to-rear
 subdevice_role: parent
-comments: BLADE//runner is Arkonas product line of software applications and programmable acceleration cards which provide core infrastructure solutions
-  for Tier-1 live broadcast productions.
+comments: BLADE//runner is Arkonas product line of software applications and programmable acceleration cards which provide core infrastructure solutions for Tier-1 live broadcast productions.
 weight: 11
 weight_unit: kg
 interfaces:
-  - name: MGMT1
+  - name: MGMT 1
     type: 1000base-t
     mgmt_only: true
-  - name: MGMT2
-    type: 1000base-t
+  - name: MGMT 2
+    type: 1000base-x-sfp
     mgmt_only: true
 module-bays:
   - name: PSU Slot 1
@@ -24,17 +24,25 @@ module-bays:
     position: PSU 2
   - name: Slot 1
     position: '1'
+    label: 'TOP_LEFT'
   - name: Slot 2
     position: '2'
+    label: 'TOP_CENTER'
   - name: Slot 3
     position: '3'
+    label: 'TOP_RIGHT'
   - name: Slot 4
     position: '4'
+    label: 'MID_LEFT'
   - name: Slot 5
     position: '5'
+    label: 'MID_CENTER'
   - name: Slot 6
     position: '6'
+    label: 'MID_RIGHT'
   - name: Slot 7
     position: '7'
+    label: 'BOTTOM_LEFT'
   - name: Slot 8
     position: '8'
+    label: 'BOTTOM_RIGHT'

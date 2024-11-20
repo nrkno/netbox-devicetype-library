@@ -7,7 +7,7 @@ u_height: 1.0
 is_full_depth: true
 airflow: front-to-rear
 subdevice_role: parent
-comments: BLADE//runner is Arkonas product line of software applications and programmable acceleration cards which provide core infrastructure solutions for Tier-1 live broadcast productions.
+comments: Bladerunner is Arkonas product line of software applications and programmable acceleration cards which provide core infrastructure solutions for Tier-1 live broadcast productions.
 weight: 5.2
 weight_unit: kg
 interfaces:

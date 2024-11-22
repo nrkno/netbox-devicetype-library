@@ -2,7 +2,7 @@
 manufacturer: Wohler Technologies
 model: iVAM2-2
 slug: wohler-technologies-ivam2-2
-part_number: '8121-0200'
+part_number: 8121-0200
 comments: 3G-SDI and analog audio monitoring unit
 u_height: 2.0
 airflow: passive

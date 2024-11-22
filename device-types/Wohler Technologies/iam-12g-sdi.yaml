@@ -3,7 +3,7 @@ manufacturer: Wohler Technologies
 model: iAM-12G-SDI
 slug: wohler-technologies-iam-12g-sdi
 description: Flexible. Adaptable. Future Proof.  12G-SDI video and audio monitoring with Dolby Atmos, ST-2110 and ST-2022 upgrade options.
-part_number: 8114-0351
+part_number: '8114-0351'
 u_height: 2.0
 is_full_depth: false
 weight: 5

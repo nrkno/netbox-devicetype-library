@@ -9,6 +9,6 @@ interfaces:
   - name: Primary RJ45
     type: 1000base-t
   - name: Primary SFP
-    type: SFP
+    type: 1000base-x-sfp
   - name: Secondary
     type: 1000base-t

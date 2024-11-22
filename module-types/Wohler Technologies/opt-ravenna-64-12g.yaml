@@ -1,0 +1,10 @@
+---
+manufacturer: Wohler
+model: OPT-RAVENNA 64 (12G)
+part_number: 829165
+description: This optional hardware card card enables monitoring from a 64 channel Ravenna™ / AES67 Input and includes NMOS support. It ships with an activation key and is plug and play. It Includes an AoIP card enabling primary and secondary RJ-45 for hitless/2022-7 support (for Dante and 2110-30 signals). A Gigabit SFP cage allowing multi-mode and single mode network SFP’s for AoIP Signals is included.
+interfaces:
+  - name: AOIP 1
+    type: 1000base-t
+  - name: AOIP 2
+    type: 1000base-t

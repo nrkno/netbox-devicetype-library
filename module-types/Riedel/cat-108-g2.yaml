@@ -1,0 +1,37 @@
+---
+manufacturer: Riedel
+model: CAT-108 G2
+description: Riedelkort, CAT-kort til Artist 32/64/128
+interfaces:
+  - name: Bay {module} - 1 CAT5
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 2 CAT5
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 3 CAT5
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 4 CAT5
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 5 CAT5
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 6 CAT5
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 7 CAT5
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false
+  - name: Bay {module} - 8 CAT5
+    type: 100base-tx
+    enabled: true
+    mgmt_only: false

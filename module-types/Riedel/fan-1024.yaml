@@ -1,0 +1,5 @@
+---
+manufacturer: Riedel
+model: FAN-1024
+description: Cooling fan module for Artist 1024
+comments: Airflow can be reversed, see manual v. 8.6, ch. IV-4

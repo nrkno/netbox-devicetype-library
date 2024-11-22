@@ -1,0 +1,45 @@
+---
+manufacturer: Riedel
+model: COAX-108 G2
+description: Coax-kort til Artist 32/64/128
+interfaces:
+  - name: Bay {module} - 1 COAX 75 Ohm
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC
+  - name: Bay {module} - 2 COAX 75 Ohm
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC
+  - name: Bay {module} - 3 COAX 75 Ohm
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC
+  - name: Bay {module} - 4 COAX 75 Ohm
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC
+  - name: Bay {module} - 5 COAX 75 Ohm
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC
+  - name: Bay {module} - 6 COAX 75 Ohm
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC
+  - name: Bay {module} - 7 COAX 75 Ohm
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC
+  - name: Bay {module} - 8 COAX 75 Ohm
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: BNC

@@ -1,0 +1,37 @@
+---
+manufacturer: Black Box
+model: ACX080
+slug: black-box-acx080
+description: Black Box DKM FX 80-Port
+u_height: 4.0
+is_full_depth: false
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: Slot 7
+    position: '7'
+  - name: Slot 8
+    position: '8'
+  - name: Slot 9
+    position: '9'
+  - name: Slot 10
+    position: '10'
+interfaces:
+  - name: MGMT
+    type: 1000base-t
+    mgmt_only: true
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14

@@ -2,20 +2,32 @@
 manufacturer: Appear
 model: X10
 slug: appear-x10
+part_number: XHW/CAB20AC1200R01
 u_height: 1.0
 is_full_depth: true
-subdevice_role: parent
 airflow: front-to-rear
-comments: The Appear X10/X20 Platform is a dedicated solution for high speed video networking, enhanced IP security, video distribution and contribution.
+description: The Appear X10/X20 Platform is a dedicated solution for high speed video networking, enhanced IP security, video distribution and contribution.
 front_image: true
+rear_image: true
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 1200
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 1200
 module-bays:
   - name: Control Slot 1
   - name: Control Slot 2
-  - name: PSU Slot 1
-  - name: PSU Slot 2
   - name: Slot 1A
+    position: 1A
   - name: Slot 1B
+    position: 1B
   - name: Slot 1C
+    position: 1C
   - name: Slot 2A
+    position: 2A
   - name: Slot 2B
+    position: 2B
   - name: Slot 2C
+    position: 2C

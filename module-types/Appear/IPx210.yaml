@@ -4,6 +4,6 @@ model: IPx210
 description: Module for receiving and transmitting streams over IP in SMPTE2110-formats.
 interfaces:
   - name: '{module}-D1'
-    type: 25gbase-x-sfp28
+    type: 40gbase-x-qsfpp
   - name: '{module}-D2'
-    type: 25gbase-x-sfp28
+    type: 40gbase-x-qsfpp

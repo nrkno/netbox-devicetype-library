@@ -4,17 +4,22 @@ model: X20
 slug: appear-x20
 u_height: 2.0
 is_full_depth: true
-subdevice_role: parent
 airflow: front-to-rear
-comments: The Appear X10/X20 Platform is a dedicated solution for high speed video networking, enhanced IP security, video distribution and contribution.
+description: The Appear X10/X20 Platform is a dedicated solution for high speed video networking, enhanced IP security, video distribution and contribution.
 front_image: true
+rear_image: true
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 1200
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 1200
 module-bays:
   - name: Control Slot 1
     position: '1'
   - name: Control Slot 2
     position: '2'
-  - name: PSU Slot 1
-  - name: PSU Slot 2
   - name: Slot 3
     position: '3'
   - name: Slot 4

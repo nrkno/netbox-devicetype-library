@@ -1,0 +1,17 @@
+---
+manufacturer: Appear
+model: SRx100
+description: RF-input card for DVB-S/S2X signals. Software images support BISS 1 Mode 1/E, BISS2 Mode 1/E, BISS CA, De-multiplexing, Service and PID filtering.
+interfaces:
+  - name: '{module}-P1'
+    type: other
+    label: '1'
+  - name: '{module}-P2'
+    type: other
+    label: '2'
+  - name: '{module}-P3'
+    type: other
+    label: '3'
+  - name: '{module}-P4'
+    type: other
+    label: '4'

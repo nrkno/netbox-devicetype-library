@@ -2,7 +2,7 @@
 manufacturer: Bridge Technologies
 model: VB440
 slug: bridge-technologies-vb440
-comments: Video/audio monitoring
+description: IP Probe for SMPTE 2110 Streams
 u_height: 1.0
 airflow: front-to-rear
 is_full_depth: true
@@ -11,16 +11,24 @@ weight_unit: kg
 front_image: true
 rear_image: true
 interfaces:
-  - name: MGMT 1 STATIC
+  - name: em1 - Management 1
+    label: MGMT 1 STATIC
     type: 1000base-t
     mgmt_only: true
-  - name: MGMT 2 DHCP
+  - name: em2 - Management 2
+    label: MGMT 2 DHCP
     type: 1000base-t
     mgmt_only: true
-  - name: SFP Amber
+  - name: Amber
+    label: Amber
     type: 100gbase-x-qsfp28
-  - name: SFP Blue
+  - name: Blue
+    label: Blue
     type: 100gbase-x-qsfp28
+  - name: IPMI
+    label: IPMI
+    type: 1000base-t
+    mgmt_only: true
 power-ports:
   - name: PSU 1
     type: iec-60320-c14

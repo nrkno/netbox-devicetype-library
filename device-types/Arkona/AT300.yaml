@@ -6,6 +6,7 @@ slug: arkona-at300
 description: The AT300 is a modern FPGA Programmable Acceleration Card (PAC) powered by the Intel Stratix 10 MX FPGA which provides dual non-blocking native
   100GE interfaces and high bandwidth memory (HBM).
 subdevice_role: child
+u_height: 0.0
 interfaces:
   - name: P0 (top 100G port)
     type: 100gbase-x-qsfp28

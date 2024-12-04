@@ -2,7 +2,8 @@
 manufacturer: Wohler Technologies
 model: iAM1-12G
 slug: wohler-technologies-iam1-12g
-description: The iAM1-12G is a 12G-SDI version of our iAM-AUDIO-1-PLUS, a well featured IP ready 16 channel audio monitor which comes standard with 12G-SDI (and Analog inputs), with loudness monitoring, meters and phase.
+description: The iAM1-12G is a 12G-SDI version of our iAM-AUDIO-1-PLUS, a well featured IP ready 16 channel audio monitor which comes standard with 12G-SDI
+  (and Analog inputs), with loudness monitoring, meters and phase.
 part_number: 8114-0600
 u_height: 1.0
 is_full_depth: false

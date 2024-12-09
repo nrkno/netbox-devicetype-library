@@ -3,9 +3,7 @@ manufacturer: Nevion
 model: Virtuoso MI-MKII
 part_number: VIRTUOSO-HW-MI-MKII-AC2
 slug: nevion-virtuoso-hw-mi-mkii-ac2
-description: Nevion Virtuoso is a standards-based, virtualization-ready, software-defined media node that can perform a variety of real-time functions for
-  a wide range of applications including IP contribution and wide-area media transport, IP production facilities and converged LAN/WAN networks for remote
-  & distributed production.
+description: Nevion Virtuoso is a standards-based, virtualization-ready, software-defined media node that can perform a variety of real-time functions for a wide range of applications including IP contribution.
 u_height: 1.0
 airflow: front-to-rear
 is_full_depth: true

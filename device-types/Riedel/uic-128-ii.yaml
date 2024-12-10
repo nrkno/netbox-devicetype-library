@@ -1,9 +1,11 @@
 ---
 manufacturer: Riedel
 model: UIC-128-II
+slug: riedel-uic-128-ii
 description: Interface card for Artist 1024
 weight: 410
 weight_unit: g
+subdevice_role: child
 interfaces:
   - name: Bay {module} - Media 1
     label: dice symbol 2

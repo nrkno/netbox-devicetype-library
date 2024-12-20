@@ -8,13 +8,14 @@ description: Nevion Virtuoso is a standards-based, virtualization-ready, softwar
   & distributed production.
 u_height: 1.0
 airflow: front-to-rear
+subdevice_role: parent
 is_full_depth: true
 interfaces:
   - name: Ethernet A
     type: 1000base-t
   - name: Ethernet B
     type: 1000base-t
-module-bays:
+device-bays:
   - name: Accelerator slot 1
     position: '1'
   - name: Accelerator slot 2

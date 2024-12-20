@@ -1,0 +1,19 @@
+---
+manufacturer: Nevion
+model: Virtuoso HW-HBR-SFP4
+part_number: VIRTUOSO-HW-HBR-SFP4
+description: The HBR accelerator card (HW-HBR-SFP4) can run different software images which provide different media functions based on the image loaded.
+comments: 'Count interfaces from left to right. Docs: https://nevion.com/manuals/virtuoso-mi/extboard_description.html'
+interfaces:
+  - name: Ethernet {module}.1
+    type: 10gbase-x-sfpp
+    label: Port 1
+  - name: Ethernet {module}.2
+    type: 10gbase-x-sfpp
+    label: Port 2
+  - name: Ethernet {module}.3
+    type: 10gbase-x-sfpp
+    label: Port 3
+  - name: Ethernet {module}.4
+    type: 10gbase-x-sfpp
+    label: Port 4

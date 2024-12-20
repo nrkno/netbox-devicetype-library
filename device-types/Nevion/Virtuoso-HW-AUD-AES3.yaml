@@ -2,6 +2,7 @@
 manufacturer: Nevion
 model: Virtuoso HW-AUD-AES3
 part_number: VIRTUOSO-HW-AUD-AES3
+slug: nevion-virtuoso-hw-aud-aes3
 description: The Virtuoso AUD-AES3 digital audio card supports 16 AES3 inputs or outputs. The connector on the rear panel of the card is a DC-37 female
   connector.
 subdevice_role: child

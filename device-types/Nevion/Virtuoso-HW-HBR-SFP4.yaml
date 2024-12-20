@@ -2,6 +2,7 @@
 manufacturer: Nevion
 model: Virtuoso HW-HBR-SFP4
 part_number: VIRTUOSO-HW-HBR-SFP4
+slug: nevion-virtuoso-hw-hbr-sfp4
 description: The HBR accelerator card (HW-HBR-SFP4) can run different software images which provide different media functions based on the image loaded.
 comments: 'Count interfaces from left to right. Docs: https://nevion.com/manuals/virtuoso-mi/extboard_description.html'
 subdevice_role: child

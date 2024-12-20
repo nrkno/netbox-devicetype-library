@@ -16,21 +16,21 @@ interfaces:
   - name: Ethernet B
     type: 1000base-t
 device-bays:
-  - name: Accelerator slot 1
+  - name: '1'
     position: '1'
-  - name: Accelerator slot 2
+  - name: '2'
     position: '2'
-  - name: Accelerator slot 3
+  - name: '3'
     position: '3'
-  - name: Accelerator slot 4
+  - name: '4'
     position: '4'
-  - name: Accelerator slot 5
+  - name: '5'
     position: '5'
-  - name: Accelerator slot 6
+  - name: '6'
     position: '6'
-  - name: Accelerator slot 7
+  - name: '7'
     position: '7'
-  - name: Accelerator slot 8
+  - name: '8'
     position: '8'
 power-ports:
   - name: PSU1

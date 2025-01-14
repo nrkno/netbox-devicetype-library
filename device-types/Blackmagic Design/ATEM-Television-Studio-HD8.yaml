@@ -1,0 +1,103 @@
+---
+manufacturer: Blackmagic Design
+model: ATEM Television Studio HD8
+slug: blackmagic-design-atem-television-studio-hd8
+part_number: W-APS-20
+u_height: 4
+is_full_depth: false
+airflow: right-to-left
+weight: 14.9
+weight_unit: lb
+console-ports:
+  - name: USB0
+    type: usb-c
+  - name: USB1
+    type: usb-c
+  - name: REMOTE
+    type: rj-12
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 100
+  - name: PSU2
+    type: other
+    allocated_draw: 100
+interfaces:
+  - name: CONTROL-1
+    type: 1000base-t
+  - name: CONTROL-2
+    type: 1000base-t
+  - name: CONTROL-3
+    type: 1000base-t
+  - name: CONTROL-4
+    type: 1000base-t
+  - name: REF-IN-OUT
+    type: other
+  - name: REF-OUT
+    type: other
+  - name: MADI-IN
+    type: other
+  - name: MADI-OUT
+    type: other
+  - name: TIMECODE-IN
+    type: other
+  - name: TIMECODE-OUT
+    type: other
+  - name: SDI-INPUT-1
+    type: other
+  - name: SDI-INPUT-2
+    type: other
+  - name: SDI-INPUT-3
+    type: other
+  - name: SDI-INPUT-4
+    type: other
+  - name: SDI-INPUT-5
+    type: other
+  - name: SDI-INPUT-6
+    type: other
+  - name: SDI-INPUT-7
+    type: other
+  - name: SDI-INPUT-8
+    type: other
+  - name: SDI-OUTPUT-1
+    type: other
+  - name: SDI-OUTPUT-2
+    type: other
+  - name: SDI-OUTPUT-3
+    type: other
+  - name: SDI-OUTPUT-4
+    type: other
+  - name: SDI-OUTPUT-5
+    type: other
+  - name: SDI-OUTPUT-6
+    type: other
+  - name: SDI-OUTPUT-7
+    type: other
+  - name: SDI-OUTPUT-8
+    type: other
+  - name: SDI-OUTPUT-AUX-1
+    type: other
+  - name: SDI-OUTPUT-AUX-2
+    type: other
+  - name: SDI-PGM-OUT
+    type: other
+  - name: MULTIVIEW-OUTPUT-HDMI-1
+    type: other
+  - name: MULTIVIEW-OUTPUT-SDI-1
+    type: other
+  - name: BALANCED-ANALOG-AUDIO-IN-1
+    type: other
+  - name: BALANCED-ANALOG-AUDIO-IN-2
+    type: other
+  - name: STEREO-ANALOG-AUDIO-IN-1
+    type: other
+  - name: STEREO-ANALOG-AUDIO-IN-2
+    type: other
+  - name: ANALOG-AUDIO-OUT-1
+    type: other
+  - name: ANALOG-AUDIO-OUT-2
+    type: other
+  - name: ANALOG-AUDIO-OUT-3
+    type: other
+  - name: ANALOG-AUDIO-OUT-4
+    type: other

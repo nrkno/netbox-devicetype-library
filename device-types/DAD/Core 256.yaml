@@ -31,32 +31,32 @@ interfaces:
     description: Switched or redundant port of NET 1. If redundant Dante, control is on NET 1.
     mgmt_only: false
   - name: Thunderbolt 1
-    type: usb-c
-    description: 256ch Thunderbolt 3 (locking) 15W supply for connection to 1 PC/Mac and/or expansion unit or peripherical.
+    type: other
+    description: USB C 256ch Thunderbolt 3 (locking) 15W supply for connection to 1 PC/Mac and/or expansion unit or peripherical
   - name: Thunderbolt 2
-    type: usb-c
-    description: 256ch Thunderbolt 3 (locking) 15W supply for connection to 1 PC/Mac and/or expansion unit or peripherical.
+    type: other
+    description: USB C 256ch Thunderbolt 3 (locking) 15W supply for connection to 1 PC/Mac and/or expansion unit or peripherical
   - name: WC IN
-    type: BNCmale
-    description: Wordclock or Black Burst input
+    type: other
+    description: BNC male Wordclock or Black Burst input
   - name: WC OUT
-    type: BNCmale
-    description: Wordclock or Black Burst input
+    type: other
+    description: BNC male Wordclock or Black Burst input
   - name: MADI IN
-    type: BNCmale
-    description: 64 ch MADI via 75 Ohm coax cables.
+    type: other
+    description: BNC male 64 ch MADI via 75 Ohm coax cables
   - name: MADI OUT
-    type: BNCmale
-    description: 64 ch MADI via 75 Ohm coax cables.
+    type: other
+    description: BNC male 64 ch MADI via 75 Ohm coax cables
   - name: ADAT IN 1
-    type: TOSLINK
+    type: other
     description: 8 ch ADAT via TOSLINK
   - name: ADAT IN 2
-    type: TOSLINK
+    type: other
     description: 8 ch ADAT via TOSLINK
   - name: ADAT OUT 1
-    type: TOSLINK
+    type: other
     description: 8 ch ADAT via TOSLINK
   - name: ADAT OUT 2
-    type: TOSLINK
+    type: other
     description: 8 ch ADAT via TOSLINK

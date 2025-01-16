@@ -1,0 +1,19 @@
+---
+manufacturer: HP
+model: Z4 G4 Workstation
+slug: hp-z4-g4-workstation
+comments: HP Z4 G4 Workstation Desktop Computer
+part_number: hp-z4-g4
+u_height: 4
+weight: 22.4
+weight_unit: lb
+is_full_depth: false
+airflow: front-to-rear
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Mgmt 1
+    type: 1000base-t
+power-ports:
+  - name: PSU
+    type: iec-60320-c14

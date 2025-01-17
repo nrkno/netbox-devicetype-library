@@ -1,0 +1,11 @@
+---
+manufacturer: DirectOut Technologies
+model: BNC.IO
+description: 2 BNC ports for MADI 64 ch I/O 
+interfaces:
+  - name: IN {module}
+    type: other
+    description: BNC male 64ch input
+  - name: OUT {module}
+    type: other
+    description: BNC male 64ch output

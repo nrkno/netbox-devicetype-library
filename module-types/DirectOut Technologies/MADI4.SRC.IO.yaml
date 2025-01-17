@@ -1,7 +1,7 @@
 ---
 manufacturer: DirectOut Technologies
-model: MADI4.IO
-description: 4 SFP ports for MADI, max 256ch I/O 
+model: MADI4.SRC.IO
+description: 4 SFP ports for MADI, max 256ch I/O with SRC
 interfaces:
   - name: MADI 1 IN {module}
     type: other

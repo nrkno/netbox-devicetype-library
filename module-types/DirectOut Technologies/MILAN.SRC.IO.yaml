@@ -1,6 +1,6 @@
 ---
 manufacturer: DirectOut Technologies
-model: MILAN.IO
+model: MILAN.SRC.IO
 description: AVB / MILAN 128 ch I/O
 interfaces:
   - name: PORT 1 {module}

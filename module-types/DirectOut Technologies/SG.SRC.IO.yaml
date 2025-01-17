@@ -1,7 +1,7 @@
 ---
 manufacturer: DirectOut Technologies
-model: MILAN.IO
-description: AVB / MILAN 128 ch I/O
+model: SG.SRC.IO
+description: SoundGrid 128 ch I/O
 interfaces:
   - name: PORT 1 {module}
     type: 1000base-t

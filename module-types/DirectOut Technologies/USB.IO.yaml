@@ -1,0 +1,8 @@
+---
+manufacturer: DirectOut Technologies
+model: USB.IO
+description: USB 3.0 Audio with 128 ch I/O or USB 2.0 Audio with 64 ch I/O
+interfaces:
+  - name: USB {module}
+    type: other
+    description: USB C with USB 3.0 / 2.0 support

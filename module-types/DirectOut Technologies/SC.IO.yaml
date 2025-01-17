@@ -1,0 +1,11 @@
+---
+manufacturer: DirectOut Technologies
+model: SC.IO
+description: 1 optical MM/SM SC port for MADI 64 ch I/O
+interfaces:
+  - name: IN {module}
+    type: other
+    description: Optical SC 64ch input
+  - name: OUT {module}
+    type: other
+    description: Optical SC 64ch output

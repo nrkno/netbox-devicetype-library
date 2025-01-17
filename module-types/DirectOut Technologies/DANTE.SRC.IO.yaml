@@ -1,6 +1,6 @@
 ---
 manufacturer: DirectOut Technologies
-model: DANTE.IO
+model: DANTE.SRC.IO
 description: Dante / AES67 64 ch I/O
 interfaces:
   - name: PRI (1) {module}

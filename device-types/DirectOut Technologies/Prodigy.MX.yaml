@@ -2,11 +2,14 @@
 manufacturer: DirectOut Technologies
 model: PRODIGY.MX
 slug: directout-technologies-prodigy-mx
+description: Multiformat 1664 x 1668 audio matrix with DSP functions
 u_height: 2.0
 is_full_depth: true
 airflow: left-to-right
 weight: 10
 weight_unit: kg
+front_image: true
+rear_image: true
 power-ports:
   - name: PSU 1
     type: iec-60320-c14
@@ -32,14 +35,29 @@ interfaces:
   - name: WordClock out 1-6
     type: other
     description: 9 pin D-sub
+  - name: USB
+    type: other
+    description: USB (A) 2.0 port for legacy control of ANDIAMO devices
 module-bays:
   - name: MADI 1
     position: MADI 1
   - name: MADI 2
     position: MADI 2
   - name: Audio network 1
+    position: '1'
+    description: Top row far right
   - name: Audio network 2
+    position: '2'
+    description: Top row second from left
   - name: Audio network 3
+    position: '3'
+    description: Top row far left
   - name: Audio network 4
+    position: '4'
+    description: Bottom row far right
   - name: Audio network 5
+    position: '5'
+    description: Bottom row second from left
   - name: Audio network 6
+    position: '6'
+    description: Bottom row far left

@@ -1,6 +1,7 @@
 ---
 manufacturer: DirectOut Technologies
 model: SG.IO
+description: SoundGrid 128 ch I/O
 interfaces:
   - name: PORT 1 {module}
     type: 1000base-t

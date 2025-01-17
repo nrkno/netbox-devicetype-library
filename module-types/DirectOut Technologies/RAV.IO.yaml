@@ -1,6 +1,7 @@
 ---
 manufacturer: DirectOut Technologies
 model: RAV.IO
+description: RAVENNA / AES67 / ST 2110-30/-31, 128 ch I/O
 interfaces:
   - name: PORT 1 {module}
     type: 1000base-t

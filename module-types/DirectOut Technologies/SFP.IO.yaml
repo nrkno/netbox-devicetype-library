@@ -1,7 +1,7 @@
 ---
 manufacturer: DirectOut Technologies
 model: SFP.IO
-description: 1 SFP port for MADI, max 256ch I/O 
+description: 1 SFP port for MADI, max 256ch I/O
 interfaces:
   - name: MADI IN {module}
     type: other

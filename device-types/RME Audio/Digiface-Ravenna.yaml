@@ -1,0 +1,42 @@
+---
+manufacturer: RME Audio
+model: Digiface Ravenna
+slug: rme-audio-digiface-ravenna
+description: 256 channel USB 3 to Ravenna and MADI audio interface. Supports ST 2110-30/-31, ST 2022-7 and NMOS IS-04/-05.
+u_height: 1
+is_full_depth: false
+weight: 0.5
+weight_unit: kg
+airflow: passive
+front_image: true
+rear_image: true
+power-ports:
+  - name: 12V DC
+    comments: DC 9-15V 
+    type: dc-terminal
+    allocated_draw: 24
+interfaces:
+  - name: USB 3
+    type: other
+    description: USB 3.0 Type B, supports USB 2.0 and bus power.
+  - name: Ravenna 1
+    type: 1000base-t
+    description: Fixed to NIC 1 (far left)
+  - name: Ravenna 2
+    type: 1000base-t
+    description: Assignable to NIC 1 or NIC 2 (number 2 from left)
+  - name: Ravenna 3
+    type: 1000base-t
+    description: Assignable to NIC 1 or NIC 2 (number 3 from left)
+  - name: Ravenna 4
+    type: 1000base-t
+    description: Assignable to NIC 1 or NIC 2 (far right)
+  - name: WORD CLOCK / MADI IN
+    type: other
+    description: BNC male Wordclock or MADI input
+  - name: WORD CLOCK / MADI OUT
+    type: other
+    description: BNC male Wordclock or MADI output
+  - name: PHONES
+    type: other
+    description: 3.5mm stereo headphone output

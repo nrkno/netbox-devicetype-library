@@ -12,11 +12,11 @@ front_image: true
 rear_image: true
 power-ports:
   - name: 12V DC
-    comments: DC 9-15V 
+    comments: DC 9-15V
     type: dc-terminal
     allocated_draw: 24
 interfaces:
-  - name: USB 3
+  - name: USB 3.0
     type: other
     description: USB 3.0 Type B, supports USB 2.0 and bus power.
   - name: Ravenna 1

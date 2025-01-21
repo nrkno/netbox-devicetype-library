@@ -1,0 +1,40 @@
+---
+manufacturer: Visual Productions
+model: IoCore2
+slug: visual-productions-iocore2
+description: A network-based solid-state interface for GPIO signals
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+front_image: false
+rear_image: false
+power-ports:
+  - name: +12-24V-DC
+    type: dc-terminal
+interfaces:
+  - name: Eth 1
+    type: 1000base-t
+  - name: In 1-4
+    type: other
+  - name: In 5-8
+    type: other
+  - name: Out 8
+    type: other
+  - name: Out 7
+    type: other
+  - name: Out 6
+    type: other
+  - name: Out 5
+    type: other
+  - name: Out 4
+    type: other
+  - name: Out 3
+    type: other
+  - name: Out 2
+    type: other
+  - name: Out 1
+    type: other
+  - name: RS-232
+    type: other
+  - name: DMX
+    type: other

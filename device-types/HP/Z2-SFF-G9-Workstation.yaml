@@ -4,7 +4,6 @@ model: Z2 SFF G9 Workstation
 slug: hp-z2-sff-g9-workstation
 comments: HP Z2 Small Form Factor G9 Workstation
 part_number: 98T57ET
-<<<<<<< Updated upstream
 u_height: 3
 weight: 5.0
 weight_unit: kg
@@ -91,18 +90,3 @@ module-bays:
   - name: 3.5 inch drive bay
     type: other
     description: Front bottom
-=======
-u_height: 4
-weight: 22.4
-weight_unit: lb
-is_full_depth: true
-airflow: front-to-rear
-interfaces:
-  - name: Gig-E 1
-    type: 1000base-t
-  - name: Mgmt 1
-    type: 1000base-t
-power-ports:
-  - name: PSU
-    type: iec-60320-c14
->>>>>>> Stashed changes

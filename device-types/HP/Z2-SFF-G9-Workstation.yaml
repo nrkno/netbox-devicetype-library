@@ -1,0 +1,108 @@
+---
+manufacturer: HP
+model: Z2 SFF G9 Workstation
+slug: hp-z2-sff-g9-workstation
+comments: HP Z2 Small Form Factor G9 Workstation
+part_number: 98T57ET
+<<<<<<< Updated upstream
+u_height: 3
+weight: 5.0
+weight_unit: kg
+is_full_depth: true
+airflow: front-to-rear
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+    allocated_draw: 260
+    allocated_draw_unit: W
+interfaces:
+  - name: Audio line-out connector
+    type: other
+    description: 3.5mm 3-pole jack
+  - name: DisplayPort top
+    type: other
+    description: DisplayPort 1.4
+  - name: DisplayPort bottom
+    type: other
+    description: DisplayPort 1.4
+  - name: RJ-45
+    type: 1000base-t
+  - name: USB 480 Mbps 1
+    type: other
+    description: Rear right of RJ-45
+  - name: USB 480 Mbps 2
+    type: other
+    description: Rear below of RJ-45
+  - name: USB 480 Mbps 3
+    type: other
+    description: Rear bottom of RJ-45
+  - name: USB SuperSpeed 5 Gbps port 1
+    type: other
+    description: Top rear
+  - name: USB SuperSpeed 5 Gbps port 2
+    type: other
+    description: Middle rear
+  - name: USB SuperSpeed 5 Gbps port 3
+    type: other
+    description: Bottom rear
+  - name: USB C SuperSpeed 20 Gbps port 1
+    type: other
+    description: Front with HP Sleep and Charge
+  - name: USB SuperSpeed 10 Gbps port 1
+    type: other
+    description: Front left top
+  - name: USB SuperSpeed 10 Gbps port 2
+    type: other
+    description: Front left bottom
+  - name: USB SuperSpeed 10 Gbps port 3
+    type: other
+    description: Front right top
+  - name: USB SuperSpeed 10 Gbps port 4
+    type: other
+    description: Front right bottom with HP Sleep and Charge
+  - name: SD card reader
+    type: other
+    description: Front SD card reader
+  - name: Audio in/out combo jack
+    type: other
+    description: Front 3.5mm 4-pole headset connector
+module-bays:
+  - name: Flex I/O module 
+    type: other
+    description: For Thunderbolt or HP Fiber NIC. Flex IO port and one PCIe slot will be occupied when Thunderbolt is installed.
+  - name: Expansion slot 1
+    type: pcie
+    description: Left, half-height PCIe RISER, X16PCIEXPRESS
+  - name: Expansion slot 2
+    type: pcie
+    description: Second from left, half-height X1PCIEXPRESS
+  - name: Expansion slot 3
+    type: pcie
+    description: Third from left, half-height X4PCIEXPRESS
+  - name: Expansion slot 4
+    type: pcie
+    description: Fourth from left, half-height PCI
+  - name: Expansion slot 5
+    type: other
+    description: Right, half-height emtpty slot
+  - name: Optical drive bay
+    type: other
+    description: Front top
+  - name: 3.5 inch drive bay
+    type: other
+    description: Front bottom
+=======
+u_height: 4
+weight: 22.4
+weight_unit: lb
+is_full_depth: true
+airflow: front-to-rear
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Mgmt 1
+    type: 1000base-t
+power-ports:
+  - name: PSU
+    type: iec-60320-c14
+>>>>>>> Stashed changes

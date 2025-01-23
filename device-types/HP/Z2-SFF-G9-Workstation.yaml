@@ -66,7 +66,7 @@ interfaces:
     type: other
     description: Front 3.5mm 4-pole headset connector
 module-bays:
-  - name: Flex I/O module 
+  - name: Flex I/O module
     type: other
     description: For Thunderbolt or HP Fiber NIC. Flex IO port and one PCIe slot will be occupied when Thunderbolt is installed.
   - name: Expansion slot 1

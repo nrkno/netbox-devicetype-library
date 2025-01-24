@@ -1,0 +1,53 @@
+---
+manufacturer: Qbit
+model: Qarion Pro
+slug: qbit-qarion-pro
+description: Stereo bi-directional AES3/analog to RAVENNA converter with 2 mic preamps and 2 headphone outputs. Support for Livewire+™, AES67, ST2110-30/-31, ST 2022-7, NMOS IS-04/05.
+u_height: 1
+is_full_depth: true
+weight: 0.5
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+power-ports:
+  - name: USB C PD 12V DC
+    type: other
+    allocated_draw: 10
+interfaces:
+  - name: ETH 1
+    type: 1000base-t
+    poe_mode: pd
+  - name: ETH 2
+    type: 1000base-t
+  - name: ETH 3
+    type: 1000base-t
+  - name: ETH 4
+    type: 1000base-t
+  - name: Input left / AES3 IN
+    type: other
+    description: 1ch line in or 2 ch AES3 via XLR3f
+  - name: Input right / Mic 2
+    type: other
+    description: 1ch line/mic in via XLR3f
+  - name: Output left / AES3 OUT
+    type: other
+    description: 1ch line out or 2 ch AES3 via XLR3m
+  - name: Output right
+    type: other
+    description: 1ch line out via XLR3m
+  - name: USB DATA
+    type: other
+    description: USB C
+  - name: USB PD
+    type: other
+    description: USB C for 12V DC power supply
+  - name: Mic 1
+    type: other
+    description: 1ch mic in via XLR3f on the front panel
+  - name: Phones 1
+    type: other
+    description: Stereo headphone out via 6.3mm TRS on the front panel
+  - name: Phones 2
+    type: other
+    description: Stereo headphone out via 6.3mm TRS on the front panel

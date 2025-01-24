@@ -8,7 +8,9 @@ weight_unit: g
 airflow: passive
 front_image: true
 rear_image: true
-is_powered: true
+power-ports:
+  - name: PoE
+    type: other
 interfaces:
   - name: Dante AoIP PoE
     type: 1000base-t

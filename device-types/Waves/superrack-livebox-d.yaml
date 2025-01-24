@@ -36,7 +36,7 @@ interfaces:
   - name: USB2 4
     type: other
     description: Bottom of RJ-45
-  - name: USB3 1 
+  - name: USB3 1
     type: other
     description: top
   - name: USB3 2

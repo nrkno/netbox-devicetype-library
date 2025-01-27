@@ -1,0 +1,70 @@
+---
+manufacturer: Waves
+model: SuperRack LiveBox D
+slug: waves-superrack-livebox-d
+description: SuperRack LiveBox plugins server
+u_height: 2
+is_full_depth: true
+weight: 9.5
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+power-ports:
+  - name: PSU top
+    type: iec-60320-c14
+    maximum_draw: 160
+    maximum_draw_unit: W
+    allocated_draw: 160
+    allocated_draw_unit: W
+  - name: PSU bottom
+    type: iec-60320-c14
+    maximum_draw: 160
+    maximum_draw_unit: W
+    allocated_draw: 160
+    allocated_draw_unit: W
+interfaces:
+  - name: USB2 1
+    type: other
+    description: Left top
+  - name: USB2 2
+    type: other
+    description: Left bottom
+  - name: USB2 3
+    type: other
+    description: Below of RJ-45
+  - name: USB2 4
+    type: other
+    description: Bottom of RJ-45
+  - name: USB3 1
+    type: other
+    description: top
+  - name: USB3 2
+    type: other
+    description: bottom
+  - name: Network
+    type: 1000base-t
+    description: RJ-45
+    mgmt_only: true
+  - name: Dante 1
+    type: 1000base-t
+    description: RJ-45
+    mgmt_only: false
+  - name: Dante 2
+    type: 1000base-t
+    description: RJ-45
+    mgmt_only: false
+  - name: DisplayPort top
+    type: other
+  - name: DisplayPort bottom
+    type: other
+  - name: VGA
+    type: other
+  - name: HDMI
+    type: other
+  - name: USB2 1 front
+    type: other
+    description: Front left
+  - name: USB2 2 front
+    type: other
+    description: Front right

@@ -1,0 +1,43 @@
+---
+manufacturer: RTW
+model: TouchMonitor TM9 RAV
+slug: rtw-tm9-rav
+part_number: TM9-RAV
+description: 9 inch desktop TouchMonitor with a 16:9 TFT touch screen display. 32 channel Ravenna/AES67/ST 2110 AoIP, NMOS IS-04 and IS-05.
+u_height: 4
+is_full_depth: false
+weight: 2.7
+weight_unit: kg
+airflow: bottom-to-top
+front_image: true
+rear_image: true
+power-ports:
+  - name: 12V 2A
+    type: dc-terminal
+    comments: DC 12-24V 4-pin locking low voltage typ 710 (DC)
+    allocated_draw: 1
+    allocate_draw_unit: A
+    max_draw: 2.5
+    max_draw_unit: A
+interfaces:
+  - name: Primary
+    type: 1000base-t
+    description: Neutrik etherCON RJ45
+  - name: Secondary
+    type: 1000base-t
+    description: Neutrik etherCON RJ45
+  - name: LAN
+    type: 100base-tx
+    description: RJ45
+  - name: GPIO
+    type: other
+    description: RJ12 6P6C
+  - name: USB 1
+    type: other
+    description: USB 2.0 Type A for USB sticks and USB mouse/keyboard
+  - name: USB 2
+    type: other
+    description: USB 2.0 Type A for USB sticks and USB mouse/keyboard
+  - name: VGA
+    type: other
+    description: D-Sub 15 pin VGA output with 1024 x 600 pixel resolution

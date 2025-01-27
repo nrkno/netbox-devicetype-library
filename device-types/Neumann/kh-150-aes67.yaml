@@ -1,0 +1,34 @@
+---
+manufacturer: Neumann
+model: KH 150 AES67
+slug: neumann-kh-150-aes67
+part_number: '509132'
+description: 2-way active studio monitor with AES67, RAVENNA, ST2110-30, ST2022-7, NMOS IS-04 and IS-05.
+weight: 8.0
+weight_unit: kg
+airflow: passive
+front_image: true
+rear_image: true
+power-ports:
+  - name: Mains power
+    type: iec-60320-c14
+    allocated_draw: 320
+    allocated_draw_unit: W
+    maximum_draw: 320
+    maximum_draw_unit: W
+interfaces:
+  - name: Primary
+    type: 100base-tx
+    description: RJ45 AES67 audio and control network
+  - name: Secondary
+    type: 100base-tx
+    description: RJ45 AES67 audio
+  - name: Digital S/PDIF input
+    type: other
+    description: RCA coaxial
+  - name: Digital S/PDIF output
+    type: other
+    description: RCA coaxial
+  - name: Analog input
+    type: other
+    description: XLR3f

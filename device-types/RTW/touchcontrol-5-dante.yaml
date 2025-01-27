@@ -1,0 +1,30 @@
+---
+manufacturer: RTW
+model: TouchControl 5 Dante
+slug: rtw-touchcontrol-5-dante
+description: Dante based immersive 32 ch monitor controller with metering and 5" touch screen.
+weight: 830
+weight_unit: g
+airflow: passive
+front_image: true
+rear_image: true
+power-ports:
+  - name: PoE
+    type: other
+interfaces:
+  - name: Dante AoIP PoE
+    type: 1000base-t
+    poe-mode: pd
+    poe_type: type1-ieee802.3af
+    allocated_draw: 12
+    allocated_draw_unit: W
+    description: Neutrik etherCON Dante and AES67, control webUI and PoE
+  - name: Mic
+    type: other
+    description: XLRf 3-pin with 48V phantom power
+  - name: Phones
+    type: other
+    description: 6.3mm TRS
+  - name: Line Out
+    type: other
+    description: 3.5mm TRS

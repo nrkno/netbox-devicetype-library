@@ -1,0 +1,69 @@
+---
+manufacturer: DirectOut Technologies
+model: MAVEN.A
+slug: directout-technologies-maven-a
+description: Audio matrix with DSP functions
+u_height: 1.0
+is_full_depth: true
+airflow: left-to-right
+weight: 8.0
+weight_unit: kg
+front_image: true
+rear_image: true
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 55
+    maximum_draw_unit: W
+    allocated_draw: 55
+    allocated_draw_unit: W
+    description: Watt
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 55
+    maximum_draw_unit: W
+    allocated_draw: 55
+    allocated_draw_unit: W
+    description: Watt
+interfaces:
+  - name: USB-C rear
+    type: other
+    description: Lockable USB-C 2.0 port
+  - name: MNGT
+    type: 1000base-t
+    mgmt_only: true
+  - name: GPIO
+    type: other
+    description: 9 pin D-sub
+  - name: WCLK In
+    type: other
+    description: BNC
+  - name: WCLK out
+    type: other
+    description: BNC
+  - name: Phones 1
+    type: other
+    description: Front 6.3mm jack
+  - name: Phones 2
+    type: other
+    description: Front 3.5mm jack
+  - name: USB-B front
+    type: other
+    description: Front USB-B port for legacy control of ANDIAMO devices
+module-bays:
+  - name: MADI 1
+    type: 1000base-x-sfp
+    position: MADI 1
+  - name: MADI 2
+    type: 1000base-x-sfp
+    position: MADI 2
+  - name: Slot A
+    position: Slot A
+    description: Left
+  - name: Slot C1
+    position: Slot C1
+    description: Middle
+  - name: Slot C2
+    position: Slot C2
+    description: Right
+

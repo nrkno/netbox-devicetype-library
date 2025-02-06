@@ -1,0 +1,32 @@
+---
+manufacturer: Martin Lighting
+model: MAC ONE
+slug: martin-lighting-mac-one
+part_number: 'MAR-90250200HU'
+description: CREATIVE BEAMWASH MOVING HEAD WITH FRESNEL LENS
+weight: 4.4
+weight_unit: kg
+airflow: mixed
+front_image: true
+rear_image: true
+power-ports:
+  - name: MAINS IN/OUT
+    type: neutrik-powercon-true1-top
+    allocated_draw: 160
+    allocated_draw_unit: W
+    maximum_draw: 180
+    maximum_draw_unit: W
+    description: NAC3PX-TOP. Typical half-cycle RMS inrush current at 230 V, 50 Hz 3.5 A.
+interfaces:
+  - name: DMX IN
+    type: other
+    description: Neutrik XLR5m. DMX and RDM data in
+  - name: DMX OUT
+    type: other
+    description: Neutrik XLR5f. DMX and RDM data thru
+  - name: Network in/thru top
+    type: 100base-tx
+    description: Neutrik etherCON (Art-Net, sACN and P3) in/thru, including fail-safe bypass.
+  - name: Network in/thru bottom
+    type: 100base-tx
+    description: Neutrik etherCON (Art-Net, sACN and P3) in/thru, including fail-safe bypass.

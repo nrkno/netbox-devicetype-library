@@ -1,0 +1,16 @@
+---
+manufacturer: EVS
+model: XS-NEO PMX2
+part_number: N/A
+slug: evs-xs-neo-pmx2
+comments: Software-based video server for ingest and playout
+u_height: 2.0
+airflow: front-to-rear
+is_full_depth: true
+weight: 17.5
+weight_unit: kg
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14

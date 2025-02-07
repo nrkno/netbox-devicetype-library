@@ -33,11 +33,11 @@ console-ports:
     type: usb-a
 interfaces:
   - name: IPMI (left)
-    type: other
+    type: 1000base-t
   - name: 1Gb bottom middle (left port)
-    type: other
+    type: 1000base-t
   - name: 1Gb bottom middle (right port)
-    type: other
+    type: 1000base-t
   - name: 10Gb top middle (left port)
     type: 10gbase-x-sfpp
   - name: 10Gb top middle (right port)

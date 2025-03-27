@@ -17,3 +17,14 @@ interfaces:
 power-ports:
   - name: PSU
     type: iec-60320-c14
+module-bays:
+  - name: Slot 1
+    label: PCIe 3.0 x16
+  - name: Slot 2
+    label: PCIe 3.0 x4 PCH
+  - name: Slot 3
+    label: PCIe 3.0 x16
+  - name: Slot 4
+    label: PCIe 3.0 x4 PCH
+  - name: Slot 5
+    label: PCIe 3.0 x8

@@ -21,8 +21,34 @@ interfaces:
 module-bays:
   - name: PSU Slot 1
     position: PSU 1
+    label: LEFT_PSU
   - name: PSU Slot 2
     position: PSU 2
+    label: RIGHT_PSU
+  - name: Rear Slot 1
+    position: '1'
+    label: REAR_TOP_RIGHT
+  - name: Rear Slot 2
+    position: '2'
+    label: REAR_TOP_CENTER
+  - name: Rear Slot 3
+    position: '3'
+    label: REAR_TOP_LEFT
+  - name: Rear Slot 4
+    position: '4'
+    label: REAR_MID_RIGHT
+  - name: Rear Slot 5
+    position: '5'
+    label: REAR_MID_CENTER
+  - name: Rear Slot 6
+    position: '6'
+    label: REAR_MID_LEFT
+  - name: Rear Slot 7
+    position: '7'
+    label: REAR_BOTTOM_RIGHT
+  - name: Rear Slot 8
+    position: '8'
+    label: REAR_BOTTOM_LEFT
 device-bays:
   - name: Slot 1
     position: '1'

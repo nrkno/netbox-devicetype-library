@@ -17,18 +17,6 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 30
 interfaces:
-  - name: CLOCK 1
-    type: other
-    enabled: false
-    mgmt_only: false
-    label: CLOCK 1
-    description: BNC - These interfaces are currently unused and no\ \ electrical connection should be made to them.
-  - name: CLOCK 2
-    type: other
-    enabled: false
-    mgmt_only: false
-    label: CLOCK 2
-    description: BNC - These interfaces are currently unused and\ \ no electrical connection should be made to them.
   - name: LAN 1
     type: 100base-tx
     enabled: true
@@ -39,10 +27,17 @@ interfaces:
     enabled: true
     mgmt_only: false
     label: LAN 2
-  - name: TTL/RELAY Interface
+console-ports:
+  - name: CLOCK 1
     type: other
-    enabled: true
-    mgmt_only: false
+    label: CLOCK 1
+    description: BNC - These interfaces are currently unused and no\ \ electrical connection should be made to them.
+  - name: CLOCK 2
+    type: other
+    label: CLOCK 2
+    description: BNC - These interfaces are currently unused and\ \ no electrical connection should be made to them.
+  - name: TTL/RELAY Interface
+    type: db-25
     label: TTL/RELAY
     description: D-SUB 25 pin - Through this interface, external control\ \ signals can be used. It provides eight TTL inputs/outputs as well as\ \ eight
       relay contacts.

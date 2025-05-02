@@ -13,7 +13,7 @@ interfaces:
     label: top 100G port
   - name: p1
     type: 100gbase-x-qsfp28
-    labe: bottom 100G port
+    label: bottom 100G port
   - name: Management Port (rear)
     type: virtual
     mgmt_only: true

@@ -1,0 +1,53 @@
+---
+manufacturer: Riedel
+model: DSP-1216HL
+slug: riedel-dsp-1216hl
+description: Intercom panel, desktop, 16 keys
+u_height: 0.0
+is_full_depth: false
+weight: 2525
+weight_unit: g
+front_image: true
+rear_image: true
+power-ports:
+  - name: Power input
+    type: iec-60320-c14
+    maximum_draw: 15
+console-ports:
+  - name: GPI-IN
+    label: GPI-IN
+    type: de-9
+    description: Sub-D9 (female) 3× GPI input, Uin = +5 V ... +48 V
+  - name: GPI-OUT
+    label: GPI-OUT
+    type: de-9
+    description: Sub-D9 (male) 3× GPI output, Umax 48 V/300 mA, protected by\ self-healing fuse
+interfaces:
+  - name: mgnt
+    label: MGNT
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    description: Management port
+  - name: eth1
+    label: ETH 1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    description: AES67/Ethernet
+  - name: eth2
+    label: ETH 2
+    type: 1000base-t
+    enabled: true
+    mgmt_only: false
+    description: AES67/Ethernet
+  - name: eth3
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+    description: AES67/Ethernet
+  - name: eth4
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+    description: AES67/Ethernet

@@ -9,21 +9,18 @@ weight: 2.1
 weight_unit: kg
 front_image: true
 rear_image: true
+console-ports:
+  - name: Expansion I/O 1
+    type: rj-45
+    label: EXP I/O
+    description: RJ45, up to 6 ESP-1216HL can be cascaded with one RSP-12XXHL.
+console-server-ports:
+  - name: Expansion I/O 2
+    type: rj-45
+    label: EXP I/O
+    description: RJ45, up to 6 ESP-1216HL can be cascaded with one RSP-12XXHL.
 power-ports:
   - name: Mains Power Connector
     type: iec-60320-c14
     maximum_draw: 15
     allocated_draw: 15
-interfaces:
-  - name: Expansion I/O 1
-    label: EXP I/O
-    type: other
-    enabled: true
-    mgmt_only: false
-    description: RJ45, up to 6 ESP-1216HL can be cascaded with one RSP-12XXHL.
-  - name: Expansion I/O 2
-    label: EXP I/O
-    type: other
-    enabled: true
-    mgmt_only: false
-    description: RJ45, up to 6 ESP-1216HL can be cascaded with one RSP-12XXHL.

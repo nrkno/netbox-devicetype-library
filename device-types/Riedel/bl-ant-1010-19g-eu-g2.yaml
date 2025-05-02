@@ -25,15 +25,16 @@ interfaces:
     enabled: true
     mgmt_only: false
     rf_role: station
+console-server-ports:
   - name: LINK 1
-    type: other
-    enabled: true
-    mgmt_only: false
+    type: rj-45
+    label: 1 - LINK
+    description: Port for daisy chaining multiple antennas.
+console-ports:
   - name: LINK 2
-    type: other
-    enabled: true
-    mgmt_only: false
+    type: rj-45
+    label: LINK - 2
+    description: Port for daisy chaining multiple antennas.
   - name: USB-C
-    type: other
-    enabled: true
-    mgmt_only: false
+    type: usb-c
+    description: Service use only.

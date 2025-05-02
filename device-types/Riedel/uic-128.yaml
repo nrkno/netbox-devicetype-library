@@ -7,20 +7,23 @@ weight: 410
 weight_unit: g
 subdevice_role: child
 interfaces:
-  - name: Bay  {module} - Management
+  - name: media1
+    label: dice symbol 2
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: media2
+    label: dice symbol 3
+    type: 1000base-x-sfp
+    enabled: true
+    mgmt_only: false
+  - name: management
+    label: dice symbol 5
     type: 1000base-t
     enabled: true
     mgmt_only: false
     description: Interface to configure the Artist-1024 node or network.
-  - name: Bay {module} - Media 1
-    type: 1000base-x-sfp
-    enabled: true
-    mgmt_only: false
-  - name: Bay  {module} - Media 2
-    type: 1000base-x-sfp
-    enabled: true
-    mgmt_only: false
-  - name: Bay {module} - USB Type-C
-    type: other
-    enabled: true
-    mgmt_only: false
+console-ports:
+  - name: USB Type-C
+    label: dice symbol 4
+    type: usb-c

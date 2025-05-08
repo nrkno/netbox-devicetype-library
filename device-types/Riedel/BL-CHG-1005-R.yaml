@@ -1,0 +1,20 @@
+---
+manufacturer: Riedel
+model: BL-CHG-1005-R
+slug: bl-chg-1005-r
+u_height: 0.0
+is_full_depth: false
+weight: 1140.0
+weight_unit: g
+front_image: true
+rear_image: false
+power-ports:
+  - name: 100 ... 230 VAC / 50 ... 60 H
+    type: iec-60320-c14
+    maximum_draw: 60
+interfaces:
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: true
+    label: ETH
+description: 5 position Bolero beltpack charger station

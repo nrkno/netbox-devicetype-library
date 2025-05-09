@@ -5,15 +5,20 @@ slug: directout-technologies-prodigy-mp
 u_height: 2.0
 is_full_depth: true
 airflow: left-to-right
-weight: 10
-front_image: true
+weight: 10.0
 weight_unit: kg
+front_image: true
+rear_image: false
 power-ports:
   - name: PSU 1
     type: iec-60320-c14
   - name: PSU 2
     type: iec-60320-c14
 interfaces:
+  - name: GPIO
+    type: other
+    mgmt_only: false
+    description: 9 pin D-sub
   - name: MANAGEMENT 1
     type: 1000base-t
     mgmt_only: true
@@ -23,30 +28,35 @@ interfaces:
   - name: MANAGEMENT 3
     type: 1000base-x-sfp
     mgmt_only: true
-  - name: GPIO
-    type: other
-    description: 9 pin D-sub
-  - name: WordClock 1 In
-    type: other
-  - name: WordClock 1 out
-    type: other
-  - name: WordClock 2 / Video In
-    type: other
-  - name: WordClock 2 / Video out
-    type: other
   - name: MIDI in
     type: other
+    mgmt_only: false
     description: DIN
   - name: MIDI out
     type: other
+    mgmt_only: false
     description: DIN
+  - name: WordClock 1 In
+    type: other
+    mgmt_only: false
+  - name: WordClock 1 out
+    type: other
+    mgmt_only: false
+  - name: WordClock 2 / Video In
+    type: other
+    mgmt_only: false
+  - name: WordClock 2 / Video out
+    type: other
+    mgmt_only: false
 module-bays:
-  - name: MADI 1
-    position: MADI 1
-  - name: MADI 2
-    position: MADI 2
   - name: Audio network 1
+    position: Aoip 1
   - name: Audio network 2
+    position: Aoip 2
+  - name: MADI 1
+    position: Madi1
+  - name: MADI 2
+    position: Madi2
   - name: Slot 1
     position: '1'
   - name: Slot 2
@@ -55,3 +65,4 @@ module-bays:
     position: '3'
   - name: Slot 4
     position: '4'
+comments: Direct Out DO Prodigy MP

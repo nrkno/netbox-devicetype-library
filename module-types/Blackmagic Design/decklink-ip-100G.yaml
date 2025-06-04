@@ -6,7 +6,7 @@ interfaces:
     type: 100gbase-x-qsfp28
     enabled: true
     mgmt_only: false
-  - name: SFP {module} - 1
+  - name: SFP {module} - 2
     type: 100gbase-x-qsfp28
     enabled: true
     mgmt_only: false

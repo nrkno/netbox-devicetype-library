@@ -2,28 +2,30 @@
 manufacturer: Riedel
 model: UIC-128-II
 slug: riedel-uic-128-ii
-description: Interface card for Artist 1024
-weight: 410
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 410.0
 weight_unit: g
+front_image: true
+rear_image: false
 subdevice_role: child
-interfaces:
-  - name: media1
-    label: dice symbol 2
-    type: 1000base-x-sfp
-    enabled: true
-    mgmt_only: false
-  - name: media2
-    label: dice symbol 3
-    type: 1000base-x-sfp
-    enabled: true
-    mgmt_only: false
-  - name: management
-    label: dice symbol 5
-    type: 1000base-t
-    enabled: true
-    mgmt_only: false
-    description: Interface to configure the Artist-1024 node or network.
 console-ports:
   - name: USB Type-C
-    label: dice symbol 4
     type: usb-c
+    label: dice symbol 4
+interfaces:
+  - name: management
+    type: 1000base-t
+    mgmt_only: true
+    label: dice symbol 5
+    description: Interface to configure the Artist-1024 node or network.
+  - name: media1
+    type: 1000base-x-sfp
+    mgmt_only: false
+    label: dice symbol 2
+  - name: media2
+    type: 1000base-x-sfp
+    mgmt_only: false
+    label: dice symbol 3
+description: Interface card for Artist 1024

@@ -1,0 +1,12 @@
+---
+manufacturer: Blackmagic Design
+model: DeckLink IP 100G
+interfaces:
+  - name: SFP {module} - 1
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false
+  - name: SFP {module} - 1
+    type: 100gbase-x-qsfp28
+    enabled: true
+    mgmt_only: false

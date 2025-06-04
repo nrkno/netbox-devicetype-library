@@ -1,8 +1,8 @@
 ---
 manufacturer: Blackmagic Design
-model: DeckLink IP HD
+model: DeckLink IP HD Optical
 interfaces:
-  - name: Eth {module} - 1
-    type: 10gbase-t
+  - name: SFP+ {module} - 1
+    type: 10gbase-x-sfpp
     enabled: true
     mgmt_only: false

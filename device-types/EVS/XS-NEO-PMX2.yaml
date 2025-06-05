@@ -1,48 +1,67 @@
 ---
 manufacturer: EVS
 model: XS-NEO PMX2
-part_number: N/A
 slug: evs-xs-neo-pmx2
-comments: Software-based video server for ingest and playout
+part_number: N/A
 u_height: 2.0
-airflow: front-to-rear
 is_full_depth: true
+airflow: front-to-rear
 weight: 17.5
 weight_unit: kg
-power-ports:
-  - name: PSU (left)
-    type: iec-60320-c14
-  - name: PSU (right)
-    type: iec-60320-c14
+front_image: true
+rear_image: true
 console-ports:
-  - name: Display port (top 1)
-    type: other
-  - name: Display port (top 2)
-    type: other
-  - name: Display port (top 3)
-    type: other
   - name: Display port (bottom 1)
     type: other
   - name: Display port (bottom 2)
     type: other
   - name: Display port (bottom 3)
     type: other
-  - name: USB 3.0 back (top)
-    type: usb-a
+  - name: Display port (top 1)
+    type: other
+  - name: Display port (top 2)
+    type: other
+  - name: Display port (top 3)
+    type: other
   - name: USB 3.0 back (bottom)
     type: usb-a
+  - name: USB 3.0 back (top)
+    type: usb-a
+power-ports:
+  - name: PSU (left)
+    type: iec-60320-c14
+  - name: PSU (right)
+    type: iec-60320-c14
 interfaces:
+  - name: eno1
+    type: 1000base-t
+    mgmt_only: false
+    description: 1Gb bottom middle NIC (left port)
+  - name: eno2
+    type: 1000base-t
+    mgmt_only: false
+    description: 1Gb bottom middle NIC (right port)
+  - name: enp2s0f0
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    description: 10Gb top middle NIC (left port)
+  - name: enp2s0f1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    description: 10Gb top middle NIC (right port)
+  - name: enp129s0f0
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+    description: 25Gb bottom right NIC p1 (AMBER)
+  - name: enp129s0f1
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+    description: 25Gb bottom right NIC p2 (BLUE)
   - name: IPMI (left)
     type: 1000base-t
-  - name: 1Gb bottom middle (left port)
-    type: 1000base-t
-  - name: 1Gb bottom middle (right port)
-    type: 1000base-t
-  - name: 10Gb top middle (left port)
-    type: 10gbase-x-sfpp
-  - name: 10Gb top middle (right port)
-    type: 10gbase-x-sfpp
-  - name: 25Gb bottom right (left port)
-    type: 25gbase-x-sfp28
-  - name: 25Gb bottom right (right port)
-    type: 25gbase-x-sfp28
+    mgmt_only: true
+    description: IPMI (left)
+  - name: LACP1
+    type: lag
+    mgmt_only: false
+comments: Software-based video server for ingest and playout

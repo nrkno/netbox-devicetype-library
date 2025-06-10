@@ -51,31 +51,21 @@ interfaces:
 console-ports:
   - name: COM1
     type: de-9
-    enabled: false
   - name: VGA
     type: de-9
-    enabled: false
   - name: Display port (bottom 1)
     type: other
-    enabled: false
   - name: Display port (bottom 2)
     type: other
-    enabled: false
   - name: Display port (bottom 3)
     type: other
-    enabled: false
   - name: Display port (top 1)
     type: other
-    enabled: false
   - name: Display port (top 2)
     type: other
-    enabled: false
   - name: Display port (top 3)
     type: other
-    enabled: false
   - name: USB 3.0 back (bottom)
     type: usb-a
-    enabled: false
   - name: USB 3.0 back (top)
     type: usb-a
-    enabled: false

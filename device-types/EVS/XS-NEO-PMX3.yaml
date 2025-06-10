@@ -1,0 +1,81 @@
+---
+manufacturer: EVS
+model: XS-NEO PMX3
+slug: evs-xs-neo-pmx3
+comments: Software-based video server for ingest and playout
+part_number: N/A
+u_height: 2.0
+is_full_depth: true
+airflow: front-to-rear
+weight: 17.5
+weight_unit: kg
+front_image: true
+rear_image: true
+power-ports:
+  - name: PSU (left)
+    type: iec-60320-c14
+  - name: PSU (right)
+    type: iec-60320-c14
+interfaces:
+  - name: eno1
+    description: 1Gb bottom middle NIC (left port)
+    type: 1000base-t
+    mgmt_only: false
+  - name: eno2
+    description: 1Gb bottom middle NIC (right port)
+    type: 1000base-t
+    mgmt_only: false
+  - name: enp2s0f0
+    description: 10Gb top middle NIC (left port)
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: enp2s0f1
+    description: 10Gb top middle NIC (right port)
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: enp129s0f0
+    description: 100Gb bottom right NIC p1 (AMBER)
+    type: 100gbase-x-qsfp28
+    mgmt_only: false
+  - name: enp129s0f1
+    description: 100Gb bottom right NIC p2 (BLUE)
+    type: 100gbase-x-qsfp28
+    mgmt_only: false
+  - name: IPMI
+    description: IPMI (left)
+    type: 1000base-t
+    mgmt_only: true
+  - name: LACP1
+    type: lag
+    mgmt_only: false
+console-ports:
+  - name: COM1
+    type: de-9
+    enabled: false
+  - name: VGA
+    type: de-9
+    enabled: false
+  - name: Display port (bottom 1)
+    type: other
+    enabled: false
+  - name: Display port (bottom 2)
+    type: other
+    enabled: false
+  - name: Display port (bottom 3)
+    type: other
+    enabled: false
+  - name: Display port (top 1)
+    type: other
+    enabled: false
+  - name: Display port (top 2)
+    type: other
+    enabled: false
+  - name: Display port (top 3)
+    type: other
+    enabled: false
+  - name: USB 3.0 back (bottom)
+    type: usb-a
+    enabled: false
+  - name: USB 3.0 back (top)
+    type: usb-a
+    enabled: false

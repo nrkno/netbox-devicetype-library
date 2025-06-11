@@ -1,7 +1,7 @@
 ---
 manufacturer: EVS
-model: XS-NEO PMX2
-slug: evs-xs-neo-pmx2
+model: XS-NEO PMX3
+slug: evs-xs-neo-pmx3
 comments: Software-based video server for ingest and playout
 part_number: N/A
 u_height: 2.0
@@ -34,12 +34,12 @@ interfaces:
     type: 10gbase-x-sfpp
     mgmt_only: false
   - name: enp129s0f0
-    description: 25Gb bottom right NIC p1 (AMBER)
-    type: 25gbase-x-sfp28
+    description: 100Gb bottom right NIC p1 (AMBER)
+    type: 100gbase-x-qsfp28
     mgmt_only: false
   - name: enp129s0f1
-    description: 25Gb bottom right NIC p2 (BLUE)
-    type: 25gbase-x-sfp28
+    description: 100Gb bottom right NIC p2 (BLUE)
+    type: 100gbase-x-qsfp28
     mgmt_only: false
   - name: IPMI
     description: IPMI (left)

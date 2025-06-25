@@ -1,0 +1,100 @@
+---
+manufacturer: Nevion
+model: Virtuoso SoniX D64G
+slug: virtuoso-sonix-d64g
+part_number: VIRTUOSO-SONIX-D64G-RP
+u_height: 1.0
+is_full_depth: true
+airflow: left-to-right
+weight: 3.0
+weight_unit: kg
+front_image: true
+rear_image: true
+subdevice_role: parent
+power-ports:
+  - name: PSU A
+    type: iec-60320-c14
+    allocated_draw: 12
+    maximum_draw: 36
+    label: PS A
+  - name: PSU B
+    type: iec-60320-c14
+    allocated_draw: 12
+    maximum_draw: 36
+    label: PS B
+interfaces:
+  - name: AES In 1-16
+    type: other
+    mgmt_only: false
+    label: AES In 1-16
+    description: DB-25 (Tascam)
+  - name: AES In 17-32
+    type: other
+    mgmt_only: false
+    label: AES In 17-32
+    description: DB-25 (Tascam)
+  - name: AES In 33-48
+    type: other
+    mgmt_only: false
+    label: AES In 33-48
+    description: DB-25 (Tascam)
+  - name: AES In 49-64
+    type: other
+    mgmt_only: false
+    label: AES In 49-64
+    description: DB-25 (Tascam)
+  - name: AES Out 1-16
+    type: other
+    mgmt_only: false
+    label: AES Out 1-16
+    description: DB-25 (Tascam)
+  - name: AES Out 17-32
+    type: other
+    mgmt_only: false
+    label: AES Out 17-32
+    description: DB-25 (Tascam)
+  - name: AES Out 33-48
+    type: other
+    mgmt_only: false
+    label: AES Out 33-48
+    description: DB-25 (Tascam)
+  - name: AES Out 49-64
+    type: other
+    mgmt_only: false
+    label: AES Out 49-64
+    description: DB-25 (Tascam)
+  - name: GPIO 1-8
+    type: other
+    mgmt_only: false
+    label: GPIO 1-8
+    description: DB-25 (Tascam)
+  - name: GPIO 9-16
+    type: other
+    mgmt_only: false
+    label: GPIO 9-16
+    description: DB-25 (Tascam)
+  - name: MADI A
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: MADI A
+  - name: MADI B
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+    label: MADI B
+  - name: Management port
+    type: 1000base-t
+    mgmt_only: true
+    label: Eth
+    description: RJ45
+  - name: Management USB-C
+    type: other
+    mgmt_only: true
+  - name: Sync In
+    type: other
+    mgmt_only: false
+    label: Sync In
+  - name: Sync Out
+    type: other
+    mgmt_only: false
+    label: Sync Out
+description: Audio Format Converter MADI/AES

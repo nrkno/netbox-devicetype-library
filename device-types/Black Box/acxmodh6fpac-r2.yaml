@@ -2,9 +2,15 @@
 manufacturer: Black Box
 model: ACXMODH6FPAC-R2
 slug: black-box-acxmodh6fpac-r2
-description: DKM Modular Chassis, redundant power supply
 u_height: 1.0
-is_full_depth: true
+is_full_depth: false
+front_image: false
+rear_image: false
+power-ports:
+  - name: AC1
+    type: iec-60320-c14
+  - name: AC2
+    type: iec-60320-c14
 module-bays:
   - name: Slot 1
     position: '1'
@@ -18,8 +24,4 @@ module-bays:
     position: '5'
   - name: Slot 6
     position: '6'
-power-ports:
-  - name: AC1
-    type: iec-60320-c14
-  - name: AC2
-    type: iec-60320-c14
+description: 'DKM Modular Chassis, redundant power supply'

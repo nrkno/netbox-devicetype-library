@@ -14,10 +14,12 @@ interfaces:
   - name: p1
     type: 100gbase-x-qsfp28
     label: bottom 100G port
-  - name: Management Port (rear)
+  - name: rear
+    description: Management Port (rear)
     type: virtual
     mgmt_only: true
-  - name: Management Port (front,usb)
+  - name: front
+    description: Management Port (front,usb)
     type: other
     mgmt_only: true
 console-ports:

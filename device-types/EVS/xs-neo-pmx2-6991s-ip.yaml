@@ -1,7 +1,7 @@
 ---
 manufacturer: EVS
-model: XS-NEO PMX2
-slug: evs-xs-neo-pmx2
+model: XS-NEO PMX2-6991S-IP
+slug: evs-xs-neo-pmx2-6991s-ip
 comments: Software-based video server for ingest and playout
 part_number: N/A
 u_height: 2.0
@@ -26,20 +26,20 @@ interfaces:
     type: 1000base-t
     mgmt_only: false
   - name: enp2s0f0
-    description: 10Gb top middle NIC (left port)
-    type: 10gbase-x-sfpp
+    description: 25Gb top middle NIC (left port)
+    type: 25gbase-x-sfp28
     mgmt_only: false
   - name: enp2s0f1
-    description: 10Gb top middle NIC (right port)
-    type: 10gbase-x-sfpp
+    description: 25Gb top middle NIC (right port)
+    type: 25gbase-x-sfp28
     mgmt_only: false
   - name: enp129s0f0
-    description: 25Gb bottom right NIC p1 (AMBER)
-    type: 25gbase-x-sfp28
+    description: 100Gb bottom right NIC p1 (AMBER)
+    type: 100gbase-x-qsfp28
     mgmt_only: false
   - name: enp129s0f1
-    description: 25Gb bottom right NIC p2 (BLUE)
-    type: 25gbase-x-sfp28
+    description: 100Gb bottom right NIC p2 (BLUE)
+    type: 100gbase-x-qsfp28
     mgmt_only: false
   - name: IPMI
     description: IPMI (left)
@@ -53,19 +53,21 @@ console-ports:
     type: de-9
   - name: VGA
     type: de-9
-  - name: Display port (bottom 1)
+  - name: Display port 1
     type: other
-  - name: Display port (bottom 2)
+  - name: Display port 2
     type: other
-  - name: Display port (bottom 3)
+  - name: Display port 3
     type: other
-  - name: Display port (top 1)
+  - name: Display port 4
     type: other
-  - name: Display port (top 2)
-    type: other
-  - name: Display port (top 3)
-    type: other
-  - name: USB 3.0 back (bottom)
+  - name: USB 3.0 font
     type: usb-a
-  - name: USB 3.0 back (top)
+  - name: USB 3.0 back 1
+    type: usb-a
+  - name: USB 3.0 back 2
+    type: usb-a
+  - name: USB 3.0 back 3
+    type: usb-a
+  - name: USB 3.0 back 4
     type: usb-a

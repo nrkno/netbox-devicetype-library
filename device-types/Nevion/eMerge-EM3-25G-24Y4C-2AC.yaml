@@ -1,0 +1,83 @@
+---
+manufacturer: Nevion
+model: eMerge EM3-25G-24Y4C-2AC
+part_number: EM3-25G-24Y4C-2AC
+slug: nevion-emerge-em3-25g-24y4c-2ac
+description: >
+  Nevion eMerge 25/100G is a series of next-generation high-capacity switches for broadcast applications, specifically designed to build software-defined
+  media fabrics and provide advanced NAT capability.
+u_height: 1.0
+airflow: front-to-rear
+subdevice_role: parent
+is_full_depth: false
+console-ports:
+  - name: console
+    type: rj-45
+  - name: usb
+    type: usb-a
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+  # 24 × SFP28 (25G)
+  - name: eth-0-1
+    type: 25gbase-x-sfp28
+  - name: eth-0-2
+    type: 25gbase-x-sfp28
+  - name: eth-0-3
+    type: 25gbase-x-sfp28
+  - name: eth-0-4
+    type: 25gbase-x-sfp28
+  - name: eth-0-5
+    type: 25gbase-x-sfp28
+  - name: eth-0-6
+    type: 25gbase-x-sfp28
+  - name: eth-0-7
+    type: 25gbase-x-sfp28
+  - name: eth-0-8
+    type: 25gbase-x-sfp28
+  - name: eth-0-9
+    type: 25gbase-x-sfp28
+  - name: eth-0-10
+    type: 25gbase-x-sfp28
+  - name: eth-0-11
+    type: 25gbase-x-sfp28
+  - name: eth-0-12
+    type: 25gbase-x-sfp28
+  - name: eth-0-13
+    type: 25gbase-x-sfp28
+  - name: eth-0-14
+    type: 25gbase-x-sfp28
+  - name: eth-0-15
+    type: 25gbase-x-sfp28
+  - name: eth-0-16
+    type: 25gbase-x-sfp28
+  - name: eth-0-17
+    type: 25gbase-x-sfp28
+  - name: eth-0-18
+    type: 25gbase-x-sfp28
+  - name: eth-0-19
+    type: 25gbase-x-sfp28
+  - name: eth-0-20
+    type: 25gbase-x-sfp28
+  - name: eth-0-21
+    type: 25gbase-x-sfp28
+  - name: eth-0-22
+    type: 25gbase-x-sfp28
+  - name: eth-0-23
+    type: 25gbase-x-sfp28
+  - name: eth-0-24
+    type: 25gbase-x-sfp28
+  # 4 × QSFP28 (100G)
+  - name: eth-0-25
+    type: 100gbase-x-qsfp28
+  - name: eth-0-26
+    type: 100gbase-x-qsfp28
+  - name: eth-0-27
+    type: 100gbase-x-qsfp28
+  - name: eth-0-28
+    type: 100gbase-x-qsfp28
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14

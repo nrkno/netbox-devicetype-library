@@ -1,0 +1,210 @@
+---
+manufacturer: Commscope
+model: Systimax 360G2-iP-1U-96F-LC-DP-SD
+slug: systimax-360g2-ip-1u-96f-lc-dp-sd
+part_number: '760168419'
+u_height: 1.0
+is_full_depth: false
+front_image: false
+rear_image: false
+front-ports:
+  - name: front-port1
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 1
+  - name: front-port10
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 10
+  - name: front-port11
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 11
+  - name: front-port12
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 12
+  - name: front-port13
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 13
+  - name: front-port14
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 14
+  - name: front-port15
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 15
+  - name: front-port16
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 16
+  - name: front-port17
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 17
+  - name: front-port18
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 18
+  - name: front-port19
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 19
+  - name: front-port2
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 2
+  - name: front-port20
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 20
+  - name: front-port21
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 21
+  - name: front-port22
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 22
+  - name: front-port23
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 23
+  - name: front-port24
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 24
+  - name: front-port25
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 1
+  - name: front-port26
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 2
+  - name: front-port27
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 3
+  - name: front-port28
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 4
+  - name: front-port29
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 5
+  - name: front-port3
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 3
+  - name: front-port30
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 6
+  - name: front-port31
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 7
+  - name: front-port32
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 8
+  - name: front-port33
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 9
+  - name: front-port34
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 10
+  - name: front-port35
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 11
+  - name: front-port36
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 12
+  - name: front-port37
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 13
+  - name: front-port38
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 14
+  - name: front-port39
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 15
+  - name: front-port4
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 4
+  - name: front-port40
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 16
+  - name: front-port41
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 17
+  - name: front-port42
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 18
+  - name: front-port43
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 19
+  - name: front-port44
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 20
+  - name: front-port45
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 21
+  - name: front-port46
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 22
+  - name: front-port47
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 23
+  - name: front-port48
+    type: lc-upc
+    rear_port: Singlemode Cable 2
+    rear_port_position: 24
+  - name: front-port5
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 5
+  - name: front-port6
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 6
+  - name: front-port7
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 7
+  - name: front-port8
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 8
+  - name: front-port9
+    type: lc-upc
+    rear_port: Singlemode Cable 1
+    rear_port_position: 9
+rear-ports:
+  - name: Singlemode Cable 1
+    type: splice
+    positions: 24
+  - name: Singlemode Cable 2
+    type: splice
+    positions: 24
+description: '48 duplex LC, 1U'

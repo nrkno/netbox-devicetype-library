@@ -1,0 +1,63 @@
+---
+manufacturer: LYNX Technik AG
+model: Yellobrik CDH 1411
+slug: lynx-technik-ag-yellobrik-cdh-1411
+u_height: 2.5
+is_full_depth: false
+airflow: passive
+weight: 230.0
+weight_unit: g
+front_image: true
+rear_image: false
+power-ports:
+  - name: +12V DC
+    type: dc-terminal
+    allocated_draw: 9
+    label: 12V
+interfaces:
+  - name: AES Out
+    type: other
+    mgmt_only: false
+    label: AES
+    description: BNC male
+  - name: Analog Audio Out L
+    type: other
+    mgmt_only: false
+    label: Analog Audio L
+    description: Balanced 1/4 inch jack
+  - name: Analog Audio Out R
+    type: other
+    mgmt_only: false
+    label: Analog Audio R
+    description: Balanced 1/4 inch jack
+  - name: HDMI out
+    type: other
+    mgmt_only: false
+    label: HDMI
+    description: Type A  bit HDMI 2.0b
+  - name: Optical SDI IN
+    type: other
+    mgmt_only: false
+    label: SDI 2 In
+    description: 12GB SMPTE ST 2082 SDI
+  - name: Optical SDI out
+    type: other
+    mgmt_only: false
+    label: SDI 2 Out
+    description: 12GB SMPTE ST 2082 SDI
+  - name: SDI Input
+    type: other
+    mgmt_only: false
+    label: SDI 1 In
+    description: BNC male 12G
+  - name: SDI Loop Out
+    type: other
+    mgmt_only: false
+    label: SDI 1 Loop Out
+    description: BNC male 12G
+  - name: USB
+    type: other
+    mgmt_only: false
+    label: PC Control USB
+    description: USB Mini B port for yelloGUI interface + firmware updates
+description: 12G SDI to HDMI Converter

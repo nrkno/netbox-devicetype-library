@@ -1,0 +1,19 @@
+---
+manufacturer: Elgato
+model: Stream Deck Network Dock
+slug: elgato-stream-deck-network-dock
+comments: Adds network support for several Stream Deck models
+part_number: 10GBW9901
+u_height: 0
+weight: 0.24
+weight_unit: lb
+is_full_depth: false
+airflow: passive
+interfaces:
+  - name: Ethernet PoE
+    type: 1000base-t
+  - name: USB-C to Stream Deck
+    type: other
+power-ports:
+  - name: USB-C for Power Supply
+    type: usb-c

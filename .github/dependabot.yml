@@ -11,7 +11,7 @@ updates:
       prefix: chore(deps)
     open-pull-requests-limit: 5
     assignees:
-      - nrkno/netbox-admins
+      - nrkno/innfasing
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
@@ -22,4 +22,4 @@ updates:
       prefix: chore(deps)
     open-pull-requests-limit: 5
     assignees:
-      - nrkno/netbox-admins
+      - nrkno/innfasing

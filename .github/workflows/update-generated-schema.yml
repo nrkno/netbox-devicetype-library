@@ -55,8 +55,8 @@ jobs:
           title: NetBox ${{ steps.netbox-release.outputs.release }} Generated Schema JSON
           body: |
             Adding generated_schema.json from NetBox ${{ steps.netbox-release.outputs.release }}
-          assignees: nrkno/netbox-admins
-          reviewers: nrkno/netbox-admins
+          assignees: nrkno/innfasing, nrkno/netbox-kodebidrag
+          reviewers: nrkno/innfasing, nrkno/netbox-kodebidrag
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       # - name: Update Repository SCHEMA_VERSION
       #   uses: action-pack/set-variable@v1

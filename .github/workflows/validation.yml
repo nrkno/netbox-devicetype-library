@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-python@v6
         id: setup_python
         with:
-          python-version: '3.9'
+          python-version: '3.13'
       - name: cache virtualenv
         uses: actions/cache@v4
         id: cache-venv
@@ -40,7 +40,7 @@ jobs:
         uses: actions/setup-python@v6
         id: setup_python
         with:
-          python-version: '3.9'
+          python-version: '3.13'
       - name: cache virtualenv
         uses: actions/cache@v4
         id: cache-venv
@@ -71,7 +71,7 @@ jobs:
         uses: actions/setup-python@v6
         id: setup_python
         with:
-          python-version: '3.9'
+          python-version: '3.13'
       - name: cache virtualenv
         uses: actions/cache@v4
         id: cache-venv-pytest

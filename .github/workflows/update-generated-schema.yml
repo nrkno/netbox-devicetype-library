@@ -17,7 +17,7 @@ jobs:
         uses: pozetroninc/github-action-get-latest-release@master
         with:
           repository: netbox-community/netbox
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Setup Python
         uses: actions/setup-python@v6
@@ -55,8 +55,8 @@ jobs:
           title: NetBox ${{ steps.netbox-release.outputs.release }} Generated Schema JSON
           body: |
             Adding generated_schema.json from NetBox ${{ steps.netbox-release.outputs.release }}
-          assignees: nrkno/netbox-admins
-          reviewers: nrkno/netbox-admins
+          assignees: nrkno/innfasing, nrkno/netbox-kodebidrag
+          reviewers: nrkno/innfasing, nrkno/netbox-kodebidrag
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       # - name: Update Repository SCHEMA_VERSION
       #   uses: action-pack/set-variable@v1

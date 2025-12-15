@@ -9,7 +9,7 @@ jobs:
     name: Build Lint and Format Cache
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Setup Python
         uses: actions/setup-python@v6
         id: setup_python
@@ -33,7 +33,7 @@ jobs:
     name: Build PyTest Cache
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Setup Python
         uses: actions/setup-python@v6
         id: setup_python

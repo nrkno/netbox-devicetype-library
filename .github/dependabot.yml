@@ -10,7 +10,7 @@ updates:
     commit-message:
       prefix: chore(deps)
     open-pull-requests-limit: 5
-    assignees:
+    reviewers:
       - nrkno/innfasing
   - package-ecosystem: github-actions
     directory: "/"
@@ -21,5 +21,5 @@ updates:
     commit-message:
       prefix: chore(deps)
     open-pull-requests-limit: 5
-    assignees:
+    reviewers:
       - nrkno/innfasing

@@ -8,12 +8,12 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Setup Python
         uses: actions/setup-python@v6
         id: setup_python
         with:
-          python-version: '3.9'
+          python-version: '3.13'
       - name: cache virtualenv
         uses: actions/cache@v4
         id: cache-venv
@@ -35,12 +35,12 @@ jobs:
   format:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Setup Python
         uses: actions/setup-python@v6
         id: setup_python
         with:
-          python-version: '3.9'
+          python-version: '3.13'
       - name: cache virtualenv
         uses: actions/cache@v4
         id: cache-venv
@@ -66,12 +66,12 @@ jobs:
       contents: read
       pull-requests: write
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Setup Python
         uses: actions/setup-python@v6
         id: setup_python
         with:
-          python-version: '3.9'
+          python-version: '3.13'
       - name: cache virtualenv
         uses: actions/cache@v4
         id: cache-venv-pytest

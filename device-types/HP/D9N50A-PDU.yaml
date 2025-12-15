@@ -1,0 +1,199 @@
+---
+manufacturer: HP
+model: D9N50A PDU
+slug: hp-d9n50a
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 4.59
+weight_unit: kg
+front_image: false
+rear_image: false
+power-ports:
+  - name: Source
+    type: iec-60309-p-n-e-6h
+    maximum_draw: 7360
+power-outlets:
+  - name: L1 Power outlet 1
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 1 C19
+    type: iec-60320-c19
+    power_port: Source
+    label: L1
+    description: 16A Max
+  - name: L1 Power outlet 10
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 11
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 12
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 13
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 14
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 15
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 16
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 2
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 2 C19
+    type: iec-60320-c19
+    power_port: Source
+    label: L1
+    description: 16A Max
+  - name: L1 Power outlet 3
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 4
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 5
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 6
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 7
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 8
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L1 Power outlet 9
+    type: iec-60320-c13
+    power_port: Source
+    label: L1
+    description: 10A Max
+  - name: L2 Power Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 1 C19
+    type: iec-60320-c19
+    power_port: Source
+    label: L2
+    description: 16A Max
+  - name: L2 Power Outlet 10
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 11
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 12
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 13
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 14
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 15
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 16
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 2 C19
+    type: iec-60320-c19
+    power_port: Source
+    label: L2
+    description: 16A Max
+  - name: L2 Power Outlet 3
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 4
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 5
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 6
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 7
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 8
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+  - name: L2 Power Outlet 9
+    type: iec-60320-c13
+    power_port: Source
+    label: L2
+    description: 10A Max
+description: 'HP 7.3kVA 230 V 36 Outlet INTL Monitored Power Distribution Unit. Input: A 32A MAX V200-240. Output: C13: 10A Max per outlet, C19: 16A Max
+  per outlet.  L1, L2: Max 16A per load segment'
+comments: Rack PDU, Zero U, 1 Phase, 1 Input, 60309 32A 3-wire, 32 C13 and 4 C19 outlets

@@ -1,0 +1,411 @@
+---
+manufacturer: HP
+model: S2132 PDU
+slug: hp-s2132-pdu
+part_number: 373806-001
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+front_image: false
+rear_image: false
+power-ports:
+  - name: A
+    type: iec-60309-p-n-e-6h
+    maximum_draw: 7360
+  - name: B
+    type: iec-60309-p-n-e-6h
+    maximum_draw: 7360
+power-outlets:
+  - name: L1A Power Outlet 1
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-1
+    description: 10A Max
+  - name: L1A Power Outlet 10
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-4
+    description: 10A Max
+  - name: L1A Power Outlet 11
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-4
+    description: 10A Max
+  - name: L1A Power Outlet 12
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-4
+    description: 10A Max
+  - name: L1A Power Outlet 2
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-1
+    description: 10A Max
+  - name: L1A Power Outlet 3
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-1
+    description: 10A Max
+  - name: L1A Power Outlet 4
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-2
+    description: 10A Max
+  - name: L1A Power Outlet 5
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-2
+    description: 10A Max
+  - name: L1A Power Outlet 6
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-2
+    description: 10A Max
+  - name: L1A Power Outlet 7
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-3
+    description: 10A Max
+  - name: L1A Power Outlet 8
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-3
+    description: 10A Max
+  - name: L1A Power Outlet 9
+    type: iec-60320-c13
+    power_port: A
+    label: L1A-3
+    description: 10A Max
+  - name: L1A-5 Power Outlet 1
+    type: iec-60320-c19
+    power_port: A
+    label: L1A-5
+    description: 16A Max
+  - name: L1B Power Outlet 1
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-1
+    description: 10A Max
+  - name: L1B Power Outlet 10
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-4
+    description: 10A Max
+  - name: L1B Power Outlet 11
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-4
+    description: 10A Max
+  - name: L1B Power Outlet 12
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-4
+    description: 10A Max
+  - name: L1B Power Outlet 2
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-1
+    description: 10A Max
+  - name: L1B Power Outlet 3
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-1
+    description: 10A Max
+  - name: L1B Power Outlet 4
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-2
+    description: 10A Max
+  - name: L1B Power Outlet 5
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-2
+    description: 10A Max
+  - name: L1B Power Outlet 6
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-2
+    description: 10A Max
+  - name: L1B Power Outlet 7
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-3
+    description: 10A Max
+  - name: L1B Power Outlet 8
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-3
+    description: 10A Max
+  - name: L1B Power Outlet 9
+    type: iec-60320-c13
+    power_port: B
+    label: L1B-3
+    description: 10A Max
+  - name: L1B-5 Power Outlet 1
+    type: iec-60320-c19
+    power_port: B
+    label: L1B-5
+    description: 16A Max
+  - name: L2A Power Outlet 1
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-1
+    description: 10A Max
+  - name: L2A Power Outlet 10
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-4
+    description: 10A Max
+  - name: L2A Power Outlet 11
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-4
+    description: 10A Max
+  - name: L2A Power Outlet 12
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-4
+    description: 10A Max
+  - name: L2A Power Outlet 2
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-1
+    description: 10A Max
+  - name: L2A Power Outlet 3
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-1
+    description: 10A Max
+  - name: L2A Power Outlet 4
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-2
+    description: 10A Max
+  - name: L2A Power Outlet 5
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-2
+    description: 10A Max
+  - name: L2A Power Outlet 6
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-2
+    description: 10A Max
+  - name: L2A Power Outlet 7
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-3
+    description: 10A Max
+  - name: L2A Power Outlet 8
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-3
+    description: 10A Max
+  - name: L2A Power Outlet 9
+    type: iec-60320-c13
+    power_port: A
+    label: L2A-3
+    description: 10A Max
+  - name: L2A-5 Power Outlet 1
+    type: iec-60320-c19
+    power_port: A
+    label: L2A-5
+    description: 16A Max
+  - name: L2B Power Outlet 1
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-1
+    description: 10A Max
+  - name: L2B Power Outlet 10
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-4
+    description: 10A Max
+  - name: L2B Power Outlet 11
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-4
+    description: 10A Max
+  - name: L2B Power Outlet 12
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-4
+    description: 10A Max
+  - name: L2B Power Outlet 2
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-1
+    description: 10A Max
+  - name: L2B Power Outlet 3
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-1
+    description: 10A Max
+  - name: L2B Power Outlet 4
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-2
+    description: 10A Max
+  - name: L2B Power Outlet 5
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-2
+    description: 10A Max
+  - name: L2B Power Outlet 6
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-2
+    description: 10A Max
+  - name: L2B Power Outlet 7
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-3
+    description: 10A Max
+  - name: L2B Power Outlet 8
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-3
+    description: 10A Max
+  - name: L2B Power Outlet 9
+    type: iec-60320-c13
+    power_port: B
+    label: L2B-3
+    description: 10A Max
+  - name: L2B-5 Power Outlet 1
+    type: iec-60320-c19
+    power_port: B
+    label: L2B-5
+    description: 16A Max
+  - name: L3A Power Outlet 1
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-1
+    description: 10A Max
+  - name: L3A Power Outlet 10
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-4
+    description: 10A Max
+  - name: L3A Power Outlet 11
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-4
+    description: 10A Max
+  - name: L3A Power Outlet 12
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-4
+    description: 10A Max
+  - name: L3A Power Outlet 2
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-1
+    description: 10A Max
+  - name: L3A Power Outlet 3
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-1
+    description: 10A Max
+  - name: L3A Power Outlet 4
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-2
+    description: 10A Max
+  - name: L3A Power Outlet 5
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-2
+    description: 10A Max
+  - name: L3A Power Outlet 6
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-2
+    description: 10A Max
+  - name: L3A Power Outlet 7
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-3
+    description: 10A Max
+  - name: L3A Power Outlet 8
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-3
+    description: 10A Max
+  - name: L3A Power Outlet 9
+    type: iec-60320-c13
+    power_port: A
+    label: L3A-3
+    description: 10A Max
+  - name: L3A-5 Power Outlet 1
+    type: iec-60320-c19
+    power_port: A
+    label: L3A-5
+    description: 16A Max
+  - name: L3B Power Outlet 1
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-1
+    description: 10A Max
+  - name: L3B Power Outlet 10
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-4
+    description: 10A Max
+  - name: L3B Power Outlet 11
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-4
+    description: 10A Max
+  - name: L3B Power Outlet 12
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-4
+    description: 10A Max
+  - name: L3B Power Outlet 2
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-1
+    description: 10A Max
+  - name: L3B Power Outlet 3
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-1
+    description: 10A Max
+  - name: L3B Power Outlet 4
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-2
+    description: 10A Max
+  - name: L3B Power Outlet 5
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-2
+    description: 10A Max
+  - name: L3B Power Outlet 6
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-2
+    description: 10A Max
+  - name: L3B Power Outlet 7
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-3
+    description: 10A Max
+  - name: L3B Power Outlet 8
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-3
+    description: 10A Max
+  - name: L3B Power Outlet 9
+    type: iec-60320-c13
+    power_port: B
+    label: L3B-3
+    description: 10A Max
+  - name: L3B-5 Power Outlet 1
+    type: iec-60320-c19
+    power_port: B
+    label: L3B-5
+    description: 16A Max
+description: 'Input: A 32A MAX per input V200-240, 1 PHASE (2W+GND). Output: C13: 10A Max per outlet, C19: 16A Max per outlet. L1A, L2A, L3A, L1B, L2B,
+  L3B: Max 20A per load segment'
+comments: Rack PDU, Zero U, 1 Phase, 2 Inputs, 32A per input, 36 (C13) + 6  (C19) outlets per input.

@@ -1,7 +1,7 @@
-from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
+from test_configuration import COMPONENT_TYPES, IMAGE_FILETYPES, SCHEMAS, SCHEMAS_BASEPATH, KNOWN_SLUGS, ROOT_DIR, USE_LOCAL_KNOWN_SLUGS, NETBOX_DT_LIBRARY_URL, KNOWN_MODULES, USE_UPSTREAM_DIFF, PRECOMMIT_ALL_SWITCHES
 import pickle_operations
 from yaml_loader import DecimalSafeLoader
-from device_types import DeviceType, ModuleType, verify_filename, validate_components
+from device_types import DeviceType, ModuleType, RackType, verify_filename, validate_components
 import decimal
 import glob
 import json
@@ -9,10 +9,10 @@ import os
 import tempfile
 import psutil
 from urllib.request import urlopen
-
 import pytest
 import yaml
-from jsonschema import Draft4Validator, RefResolver
+from referencing import Registry, Resource
+from jsonschema import Draft202012Validator
 from jsonschema.exceptions import ValidationError
 from git import Repo
 
@@ -35,6 +35,20 @@ def _get_definition_files():
             file_list.append((file, schema, 'skip'))
 
     return file_list
+
+def _generate_schema_registry():
+    """
+    Return a list of all definition files within the specified path.
+    """
+    registry = Registry()
+
+    for schema_f in os.listdir(SCHEMAS_BASEPATH):
+        # Initialize the schema
+        with open(f"schema/{schema_f}") as schema_file:
+            resource = Resource.from_contents(json.loads(schema_file.read(), parse_float=decimal.Decimal))
+            registry = resource @ registry
+
+    return registry
 
 def _get_diff_from_upstream():
     file_list = []
@@ -120,12 +134,15 @@ image_files = _get_image_files()
 if USE_LOCAL_KNOWN_SLUGS:
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-slugs.pickle')
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-modules.pickle')
+    KNOWN_RACKS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-racks.pickle')
 else:
     temp_dir = tempfile.TemporaryDirectory()
     repo = Repo.clone_from(url=NETBOX_DT_LIBRARY_URL, to_path=temp_dir.name)
     KNOWN_SLUGS = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-slugs.pickle')
     KNOWN_MODULES = pickle_operations.read_pickle_data(f'{temp_dir.name}/tests/known-modules.pickle')
+    KNOWN_RACKS = pickle_operations.read_pickle_data(f'{ROOT_DIR}/tests/known-racks.pickle')
 
+SCHEMA_REGISTRY = _generate_schema_registry()
 
 @pytest.mark.parametrize(('file_path', 'schema', 'change_type'), definition_files)
 def test_definitions(file_path, schema, change_type):
@@ -145,15 +162,19 @@ def test_definitions(file_path, schema, change_type):
     # Load YAML data from file
     definition = yaml.load(content, Loader=DecimalSafeLoader)
 
+    # Check for non-ASCII characters
+    non_ascii_chars = [char for char in content if ord(char) > 127]
+    if non_ascii_chars:
+        pytest.fail(
+            f"{file_path} contains non-ASCII characters: {', '.join(set(non_ascii_chars))}",
+            pytrace=False
+        )
+
     # Validate YAML definition against the supplied schema
     try:
-        resolver = RefResolver(
-            f"file://{os.getcwd()}/schema/devicetype.json",
-            schema,
-            handlers={"file": _decimal_file_handler},
-        )
         # Validate definition against schema
-        Draft4Validator(schema, resolver=resolver).validate(definition)
+        validator = Draft202012Validator(schema, registry=SCHEMA_REGISTRY)
+        validator.validate(definition)
     except ValidationError as e:
         # Schema validation failure. Ensure you are following the proper format.
         pytest.fail(f"{file_path} failed validation: {e}", False)
@@ -162,9 +183,38 @@ def test_definitions(file_path, schema, change_type):
     if "device-types" in file_path:
         # A device
         this_device = DeviceType(definition, file_path, change_type)
+    elif "module-types" in file_path:
+        # A module type
+        this_device = ModuleType(definition, file_path, change_type)
+    elif "rack-types" in file_path:
+        # A rack type
+        this_device = RackType(definition, file_path, change_type)
     else:
         # A module
         this_device = ModuleType(definition, file_path, change_type)
+
+    # Validate that front-ports reference existing rear-ports
+    if this_device.isDevice:
+        rear_ports = definition.get("rear-ports", []) or []
+        front_ports = definition.get("front-ports", []) or []
+
+        rear_port_names = {
+            rp.get("name") for rp in rear_ports if isinstance(rp, dict)
+        }
+
+        for fp in front_ports:
+            if not isinstance(fp, dict):
+                continue
+
+            rear_port_ref = fp.get("rear_port")
+
+            if rear_port_ref and rear_port_ref not in rear_port_names:
+                pytest.fail(
+                    f"{file_path}: front-port '{fp.get('name')}' references "
+                    f"rear_port '{rear_port_ref}', but no such rear-port exists. "
+                    f"Defined rear-ports: {sorted(rear_port_names)}",
+                    pytrace=False,
+                )
 
     # Verify the slug is valid, only if the definition type is a Device
     if this_device.isDevice:
@@ -197,11 +247,13 @@ def test_definitions(file_path, schema, change_type):
     # Check for valid power definitions
     if this_device.isDevice:
         assert this_device.validate_power(), pytest.fail(this_device.failureMessage, False)
+        assert this_device.ensure_no_vga(), pytest.fail(this_device.failureMessage, False)
+        assert this_device.validate_child_u_height(), pytest.fail(this_device.failureMessage, False)
 
     # Check for images if front_image or rear_image is True
     if (definition.get('front_image') or definition.get('rear_image')):
         # Find images for given manufacturer, with matching device slug (exact match including case)
-        manufacturer_images = [image[1] for image in image_files if image[0] == file_path.split('/')[1] and os.path.basename(image[1]).split('.')[0] == this_device.get_slug()]
+        manufacturer_images = [image[1] for image in image_files if image[0] == file_path.split(os.path.sep)[1] and os.path.basename(image[1]).split('.')[0] == this_device.get_slug()]
         if not manufacturer_images:
             pytest.fail(f'{file_path} has Front or Rear Image set to True but no images found for manufacturer/device (slug={this_device.get_slug()})', False)
         elif len(manufacturer_images)>2:
@@ -212,13 +264,12 @@ def test_definitions(file_path, schema, change_type):
             front_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'front']
 
             if not front_image:
-                pytest.fail(f'{file_path} has front_image set to True but no matching image found for device ({manufacturer_images})', False)
+                pytest.fail(f'{file_path} has front_image set to True but no matching image found (looking for \'elevation-images{os.path.sep}{file_path.split(os.path.sep)[1]}{os.path.sep}{this_device.get_slug()}.front.ext\' but only found {manufacturer_images})', False)
 
-        # If rear_image is True, verify that a front image exists
+        # If rear_image is True, verify that a rear image exists
         if(definition.get('rear_image')):
             rear_image = [image_path.split('/')[2] for image_path in manufacturer_images if os.path.basename(image_path).split('.')[1] == 'rear']
 
             if not rear_image:
-                pytest.fail(f'{file_path} has rear_image set to True but no images found for device', False)
-
+                pytest.fail(f'{file_path} has rear_image set to True but no matching image found (looking for \'elevation-images{os.path.sep}{file_path.split(os.path.sep)[1]}{os.path.sep}{this_device.get_slug()}.rear.ext\' but only found {manufacturer_images})', False)
     iterdict(definition)

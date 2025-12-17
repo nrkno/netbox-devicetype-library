@@ -1,5 +1,6 @@
 import os
 
+
 class DeviceType:
     def __new__(cls, *args, **kwargs):
         return super().__new__(cls)
@@ -27,13 +28,13 @@ class DeviceType:
         return None
 
     def _slugify_model(self):
-        slugified = self.model.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
+        slugified = self.model.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-").replace("(", "").replace(")", "").replace(";", "")
         if slugified.endswith("-"):
             slugified = slugified[:-1]
         return slugified
 
     def _slugify_part_number(self):
-        slugified = self.part_number.casefold().replace(" ", "-").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
+        slugified = self.part_number.casefold().replace(" ", "-").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-").replace("(", "").replace(")", "").replace(";", "")
         if slugified.endswith("-"):
             slugified = slugified[:-1]
         return slugified
@@ -70,8 +71,17 @@ class DeviceType:
         # Add the slug to the list of known slugs
         KNOWN_SLUGS.add((self.slug, self.file_path))
         return True
+    def validate_child_u_height(self):
+        subdevice_role = self.definition.get('subdevice_role')
+        u_height = self.definition.get('u_height', None)
 
+        if subdevice_role == "child" and u_height != 0:
+            self.failureMessage = f'{self.file_path} is a child device but has u_height={u_height}. Must be 0.'
+            return False
+        return True
     def validate_power(self):
+        CUSTOM_POWER_SOURCE_PROPERTY = '_is_power_source'
+
         # Check if power-ports exists
         if self.definition.get('power-ports', False):
             # Verify that is_powered is not set to False. If so, there should not be any power-ports defined
@@ -91,15 +101,15 @@ class DeviceType:
         console_ports = self.definition.get('console-ports', False)
         if console_ports:
             for console_port in console_ports:
-                poe = console_port.get('poe', False)
-                if poe:
+                power_source = console_port.get(CUSTOM_POWER_SOURCE_PROPERTY, False)
+                if power_source:
                     return True
 
         rear_ports = self.definition.get('rear-ports', False)
         if rear_ports:
             for rear_port in rear_ports:
-                poe = rear_port.get('poe', False)
-                if poe:
+                power_source = rear_port.get(CUSTOM_POWER_SOURCE_PROPERTY, False)
+                if power_source:
                     return True
 
         # Check if the device is a child device, and if so, assume it has a valid power source from the parent
@@ -123,6 +133,28 @@ class DeviceType:
 
         self.failureMessage = f'{self.file_path} has does not appear to have a valid power source. Ensure either "power-ports" or "interfaces" with "poe_mode" is defined.'
         return False
+
+    def ensure_no_vga(self):
+        NO_VGA_COMPONENTS = [
+            'console-ports',
+            'console-server-ports',
+            'interfaces',
+            'front-ports',
+            'rear-ports'
+        ]
+
+        for component_to_test in NO_VGA_COMPONENTS:
+            test_component = self.definition.get(component_to_test, False)
+
+            if test_component:
+                for component in test_component:
+                    name = component.get('name', "")
+                    label = component.get('label', "")
+                    if "vga" in name.casefold() or "vga" in label.casefold():
+                        self.failureMessage = f'{self.file_path} has a VGA component defined. VGA is not a valid definition at this time.'
+                        return False
+
+        return True
 
 class ModuleType:
     def __new__(cls, *args, **kwargs):
@@ -154,6 +186,28 @@ class ModuleType:
             slugified = slugified[:-1]
         return slugified
 
+class RackType:
+    def __new__(cls, *args, **kwargs):
+        return super().__new__(cls)
+
+    def __init__(self, definition, file_path, change_type):
+        self.file_path = file_path
+        self.isDevice = False
+        self.definition = definition
+        self.manufacturer = definition.get('manufacturer')
+        self.model = definition.get('model')
+        self._slug_model = self._slugify_model()
+        self.change_type = change_type
+
+    def get_filepath(self):
+        return self.file_path
+
+    def _slugify_model(self):
+        slugified = self.model.casefold().replace(" ", "-").replace("sfp+", "sfpp").replace("poe+", "poep").replace("-+", "-plus").replace("+", "-plus-").replace("_", "-").replace("&", "-and-").replace("!", "").replace("/", "-").replace(",", "").replace("'", "").replace("*", "-")
+        if slugified.endswith("-"):
+            slugified = slugified[:-1]
+        return slugified
+
 def validate_component_names(component_names: (set or None)):
     if len(component_names) > 1:
         verify_name = list(component_names[0])
@@ -172,9 +226,16 @@ def validate_component_names(component_names: (set or None)):
                 return False
     return True
 
-def verify_filename(device: (DeviceType or ModuleType), KNOWN_MODULES: (set or None)):
+def verify_filename(device: (DeviceType or ModuleType or RackType), KNOWN_MODULES: (set or None)):
     head, tail = os.path.split(device.get_filepath())
     filename = tail.rsplit(".", 1)[0].casefold()
+
+    # Check if file is RackType
+    if "rack-types" in device.file_path:
+        if not filename == device._slug_model:
+            device.failureMessage = f'{device.file_path} file name is invalid. Must be the model "{device._slug_model}"'
+            return False
+        return True
 
     if not (filename == device._slug_model or filename == device._slug_part_number or filename == device.part_number.casefold()):
         device.failureMessage = f'{device.file_path} file name is invalid. Must be either the model "{device._slug_model}" or part_number "{device.part_number} / {device._slug_part_number}"'
@@ -211,6 +272,17 @@ def validate_components(component_types, device_or_module):
                 return False
             known_components.append(eval_component)
             known_names.add(name)
+            # Bi-directional POE validation for interfaces
+            if component_type == "interfaces":
+                poe_mode_present = "poe_mode" in component and bool(component["poe_mode"])
+                poe_type_present = "poe_type" in component and bool(component["poe_type"])
+
+                if poe_mode_present and not poe_type_present:
+                    device_or_module.failureMessage = f'{device_or_module.file_path} has "poe_mode" defined in an interface without a matching "poe_type".'
+                    return False
+                if poe_type_present and not poe_mode_present:
+                    device_or_module.failureMessage = f'{device_or_module.file_path} has "poe_type" defined in an interface without a matching "poe_mode".'
+                    return False
 
         # Adding check for duplicate positions within a component type
         # Stems from https://github.com/netbox-community/devicetype-library/pull/1586

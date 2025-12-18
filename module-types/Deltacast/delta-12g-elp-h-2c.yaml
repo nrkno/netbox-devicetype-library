@@ -1,0 +1,54 @@
+---
+manufacturer: Deltacast
+model: DELTA-12G-elp-h 2c
+part_number: delta-12G-elp-h-2c
+description: The DELTA-12G-elp-h 2c hosts eight independent channels that can be used either as inputs or as outputs. Two of these channels support line
+  rates up to 12G SDI while the others go up to 3G-SDI, allowing the support of formats from SD to UHD. PCIe Gen3 x8, Low-profile, half-length, Micro BNC
+  (HD-BNC)
+comments: '[DELTA-12G-elp-h 2c](https://www.deltacast.tv/products/developer-products/sdi-capture-cards/delta-12g-elp-h-2c)'
+interfaces:
+  - name: '{module} - SDI 0'
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Micro BNC(HD-BNC)
+  - name: '{module} - SDI 1'
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Micro BNC(HD-BNC)
+  - name: '{module} - SDI 2'
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Micro BNC(HD-BNC)
+  - name: '{module} - SDI 3'
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Micro BNC(HD-BNC)
+  - name: '{module} - SDI 4'
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Micro BNC(HD-BNC)
+  - name: '{module} - SDI 5'
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Micro BNC(HD-BNC)
+  - name: '{module} - SDI 6'
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Micro BNC(HD-BNC)
+  - name: '{module} - SDI 7'
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Micro BNC(HD-BNC)
+  - name: '{module} - SYNC'
+    type: other
+    enabled: true
+    mgmt_only: false
+    description: Micro BNC(HD-BNC)

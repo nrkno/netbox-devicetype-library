@@ -12,7 +12,7 @@ front_image: true
 rear_image: true
 power-ports:
   - name: 12V DC
-    comments: DC 9-15V
+    description: DC 9-15V
     type: dc-terminal
     allocated_draw: 24
 interfaces:

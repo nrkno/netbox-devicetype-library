@@ -6,6 +6,8 @@ description: Interface card for Artist 1024
 weight: 410
 weight_unit: g
 subdevice_role: child
+u_height: 0 
+is_full_depth: false
 interfaces:
   - name: media1
     label: dice symbol 2

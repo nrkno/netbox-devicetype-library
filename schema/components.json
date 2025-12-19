@@ -260,8 +260,7 @@
         }
       },
       "required": [
-        "name",
-        "position"
+        "name"
       ],
       "additionalProperties": false
     },

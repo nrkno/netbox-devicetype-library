@@ -12,6 +12,4 @@ weight_unit: kg
 is_powered: false
 device-bays:
   - name: Left
-    position: '1'
   - name: Right
-    position: '2'

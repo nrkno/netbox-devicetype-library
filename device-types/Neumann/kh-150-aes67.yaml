@@ -9,13 +9,13 @@ weight_unit: kg
 airflow: passive
 front_image: true
 rear_image: true
+u_height: 8
+is_full_depth: true
 power-ports:
   - name: Mains power
     type: iec-60320-c14
     allocated_draw: 320
-    allocated_draw_unit: W
     maximum_draw: 320
-    maximum_draw_unit: W
 interfaces:
   - name: Primary
     type: 100base-tx

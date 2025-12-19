@@ -12,7 +12,7 @@ front_image: true
 rear_image: true
 power-ports:
   - name: 12V DC
-    comment: max 1.25A DC
+    description: max 1.25A DC
     type: dc-terminal
     allocated_draw: 65
 interfaces:

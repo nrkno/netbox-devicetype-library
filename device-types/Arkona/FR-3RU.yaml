@@ -7,7 +7,7 @@ u_height: 3.0
 is_full_depth: true
 airflow: front-to-rear
 subdevice_role: parent
-comments: Bladerunner is Arkonas product line of software applications and programmable acceleration cards which provide core infrastructure solutions for
+description: Bladerunner is Arkonas product line of software applications and programmable acceleration cards which provide core infrastructure solutions for
   Tier-1 live broadcast productions.
 weight: 11.0
 weight_unit: kg
@@ -51,26 +51,18 @@ module-bays:
     label: REAR_BOTTOM_LEFT
 device-bays:
   - name: Slot 1
-    position: '1'
     label: TOP_LEFT
   - name: Slot 2
-    position: '2'
     label: TOP_CENTER
   - name: Slot 3
-    position: '3'
     label: TOP_RIGHT
   - name: Slot 4
-    position: '4'
     label: MID_LEFT
   - name: Slot 5
-    position: '5'
     label: MID_CENTER
   - name: Slot 6
-    position: '6'
     label: MID_RIGHT
   - name: Slot 7
-    position: '7'
     label: BOTTOM_LEFT
   - name: Slot 8
-    position: '8'
     label: BOTTOM_RIGHT

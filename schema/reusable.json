@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "$id": "urn:devicetype-library:reusable",
+  "$id": "reusable.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "definitions": {

@@ -30,11 +30,11 @@ console-ports:
   - name: GPI-IN
     label: GPI-IN
     type: de-9
-    description: Sub-D9 (female) 3× GPI input, Uin = +5 V ... +48 V
+    description: Sub-D9 (female) 3x GPI input, Uin = +5 V ... +48 V
   - name: GPI-OUT
     label: GPI-OUT
     type: de-9
-    description: Sub-D9 (male) 3× GPI output, Umax 48 V/300 mA, protected by\ self-healing fuse
+    description: Sub-D9 (male) 3x GPI output, Umax 48 V/300 mA, protected by\ self-healing fuse
   - name: Headset A
     label: HEADSET A
     type: rj-45

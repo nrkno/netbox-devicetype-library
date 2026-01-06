@@ -1,14 +1,22 @@
 {
     "type": "object",
+    "$id": "moduletype.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "properties": {
         "manufacturer": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 100
         },
         "model": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 100
         },
         "part_number": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 50
+        },
+        "airflow": {
+            "$ref": "generated_schema.json#/definitions/airflow"
         },
         "weight": {
             "$ref": "reusable.json#/definitions/weight"
@@ -58,13 +66,30 @@
                 "$ref": "components.json#/definitions/rear-port"
             }
         },
+        "module-bays": {
+            "type": "array",
+            "items": {
+                "$ref": "components.json#/definitions/module-bay"
+            }
+        },
         "description": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 200
         },
         "comments": {
             "type": "string"
         }
     },
+    "allOf": [
+      {
+        "if": { "required": ["weight"] },
+        "then": { "required": ["weight_unit"] }
+      },
+      {
+        "if": { "required": ["weight_unit"] },
+        "then": { "required": ["weight"] }
+      }
+    ],
     "required": ["manufacturer", "model"],
     "additionalProperties": false
 }

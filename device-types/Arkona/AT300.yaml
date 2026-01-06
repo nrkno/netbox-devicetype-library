@@ -7,6 +7,7 @@ description: The AT300 is a modern FPGA Programmable Acceleration Card (PAC) pow
   100GE interfaces and high bandwidth memory (HBM).
 subdevice_role: child
 u_height: 0.0
+is_full_depth: true
 interfaces:
   - name: p0
     type: 100gbase-x-qsfp28

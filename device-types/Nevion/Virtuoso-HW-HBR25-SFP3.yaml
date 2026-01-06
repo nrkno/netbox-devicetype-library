@@ -7,6 +7,7 @@ description: The HBR25 accelerator card (HW-HBR25-SFP3) has a single SFP+/Video 
 comments: 'Count interfaces from left to right. Docs: https://nevion.com/manuals/virtuoso-mi/extboard_description.html'
 subdevice_role: child
 u_height: 0.0
+is_full_depth: false
 interfaces:
   - name: '10000'
     type: 10gbase-x-sfpp

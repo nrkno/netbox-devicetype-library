@@ -2,7 +2,7 @@
 manufacturer: RTW
 model: TouchMonitor 5 Ravenna
 slug: rtw-touchmonitor-5-ravenna
-description: Network-based advanced loudness meter with 5" touch screen. 16 channels of Ravenna/AES67/ST 2110-30 (one port) NMOS. 3/8” Camera Mount Compatibility.
+description: Network-based advanced loudness meter with 5" touch screen. 16 channels of Ravenna/AES67/ST 2110-30 (one port) NMOS. 3/8'' Camera Mount Compatibility.
 u_height: 3
 is_full_depth: false
 weight: 2.0
@@ -17,5 +17,5 @@ interfaces:
   - name: RJ45
     type: 1000base-t
     poe_mode: pd
-    poe-type: type1-ieee802.3af
+    poe_type: type1-ieee802.3af
     description: Media, control webUI and PoE

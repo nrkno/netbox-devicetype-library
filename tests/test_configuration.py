@@ -3,7 +3,9 @@ import os
 SCHEMAS = (
     ('device-types', 'devicetype.json'),
     ('module-types', 'moduletype.json'),
+    ('rack-types', 'racktype.json'),
 )
+SCHEMAS_BASEPATH = f"{os.getcwd()}/schema/"
 
 IMAGE_FILETYPES = (
     'bmp', 'gif', 'pjp', 'jpg', 'pjpeg', 'jpeg', 'jfif', 'png', 'tif', 'tiff', 'webp'
@@ -35,6 +37,4 @@ KNOWN_MODULES = set()
 USE_LOCAL_KNOWN_SLUGS = True
 USE_UPSTREAM_DIFF = True
 
-
-
-NETBOX_DT_LIBRARY_URL = f"https://github.com/nrkno/netbox-devicetype-library.git"
+NETBOX_DT_LIBRARY_URL = "https://github.com/nrkno/netbox-devicetype-library.git"

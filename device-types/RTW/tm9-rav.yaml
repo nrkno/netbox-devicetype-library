@@ -14,11 +14,8 @@ rear_image: true
 power-ports:
   - name: 12V 2A
     type: dc-terminal
-    comments: DC 12-24V 4-pin locking low voltage typ 710 (DC)
+    description: DC 12-24V 4-pin locking low voltage typ 710 (DC)
     allocated_draw: 1
-    allocate_draw_unit: A
-    max_draw: 2.5
-    max_draw_unit: A
 interfaces:
   - name: Primary
     type: 1000base-t

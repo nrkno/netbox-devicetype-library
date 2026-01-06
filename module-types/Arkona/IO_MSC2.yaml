@@ -2,6 +2,5 @@
 manufacturer: Arkona
 model: IO_MSC2
 part_number: IO_MSC2
-description: The IO_MSC2 rear-plate is specifically designed for the PTP Grandmaster and MasterClock option. This rear-plate provides 10 bi-directional
-  configurable reclocked micro-BNC connectors. In addition to 1 dedicated GPS/GLONASS input and 3 word-clock outputs. 6 micro-BNC connectors provide reference
-  outputs for up to 3 different timing. A video reference port with loopback provides input for video reference.
+description: The IO_MSC2 rear-plate is designed for the PTP Grandmaster and MasterClock option. It provides 10 configurable reclocked micro-BNC connectors,
+  1 dedicated GPS/GLONASS input and 3 word-clock outputs.

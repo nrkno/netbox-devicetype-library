@@ -21,34 +21,24 @@ power-ports:
     allocated_draw: 225
 device-bays:
   - name: Bay 1
-    position: '1'
     description: Subscriber Interface Cards (SIC)
   - name: Bay 2
-    position: '2'
     description: Subscriber Interface Cards (SIC)
   - name: Bay 3
-    position: '3'
     description: Primary Network Interface Cards (PNIC)
   - name: Bay 4
-    position: '4'
     description: Subscriber Interface Cards (SIC)
   - name: Bay 5
-    position: '5'
     description: Subscriber Interface Cards (SIC)
   - name: Bay 6
-    position: '6'
     description: Subscriber Interface Cards (SIC)
   - name: Bay 7
-    position: '7'
     description: Subscriber Interface Cards (SIC)
   - name: Bay 8
-    position: '8'
     description: Secondary Network Interface Cards (SNIC)
   - name: Bay 9
-    position: '9'
     description: Subscriber Interface Cards (SIC)
   - name: Bay 10
-    position: '10'
     description: Subscriber Interface Cards (SIC)
 module-bays:
   - name: Bay A

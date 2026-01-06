@@ -17,7 +17,7 @@ console-ports:
 interfaces:
   - name: mgmt
     type: 1000base-t
-  # 24 × SFP28 (25G)
+  # 24 x SFP28 (25G)
   - name: eth-0-1
     type: 25gbase-x-sfp28
   - name: eth-0-2
@@ -66,7 +66,7 @@ interfaces:
     type: 25gbase-x-sfp28
   - name: eth-0-24
     type: 25gbase-x-sfp28
-  # 4 × QSFP28 (100G)
+  # 4 x QSFP28 (100G)
   - name: eth-0-25
     type: 100gbase-x-qsfp28
   - name: eth-0-26

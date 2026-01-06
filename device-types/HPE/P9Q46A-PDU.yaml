@@ -11,7 +11,7 @@ power-ports:
   - name: Source
     type: iec-60309-p-n-e-6h
     maximum_draw: 7300
-    label: 1Ø
+    label: 1O
 power-outlets:
   - name: L1 Power outlet 1
     type: iec-60320-c13

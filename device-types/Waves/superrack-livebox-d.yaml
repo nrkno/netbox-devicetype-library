@@ -14,15 +14,11 @@ power-ports:
   - name: PSU top
     type: iec-60320-c14
     maximum_draw: 160
-    maximum_draw_unit: W
     allocated_draw: 160
-    allocated_draw_unit: W
   - name: PSU bottom
     type: iec-60320-c14
     maximum_draw: 160
-    maximum_draw_unit: W
     allocated_draw: 160
-    allocated_draw_unit: W
 interfaces:
   - name: USB2 1
     type: other

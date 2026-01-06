@@ -53,12 +53,10 @@ interfaces:
     description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 blue
   - name: RAVENNA / AES67 ra2
     type: 1000base-x-sfp
-    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
-    note: RAV+ add-on license
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber, RAV+ add-on license
   - name: RAVENNA / AES67 ra3
     type: 1000base-x-sfp
-    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber
-    note: RAV+ add-on license
+    description: RAVENNA, AES67, ST2110-30/-31, ST2022-7 amber, RAV+ add-on license
   - name: MADI / AIOX 1
     type: 1000base-x-sfp
     description: MADI AES10 / Audio I/O Extenders (AIOX)

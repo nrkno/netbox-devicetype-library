@@ -15,12 +15,12 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 309
     allocated_draw: 206
-    note: inrush 25Ap
+    description: inrush 25Ap
   - name: MAINS 2
     type: iec-60320-c14
     maximum_draw: 309
     allocated_draw: 206
-    note: inrush 25Ap
+    description: inrush 25Ap
 console-ports:
   - name: ETH A
     type: rj-45
@@ -41,7 +41,7 @@ interfaces:
   - name: MISC A
     type: 1000base-t
     mgmt_only: false
-    note: wired from the Local I/O RAVENNA/AES67 interface
+    description: wired from the Local I/O RAVENNA/AES67 interface
   - name: MISC B
     type: 1000base-t
     mgmt_only: false

@@ -1,0 +1,18 @@
+---
+manufacturer: LYNX Technik AG
+model: Yellobrik ORR 1402
+slug: lynx-technik-ag-yellobrik-orr-1402
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+front_image: false
+rear_image: false
+power-ports:
+  - name: +12V DC
+    type: dc-terminal
+    label: 12V
+interfaces:
+  - name: Optical SDI IN
+    type: other
+    mgmt_only: false
+description: 2-Channel Fiber to 12G-SDI Receiver

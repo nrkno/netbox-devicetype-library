@@ -55,10 +55,14 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
         if: steps.cache-venv.outputs.cache-hit != 'true'
-      - name: Format YAML files (hooks)
-        run: pre-commit run --config .pre-commit-hooks-config.yaml --all-files
+      - name: Check trailing whitespace
+        run: pre-commit run trailing-whitespace --all-files
+      - name: Check end-of-file
+        run: pre-commit run end-of-file-fixer --all-files
+      - name: Check YAML syntax
+        run: pre-commit run check-yaml --all-files
       - name: Format YAML files (yamlfmt)
-        run: pre-commit run --config .pre-commit-yamlfmt-config.yaml --all-files
+        run: pre-commit run yamlfmt --all-files
   test:
     runs-on: ubuntu-latest
     needs: [lint, format]

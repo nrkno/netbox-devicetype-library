@@ -2,9 +2,7 @@
 manufacturer: Deltacast
 model: DELTA-12G-elp-h 2c
 part_number: delta-12G-elp-h-2c
-description: The DELTA-12G-elp-h 2c hosts eight independent channels that can be used either as inputs or as outputs. Two of these channels support line
-  rates up to 12G SDI while the others go up to 3G-SDI, allowing the support of formats from SD to UHD. PCIe Gen3 x8, Low-profile, half-length, Micro BNC
-  (HD-BNC)
+description: Compact versatile dual channel 12G SDI card
 comments: '[DELTA-12G-elp-h 2c](https://www.deltacast.tv/products/developer-products/sdi-capture-cards/delta-12g-elp-h-2c)'
 interfaces:
   - name: '{module} - SDI 0'

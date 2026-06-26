@@ -1,7 +1,10 @@
 *.pyc
+__pycache__/
 .idea
 .DS_Store
 venv/
+.venv/
+.direnv/
 .vscode
 device-types/migrate.py
-.venv
+.pytest_cache/

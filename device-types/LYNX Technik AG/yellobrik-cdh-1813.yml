@@ -12,5 +12,4 @@ power-ports:
 interfaces:
   - name: Optical SDI IN
     type: other
-    mgmt_only: false
 description: 3Gbit SDI to HDMI Converter + 3D Support

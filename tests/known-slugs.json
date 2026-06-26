@@ -224,12 +224,28 @@
 "device-types/LYNX Technik AG/yellobrik-cdh-1813.yml"
 ],
 [
+"lynx-technik-ag-yellobrik-chd-1402",
+"device-types/LYNX Technik AG/Yellobrik-CHD-1402.yaml"
+],
+[
+"lynx-technik-ag-yellobrik-orr-1402",
+"device-types/LYNX Technik AG/Yellobrik-ORR-1402.yaml"
+],
+[
+"lynx-technik-ag-yellobrik-orr-1802",
+"device-types/LYNX Technik AG/Yellobrik-ORR-1802.yaml"
+],
+[
 "lynx-technik-ag-yellobrik-orx-1802",
 "device-types/LYNX Technik AG/yellobrik-orx-1802.yml"
 ],
 [
 "lynx-technik-ag-yellobrik-otr-1440",
 "device-types/LYNX Technik AG/Yellobrik-OTR-1440.yaml"
+],
+[
+"lynx-technik-ag-yellobrik-ott-1812",
+"device-types/LYNX Technik AG/Yellobrik-OTT-1812.yaml"
 ],
 [
 "merging-technologies-anubis",

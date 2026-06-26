@@ -60,7 +60,7 @@ class DeviceType:
 
         # Verify the manufacturer is appended to the slug
         if not self.slug.startswith(self._slug_manufacturer):
-            self.failureMessage = f'{self.file_path} contains slug "{self.slug}". Does not start with manufacturer: "{self.manufacturer.casefold()}-"'
+            self.failureMessage = f'{self.file_path} contains slug "{self.slug}". Does not start with manufacturer: "{self.manufacturer.casefold().replace(" ", "-")}-"'
             return False
 
         # Verify the slug ends with either the model or part number

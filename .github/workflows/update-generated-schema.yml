@@ -40,15 +40,15 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
         if: ${{ steps.cache-venv.outputs.cache-hit != 'true' && steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
-      - name: Regenerate Master Slug List
+      - name: Update Generated Schema
         run: python3 scripts/update-schema.py
         if: ${{ steps.netbox-release.outputs.release != vars.SCHEMA_VERSION }}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
         with:
-          commit-message: "Regenerate master slug list after successful PR merge"
-          committer: "NetBox-Bot <info@netboxlabs.com>"
-          author: "NetBox-Bot <info@netboxlabs.com>"
+          commit-message: "Update generated schema JSON"
+          committer: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           branch: ${{ steps.netbox-release.outputs.release }}
           delete-branch: true
           base: master

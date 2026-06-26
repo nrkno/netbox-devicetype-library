@@ -7,7 +7,7 @@ is_full_depth: false
 airflow: passive
 weight: 230.0
 weight_unit: g
-front_image: true
+front_image: false
 rear_image: false
 subdevice_role: child
 description: HDMI to 12G SDI Converter

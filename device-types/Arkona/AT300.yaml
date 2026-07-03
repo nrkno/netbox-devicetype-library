@@ -13,7 +13,7 @@ interfaces:
   - name: front
     type: other
     mgmt_only: true
-    description: 'Management Port (front,usb)'
+    description: Management Port (front,usb)
   - name: p0
     type: 100gbase-x-qsfp28
     mgmt_only: false
@@ -26,4 +26,5 @@ interfaces:
     type: virtual
     mgmt_only: true
     description: Management Port (rear)
-description: The AT300 is a modern FPGA Programmable Acceleration Card (PAC) powered by the Intel Stratix 10 MX FPGA which provides dual non-blocking native 100GE interfaces and high bandwidth memory (HBM).
+description: The AT300 is a modern FPGA Programmable Acceleration Card (PAC) powered by the Intel Stratix 10 MX FPGA which provides dual non-blocking native
+  100GE interfaces and high bandwidth memory (HBM).

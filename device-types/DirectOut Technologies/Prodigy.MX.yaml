@@ -43,21 +43,27 @@ module-bays:
     position: MADI 1
   - name: MADI 2
     position: MADI 2
-  - name: Audio network 1
+  - name: NET 1
+    label: Audio network 1
     position: '1'
     description: Top row far right
-  - name: Audio network 2
+  - name: NET 2
+    label: Audio network 2
     position: '2'
     description: Top row second from left
-  - name: Audio network 3
+  - name: NET 3
+    label: Audio network 3
     position: '3'
     description: Top row far left
-  - name: Audio network 4
+  - name: NET 4
+    label: Audio network 4
     position: '4'
     description: Bottom row far right
-  - name: Audio network 5
+  - name: NET 5
+    label: Audio network 5
     position: '5'
     description: Bottom row second from left
-  - name: Audio network 6
+  - name: NET 6
+    label: Audio network 6
     position: '6'
     description: Bottom row far left

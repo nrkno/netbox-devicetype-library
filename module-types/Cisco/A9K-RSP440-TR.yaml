@@ -1,0 +1,31 @@
+---
+manufacturer: Cisco
+model: A9K-RSP440-TR
+part_number: A9K-RSP440-TR
+description: ASR9K Route Switch Processor with 440G/slot Fabric and 6GB
+comments: '[Cisco ASR 9000 Series Route Switch Processor 440 Data Sheet](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/datasheet-c78-674143.html)'
+interfaces:
+  - name: MgmtEth0/RSP{module}/CPU0/0
+    type: 1000base-t
+    mgmt_only: true
+    description: Out-of-Band Management Interface
+  - name: MgmtEth0/RSP{module}/CPU0/1
+    type: 1000base-t
+    mgmt_only: true
+    description: Out-of-Band Management Interface
+  - name: External USB2 class-A port{module}
+    type: other
+    mgmt_only: true
+  - name: SFP+_00_10GE{module}
+    type: 10gbase-x-sfpp
+    description: Virtualization Cluster Port
+    mgmt_only: true
+  - name: SFP+_01_10GE{module}
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+    description: Virtualization Cluster Port
+console-ports:
+  - name: console{module}
+    type: rj-45
+  - name: Auxiliary{module}
+    type: rj-45

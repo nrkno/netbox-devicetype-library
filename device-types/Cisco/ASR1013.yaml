@@ -1,0 +1,38 @@
+---
+manufacturer: Cisco
+model: ASR1013
+slug: cisco-asr1013
+part_number: ASR1013
+u_height: 13
+is_full_depth: true
+front_image: true
+rear_image: true
+module-bays:
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot RP1
+    position: RP1
+  - name: Slot RP2
+    position: RP2
+  - name: Slot ESP1
+    position: ESP1
+  - name: Slot ESP2
+    position: ESP2
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'
+  - name: PS1
+    position: '1'
+  - name: PS2
+    position: '2'
+  - name: PS3
+    position: '3'
+  - name: PS4
+    position: '4'
